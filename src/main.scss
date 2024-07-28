@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+// GLOBAL CSS
+
+.font-sora {
+    font-family: "Sora", sans-serif;
+}
+
+/* Hide horizontal scrollbar */
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+
+
+
+// HOME PAGE FROM 1920 TO XXL
+.Home-xxl {
+    width: 100vw;
+    background-color: grey;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+
+
+    .Home-main {
+        max-width: 1920px;
+        width: 100%;
+
+        background-color: white;
+
+        z-index: +10;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        overflow: hidden;
+
+
+
+        // *******************************************************************
+        // THE BANNER ABOVE THE NAVBAR
+        // WRAPPER 1
+        .Home-wrapper1-Banner_wrapper {
+            width: 100%;
+            padding: 1.8rem 8rem 1rem 8rem;
+            display: flex;
+            justify-content: space-between;
+
+            position: relative;
+
+
+
+
+
+            // DIV 3
+            .Home-wrapper1-2-div3 {
+                font-size: 2.5rem;
+                font-weight: 700;
+
+                color: #14008F;
+
+                width: 56rem;
+                text-align: center;
+                position: relative;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                // DIV 1
+                .Home-wrapper1-2-div1-Uem_background_logo {
+                    position: absolute;
+
+                }
+            }
+
+        }
+
+
+
+        //********************************************************************
+        // THE NAVBAR 
+        .Home-wrapper2-Navbar {
+            width: 100%;
+            // padding: 0rem 8rem;
+            background-color: #DEDEDE;
+
+            display: flex;
+            justify-content: center;
+
+            font-size: 1.5rem;
+
+            position: relative;
+
+
+
+
+            div {
+                padding: 1rem 0rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                margin-right: 0.6rem;
+
+            }
+
+            div:hover {
+                background-color: #14008F;
+                color: white;
+                cursor: pointer;
+            }
+
+
+            // DARK OVERLAY ON THE CAROUSEL
+            .Home-wrapper3-dark_overlay {
+                position: absolute;
+                width: 100vw;
+                height: 47rem;
+
+                z-index: 10;
+                top: 4.3rem;
+                left: 0rem;
+                background-color: rgba(20, 20, 20, 0.7);
+                pointer-events: none;
+            }
+
+        }
+
+
+    }
+}
+
+
+
+
+// THE CAROUSEL
+.Home-wrapper3-imageChanger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    overflow: hidden;
+    height: 47rem;
+
+    position: relative;
+
+
+}
+
+.embla {
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+
+    z-index: 0;
+    position: relative;
+}
+
+.embla__container {
+    display: flex;
+    width: 100vw;
+
+    .slide1 {
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 45rem;
+    }
+
+    .slide2 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image3.jpg);
+        background-position-y: -4.5rem;
+    }
+
+    .slide3 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image4.jpg);
+    }
+
+    .slide4 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image5.jpg);
+    }
+
+    .slide5 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image6.jpg);
+        background-position-y: -1rem;
+    }
+
+    .slide6 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image7.jpg);
+        background-position-y: -23rem;
+    }
+
+    .slide7 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2023_Event_Images/2023-image8.jpg);
+        background-position-y: -10rem;
+    }
+
+    .slide8 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2022_Event_Images/2022-pic1.jpg);
+        background-position-y: -1rem;
+    }
+
+    .slide9 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2022_Event_Images/2022-pic2.jpg);
+        background-position-y: -12rem;
+    }
+
+    .slide10 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2022_Event_Images/2022-pic3.jpg);
+        background-position-y: -6rem;
+    }
+
+    .slide11 {
+        @extend .slide1;
+        background-image: url(./assets/PNG/2022_Event_Images/2022-pic4.jpg);
+        background-position-y: -16rem;
+    }
+    
+
+
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 1920px;
+    width: 100vw;
+}
+
+
+
+
+// WRITING OVER THE IMAGES
+.Home-wrapper-5-writing_over_the_image{
+    position: absolute;
+    z-index: 11;
+    color: white;
+
+    top: 30rem;
+    left: 8rem;
+    pointer-events: none;
+
+    // TO PREVENT USER SELECTION
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    h1{
+        font-size: 9rem;
+        font-weight: 600;
+        line-height: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    h3{
+        width: 80rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h4{
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    div:nth-of-type(1){
+        
+        img{
+            cursor: pointer;
+        }
+    }
+
+}
+.Home-wrapper-6-The_arrow{
+    z-index: 11;
+    position: absolute;
+    
+    bottom: 0rem;
+
+}
