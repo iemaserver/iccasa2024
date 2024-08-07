@@ -110,6 +110,12 @@ $uem-purple: #14008F;
 
     padding: 0rem $left-right-padding;
 
+    position: sticky;
+    top: 0px;
+
+    background-color: white;
+    z-index: +200;
+
     .nav-link {
 
         padding: 0rem 2rem;
@@ -122,9 +128,14 @@ $uem-purple: #14008F;
     }
 
     .nav-link:hover {
-        background-color: $uem-purple;
+        background-color: #14008F;
         color: white;
     }
+}
+
+.active{
+    background-color: #001661;
+    color: white;
 }
 
 // **********************************************************************

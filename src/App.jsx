@@ -88,7 +88,7 @@ function Navbar() {
     xl:text-2xl
     lg:text-xl
     ">
-      <NavLink to="/" className="nav-link">Home</NavLink>
+      <NavLink activeClassName="active" to="/" className="nav-link">Home</NavLink>
       <NavLink to="/scope" className="nav-link">Scope</NavLink>
       <NavLink to="/Keynote_Speaker" className="nav-link">Keynote Speaker</NavLink>
       <NavLink to="/Organinzing_Team" className="nav-link">Organizing Team</NavLink>
