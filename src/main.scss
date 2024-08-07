@@ -6,7 +6,310 @@
 
 // GLOBAL CSS
 
-.font-sora {
+.font-sofia {
     font-family: "Sofia Sans", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Sofia Sans", sans-serif;
+}
+
+*{
+    font-family: "Sofia Sans", sans-serif;
+}
+
+// ALL VARIABLES
+$left-right-padding: 8rem;
+$uem-purple: #14008F;
+
+// ***************************************************************************
+// BANNER
+.Banner-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 10rem;
+
+    position: relative;
+
+    padding: 0rem $left-right-padding;
+}
+
+
+.Banner-wrapper-1-text_and_backgroundLogo_uem {
+    text-align: center;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-uemLogoBackground {
+    position: absolute;
+
+}
+
+
+// ***************************************************************************
+// MAKNG THE BANNER RESPONSIVE
+@media (max-width: 1536px) {
+    .Banner-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100vw;
+        height: 10rem;
+
+        position: relative;
+
+        padding: 0rem $left-right-padding - 2rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .Banner-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100vw;
+        height: 10rem;
+
+        position: relative;
+
+        padding: 0rem $left-right-padding - 4rem;
+    }
+}
+
+
+
+
+
+
+// ***************************************************************************
+// NAVBAR 
+.Navbar-main {
+    width: 100%;
+    height: 4rem;
+
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: cente;
+
+    padding: 0rem $left-right-padding;
+
+    .nav-link {
+
+        padding: 0rem 2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .nav-link:hover {
+        background-color: $uem-purple;
+        color: white;
+    }
+}
+
+// **********************************************************************
+// MAKING THE NAVBAR RESPONSIVE
+@media (max-width:1354px) {
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .Navbar-main {
+        padding: 0rem $left-right-padding - 4rem;
+    }
+}
+
+@media (max-width:1264px) {
+
+    .Navbar-main {
+        padding: 0rem $left-right-padding - 4rem;
+    }
+}
+
+@media (max-width:1128px) {
+
+    .Navbar-main {
+        width: 100vw;
+        height: 3rem;
+
+        border: 2px solid black;
+        border-left: 0px;
+        border-right: 0px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: cente;
+
+        padding: 0rem $left-right-padding;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .Navbar-main {
+        padding: 0rem $left-right-padding - 4rem;
+    }
+}
+
+@media (max-width:1036px) {
+
+    .nav-link {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+// ***************************************************************************
+// HANDLING THE CAROUSEL
+.homePageCarousel {
+    width: 100%;
+    height: 46.4vh;
+
+    border-bottom: 2px solid black;
+
+    div {
+        width: 100%;
+        height: 100%;
+
+        background-color: white;
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+// ***************************************************************************
+// HOME MAIN
+.importantDates-wrapper{
+    
+}
+
+
+
+
+// ***************************************************************************
+// THE WRITING OVER THE CAROUSEL
+.Home-main-wrapper-2-writing_over_carousel_and_black_overlay {
+    position: absolute;
+    width: 100%;
+    height: 46.4vh;
+
+    z-index: +10;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    pointer-events: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    color: white;
+
+    
+}
+
+
+
+
+
+// **************************************************************************
+// CONTACT US SECTION 
+.contactUs_section{
+    background-color: #001661;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15.625rem;
+
+    border-top: 2px solid black;
+    
+}
+
+
+
+// MAKING THE CONTACT US SECTION RESPONSIVE 
+@media(max-width:1764px){
+    .contactUs_section div:nth-child(1){
+        margin-right: 7rem;
+    }
+}
+
+@media(max-width:1446px){
+    .contactUs_section div:nth-child(1){
+        margin-right: 4rem;
+    }
+}
+
+@media (max-width:1272px){
+    .contactUs_section{
+        height: 12.625rem;
+        
+    }
+}
+
+@media (max-width:1136px){
+    .contactUs_section div:nth-child(1){
+        margin-right: 0 rem;
+    }
+}
+
+
+
+
+// **************************************************************************
+// SCOPE SECTION
+.scope-main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.scope-main div:nth-child(2) > img{
+    border: 3px solid black;
+}
+
+
+
+// *************************************************************************
+// REGISTRATION SECTION
