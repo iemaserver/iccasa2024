@@ -171,6 +171,7 @@ function ContactUs() {
 
         <a href="https://iccasa2023.uem.edu.in/" target="_blank">2023 : Website Link</a>
         <a href="https://iccasa.uem.edu.in/" target="_blank">2022 : Website Link</a>
+        <a href="https://uem.edu.in/uem-jaipur/" target="_blank">UEMJ Website</a>
       </div>
 
 
@@ -196,9 +197,13 @@ function ContactUs() {
       {/* FACEBOOK LINKEDIN AND TWITTER */}
       <div className="flex items-start h-[63%] ">
 
-        <img className="w-[2rem] h-[2rem] mr-2" src={facebook}></img>
-        <img className="w-[2rem] h-[2rem] mr-2" src={linkedin}></img>
-        <img className="w-[2rem] h-[2rem] mr-2" src={twitter}></img>
+        <img onClick={() => window.open("https://www.facebook.com/share/hDUSwy3Nv24Q7QTN/?mibextid=qi2Omg" , "_blank")}  className="w-[2rem] h-[2rem] mr-2 cursor-pointer" src={facebook}></img>
+
+
+        <img onClick={() => window.open("https://www.linkedin.com/school/university-of-engineering-management-uem/" , "_blank")} className="w-[2rem] h-[2rem] mr-2 cursor-pointer" src={linkedin}></img>
+
+
+        <img onClick={() => window.open("https://x.com/Jaipur_Uem" , "_blank")} className="w-[2rem] h-[2rem] mr-2 cursor-pointer" src={twitter}></img>
       </div>
 
 
