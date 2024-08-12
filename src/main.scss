@@ -324,3 +324,90 @@ $uem-purple: #14008F;
 
 // *************************************************************************
 // REGISTRATION SECTION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **************************************************************************
+// KEYNOTE SPEAKER SECTION
+.keynoteSpeaker-main{
+    padding: 8rem 0rem;
+    
+}
+
+
+.keynoteSpeaker-card-component-Main{
+
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0rem 1.8rem;
+
+    z-index: +2;
+
+    box-shadow: 6px 6px $uem-purple;
+
+    img{
+        border: 2px solid black;
+    }
+}
+
+.KeynoteSpeakers-card-wrapper{
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    gap: 2rem;
+}
+
+.keynoteSpeaker-heading{
+    width: 94rem;
+}
+
+
+@media (max-width:1652px) {
+    
+.KeynoteSpeakers-card-wrapper{
+    display: grid;
+    grid-template-columns: 480px 480px;
+    gap: 4rem;
+    row-gap: 6rem;
+}
+
+.keynoteSpeaker-heading{
+    width: 64rem;
+}
+}
+
+
+@media (max-width:1148px) {
+    
+    .KeynoteSpeakers-card-wrapper{
+        display: grid;
+        grid-template-columns: 480px;
+        gap: 4rem;
+        row-gap: 4rem;
+    }
+    
+    .keynoteSpeaker-heading{
+        width: 30.5rem;
+    }
+    }
