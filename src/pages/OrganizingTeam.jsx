@@ -22,11 +22,7 @@ export const OrganizingTeam = () => {
                 <Td>Ex-Senior Scientist, Physical and Materials Chemistry Division NCL Pune.</Td>
 
               </Tr>
-              <Tr>
-                <Td>Prof. Kottakkaran Sooppy Nisar</Td>
-                <Td>Professor, Department of Mathematics, Prince Sattam bin Abdulaziz University, Kingdom of Saudi Arabia</Td>
-
-              </Tr>
+              
               <Tr>
                 <Td>Prof. K.C. Jain</Td>
                 <Td>Professor, Dept. of Mathematics, MNIT Jaipur, India</Td>
@@ -53,18 +49,12 @@ export const OrganizingTeam = () => {
                 <Td>Prof. Santiago Gómez-Ruiz</Td>
                 <Td>Professor of Inorganic Chemistry, Dept. of Biology and Geology, Physics and Inorganic Chemistry, Rey Juan Carlos University, Spain</Td>
               </Tr>
-              <Tr>
-                <Td>Prof. Ganesh Bagler</Td>
-                <Td>Professor, Infosys Centre for Artificial Intelligence Department of Computational Biology, IIIT-Delhi, New Delhi</Td>
-              </Tr>
+              
               <Tr>
                 <Td>Prof. Haci Mehmet Baskonus</Td>
                 <Td>Professor, Faculty of Education, Harran University, Turkey</Td>
               </Tr>
-              <Tr>
-                <Td>Prof. K S Nisar (Kottakkaran Sooppy Nisar)</Td>
-                <Td>Professor, Department of Mathematics, College of Science and Human Studies in Al-Kharj, Prince Sattam bin Abdulaziz University, Saudi Arabia</Td>
-              </Tr>
+              
               <Tr>
                 <Td>Prof. Jagdev Singh</Td>
                 <Td>Professor, Department of Mathematics, JECRC University, Jaipur-303905, Rajasthan, India</Td>
@@ -73,10 +63,7 @@ export const OrganizingTeam = () => {
                 <Td>Prof. P. Barman</Td>
                 <Td>Professor,  Department of Chemistry, NIT Silchar</Td>
               </Tr>
-              <Tr>
-                <Td>Professor,  Department of Chemistry, NIT Silchar</Td>
-                <Td>Visiting Professor, Department of Chemistry, IIT Delhi</Td>
-              </Tr>
+              
               <Tr>
                 <Td>Dr. Yudhveer Singh</Td>
                 <Td>Associate Professor, Amity Institute of Information Technology, Amity University Rajasthan, Jaipur-303002, India</Td>

@@ -133,8 +133,8 @@ function ContactUs() {
 
 
         {/* PHONE NUMBER AND EMAIL */}
-        <p>Phone No : +91 123456789</p>
-        <p className=" xl:mb-2">email : email@uem.edu.in</p>
+        <p>Phone No : +91 9887213330</p>
+        <p className=" xl:mb-2">email : iccasa@uem.edu.in</p>
 
 
 
