@@ -22,7 +22,7 @@ export const OrganizingTeam = () => {
                 <Td>Ex-Senior Scientist, Physical and Materials Chemistry Division NCL Pune.</Td>
 
               </Tr>
-              
+
               <Tr>
                 <Td>Prof. K.C. Jain</Td>
                 <Td>Professor, Dept. of Mathematics, MNIT Jaipur, India</Td>
@@ -49,12 +49,12 @@ export const OrganizingTeam = () => {
                 <Td>Prof. Santiago Gómez-Ruiz</Td>
                 <Td>Professor of Inorganic Chemistry, Dept. of Biology and Geology, Physics and Inorganic Chemistry, Rey Juan Carlos University, Spain</Td>
               </Tr>
-              
+
               <Tr>
                 <Td>Prof. Haci Mehmet Baskonus</Td>
                 <Td>Professor, Faculty of Education, Harran University, Turkey</Td>
               </Tr>
-              
+
               <Tr>
                 <Td>Prof. Jagdev Singh</Td>
                 <Td>Professor, Department of Mathematics, JECRC University, Jaipur-303905, Rajasthan, India</Td>
@@ -63,7 +63,7 @@ export const OrganizingTeam = () => {
                 <Td>Prof. P. Barman</Td>
                 <Td>Professor,  Department of Chemistry, NIT Silchar</Td>
               </Tr>
-              
+
               <Tr>
                 <Td>Dr. Yudhveer Singh</Td>
                 <Td>Associate Professor, Amity Institute of Information Technology, Amity University Rajasthan, Jaipur-303002, India</Td>
@@ -92,6 +92,75 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
+      </div>
+
+
+
+
+
+
+
+
+
+      {/* THE ORGANIZING TEAM SECTION */}
+      <div >
+
+
+        <h1>Organizing Team</h1>
+
+
+        {/* SATYAJIT CHAKRABARTI */}
+        <div>
+
+        </div>
+
+        {/* BISWAJOY AND SATYAJIT */}
+        <div>
+
+        </div>
+
+        {/* MUKESH YADAV  PRADEEP KR SHARMA */}
+        <div>
+
+        </div>
+
+
+        {/* TARUN SHARMA , RAHUL SHARMA , ARNAB PALUI */}
+        <div>
+
+        </div>
+
+
+        {/* PRAPHULL CHHABRA , ANAMIKA KHASKEL  */}
+        <div>
+
+        </div>
+
+        {/* PALLAVI MALIK , PRIYANKA CHAPARWAL */}
+        <div>
+
+        </div>
+
+
+        {/* ME */}
+        <div>
+
+        </div>
+
+
+
+        {/* Manish Kr. Jangir  , Kamal Kishore Kumawat*/}
+        <div>
+
+        </div>
+
+
+        {/* BHIM LAMA , SHYAM LAL */}
+        <div>
+
+        </div>
+
+
       </div>
 
 
