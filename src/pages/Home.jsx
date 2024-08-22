@@ -29,7 +29,7 @@ import {
 } from '@chakra-ui/react'
 
 import Slider from "react-slick";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 
@@ -37,24 +37,24 @@ import { useState,useEffect } from "react";
 
 export const Home = () => {
 
-  const [autoWidth , setAutoWidth] = useState("43rem");
+  const [autoWidth, setAutoWidth] = useState("43rem");
 
   useEffect(() => {
     function handleResize() {
-      if(window.innerWidth < 1490){
+      if (window.innerWidth < 1490) {
         setAutoWidth("38rem")
       }
 
-      if(window.innerWidth < 1380){
+      if (window.innerWidth < 1380) {
         setAutoWidth("35rem")
       }
-      if(window.innerWidth < 1198){
+      if (window.innerWidth < 1198) {
         setAutoWidth("31rem")
       }
-      if(window.innerWidth < 1102){
+      if (window.innerWidth < 1102) {
         setAutoWidth("27rem")
       }
-      if(window.innerWidth > 1542){
+      if (window.innerWidth > 1542) {
         setAutoWidth("43rem")
       }
     }
@@ -125,7 +125,21 @@ export const Home = () => {
             {/* THE UNIVERSITY NAME */}
             <p className=" xl:text-xl lg:text-base">University of Engineering And Management Jaipur</p>
 
+            
+
           </div>
+
+
+
+          {/* DATE */}
+          <h3 className=" 
+          2xl:text-3xl
+          xl:text-2xl
+          2xl:w-[56rem]
+          xl:w-[45rem] 
+          xl:mt-2
+          lg:text-xl
+          lg:w-[38rem]">21st and 22nd November 2024</h3>
         </div>
 
 
@@ -200,7 +214,7 @@ export const Home = () => {
 
 
 
-{/* ************************************************************ *************/}
+      {/* ************************************************************ *************/}
 
 
       {/* THE ABOUT US SECTION AND THE IMPORTANT DATES SECTION WRAPPER */}
@@ -237,8 +251,33 @@ export const Home = () => {
 
           {/* PARAGRAPH */}
           <p className=" 2xl:text-2xl
-          xl:text-xl lg:text-base">The vision behind organizing this conference is to provide an excellent forum for researchers, scientist and industrialist from interdisciplinary areas to showcase their current contribution in the recent area of Physical Sciences.The objectives of International Conference on Computational Applied Sciences and it’s Applications (ICCASA-2024) are to abreast the young minds from Institutes, Universities, Colleges and Industries across the country, with the latest advancements in the field of this area, and providing them an opportunity to share their recent researches and views in various fields of Physical Sciences and their applications for the ultimate benefit of the Society and Industry. The broad aim of the conference is to groom the young scientists’ minds to face the challenges of future for effective and efficient professional responsibilities. The conference will cover a wide range of topics in the form of plenary speakers, keynote speakers, invited talks & contributory papers presentations. The date of the conference is <span className=" font-bold">21st and 22nd November.</span><br></br><br/> UEM Jaipur was established in the year 2011 by Ordinance 11 of 2011 and Act No 5 of 2012 of Govt of Rajasthan. UEM Jaipur has achieved the awards of “Best Private University in North India” and “Best Emerging University in North India”.</p>
+          xl:text-xl lg:text-base">The vision behind organizing this conference is to provide an excellent forum for researchers, scientist and industrialist from interdisciplinary areas to showcase their current contribution in the recent area of Physical Sciences. The objectives of International Conference on Computational Applied Sciences and it’s Applications (ICCASA-2024) are to abreast the young minds from Institutes, Universities, Colleges and Industries across the country, with the latest advancements in the field of this area, and providing them an opportunity to share their recent researches and views in various fields of Physical Sciences and their applications for the ultimate benefit of the Society and Industry. The broad aim of the conference is to groom the young scientists’ minds to face the challenges of future for effective and efficient professional responsibilities. The conference will cover a wide range of topics in the form of plenary speakers, keynote speakers, invited talks & contributory papers presentations.<br></br><br /> </p>
+
+
+
+
+
+
+
+          {/* ABOUT UEM SECTION  */}
+          <h1 className=" font-bold
+            2xl:mb-8
+            2xl:text-5xl
+            xl:text-3xl
+            xl:mb-4
+            lg:text-2xl
+            
+            
+            ">About UEM</h1>
+
+          <p className=" 2xl:text-2xl
+          xl:text-xl lg:text-base">UEM Jaipur was established in the year 2011 by Ordinance 11 of 2011 and Act No 5 of 2012 of Govt of Rajasthan. UEM Jaipur has achieved the awards of “Best Private University in North India” and “Best Emerging University in North India”.</p>
         </div>
+
+
+
+
+        \
 
 
 
@@ -286,10 +325,7 @@ export const Home = () => {
                   <Td>30th Oct - 10th Nov</Td>
 
                 </Tr>
-                <Tr>
-                  <Td>The Conference is scheduled on</Td>
-                  <Td>21st - 22nd Nov</Td>
-                </Tr>
+
 
               </Tbody>
             </Table>
