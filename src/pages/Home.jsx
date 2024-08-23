@@ -111,7 +111,7 @@ export const Home = () => {
           xl:w-[45rem] 
           xl:mb-4
           lg:text-xl
-          lg:w-[38rem]">International Conference On Computational Applied Sciences And It's Application . </h3>
+          lg:w-[38rem]">International Conference On Computational Applied Sciences And It's Application </h3>
 
 
 
