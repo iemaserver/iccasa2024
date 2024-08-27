@@ -157,42 +157,42 @@ export const Home = () => {
 
 
             <div>
-              <img src={image1_2023} alt="" />
+              <img className="relative bottom-[18rem]" src={image1_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image2_2023} alt="" />
+              <img className="relative bottom-[6rem]" src={image2_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image3_2023} alt="" />
+              <img className="relative bottom-[8rem]" src={image3_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image4_2023} alt="" />
+              <img className="relative bottom-[16rem]" src={image4_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image5_2023} alt="" />
+              <img className="relative bottom-[12rem]" src={image5_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image6_2023} alt="" />
+              <img className="relative bottom-[2rem]" src={image6_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image7_2023} alt="" />
+              <img className="relative bottom-[26rem]" src={image7_2023} alt="" />
             </div>
 
 
             <div>
-              <img src={image8_2023} alt="" />
+              <img className="relative bottom-[36rem]" src={image8_2023} alt="" />
             </div>
 
 
