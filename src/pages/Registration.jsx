@@ -116,7 +116,7 @@ export const Registration = () => {
       {/* REGISTRATION ONLY FOR PAPER PUBLICATION */}
       {/* REGISTRATION FEE FOR PUBLICATION + PAPER PRESENTATION */}
       <div className='xl:w-[60rem] xl:text-2xl lg:text-xl'>
-        <ul className=' xl:text-4xl font-bold list-disc mb-8 lg:text-2xl'><li>Registration only for paper publication </li></ul>
+        <ul className=' xl:text-4xl font-bold list-disc mb-8 lg:text-2xl'><li>Registration only for paper presentation </li></ul>
 
         <TableContainer >
           <Table variant='striped' colorScheme="blue" size="md">
