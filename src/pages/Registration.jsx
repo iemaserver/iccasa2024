@@ -29,33 +29,38 @@ export const Registration = () => {
             <Tbody>
               <Tr>
                 <Td>Call for paper/abstract submission</Td>
-                <Td>15th Aug 2024</Td>
+                <Td>6th Jan 2025</Td>
 
               </Tr>
               <Tr>
                 <Td>Call for paper/Abstract submission ending date </Td>
-                <Td>15th Sep 2024</Td>
+                <Td>3rd Feb 2025</Td>
 
               </Tr>
               <Tr>
                 <Td>Registration starting date</Td>
-                <Td>15th Aug 2024</Td>
+                <Td>6th  Jan 2025</Td>
               </Tr>
               <Tr>
                 <Td>Registration ending date</Td>
-                <Td>15th Sep 2024</Td>
+                <Td>3rd  Feb 2025</Td>
 
               </Tr>
               <Tr>
                 <Td>Accommodation booking date</Td>
-                <Td>30th Oct - 10th Nov</Td>
+                <Td>17th March – 24th March</Td>
 
               </Tr>
 
             </Tbody>
           </Table>
         </TableContainer>
+        <p className=' text-sm mt-8 text-red-600'>* Extra charges will be applied according to the availability of the accommodation.</p>
       </div>
+
+
+
+      
 
 
 
@@ -114,7 +119,6 @@ export const Registration = () => {
 
 
       {/* REGISTRATION ONLY FOR PAPER PUBLICATION */}
-      {/* REGISTRATION FEE FOR PUBLICATION + PAPER PRESENTATION */}
       <div className='xl:w-[60rem] xl:text-2xl lg:text-xl'>
         <ul className=' xl:text-4xl font-bold list-disc mb-8 lg:text-2xl'><li>Registration only for paper presentation </li></ul>
 
@@ -132,20 +136,20 @@ export const Registration = () => {
               <Tr>
                 <Td>Industry expert</Td>
                 <Td>₹ 1500/-</Td>
-                <Td>150 $</Td>
+                <Td>50 $</Td>
 
               </Tr>
               <Tr>
                 <Td>Faculty</Td>
                 <Td>₹ 1500/-</Td>
-                <Td>150 $</Td>
+                <Td>50 $</Td>
 
 
               </Tr>
               <Tr>
                 <Td>Student and Research Scholar</Td>
                 <Td>₹ 1500/-</Td>
-                <Td>150 $</Td>
+                <Td>50 $</Td>
 
               </Tr>
               <Tr>
