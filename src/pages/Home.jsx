@@ -139,7 +139,7 @@ export const Home = () => {
           xl:w-[45rem] 
           xl:mt-2
           lg:text-xl
-          lg:w-[38rem]">21st and 22nd November 2024</h3>
+          lg:w-[38rem]">4th and 5th April 2025</h3>
         </div>
 
 
