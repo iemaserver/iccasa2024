@@ -303,26 +303,26 @@ export const Home = () => {
               <Tbody>
                 <Tr>
                   <Td>Call for paper/abstract submission</Td>
-                  <Td>15th Aug 2024</Td>
+                  <Td>6th Jan 2025</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Call for paper/Abstract submission ending date </Td>
-                  <Td>15th Sep 2024</Td>
+                  <Td>3rd Feb 2025</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Registration starting date</Td>
-                  <Td>15th Aug 2024</Td>
+                  <Td>6th Jan 2025</Td>
                 </Tr>
                 <Tr>
                   <Td>Registration ending date</Td>
-                  <Td>15th Sep 2024</Td>
+                  <Td>3rd Feb 2025</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Accommodation booking date</Td>
-                  <Td>30th Oct - 10th Nov</Td>
+                  <Td>17th March to <br/> 24th March</Td>
 
                 </Tr>
 
