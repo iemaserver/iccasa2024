@@ -12,6 +12,7 @@ import DrVaibhav from "../assets/JPG/keynoteSpeaker/Dr. Vaibhav 1.png"
 import DrYudhveerSing from "../assets/JPG/keynoteSpeaker/Dr. Yudhveer Singh.jpeg"
 import ProfAnilKumar from "../assets/JPG/keynoteSpeaker/Prof. Anil Kumar.jpg"
 import DrHaciMehmet from "../assets/JPG/keynoteSpeaker/Prof. (Dr.) Haci Mehmet Baskonus.jpeg"
+import DrAnuragShukla from "../assets/JPG/keynoteSpeaker/Dr.AnuragShukla.jpeg"
 import ProfODMakinde from "../assets/JPG/keynoteSpeaker/Prof. O. D. Makinde.gif"
 
 
@@ -57,6 +58,9 @@ export const KeynoteSpeaker = () => {
 
         {/* DR NARESH KUMAR */}
         <KeynoteSpeaker_card_component image={DrNareshKumar} bold="Dr. Naresh Kumar" line1="Assistant Professor," line2="Department of Mathematical and Physical Sciences," line3="Sultanate of Oman." />
+
+        {/* DR ANURAG SHUKLA */}
+        <KeynoteSpeaker_card_component image={DrAnuragShukla} bold="Dr. Anurag Shukla" line1="Assistant Professor," line2="Department of Applied Sciences & Humanities (Mathematics)," line3="Rajkiya Engineering College Kannauj, 209732, U.P." />
 
         {/* DR VAIBHAV VARSHNEY */}
         <KeynoteSpeaker_card_component image={DrVaibhav} bold="Dr. Vaibhav Varshney" line1="Assistant Professor" line2="Department of Physics and Astrophysics" line3="Delhi University, Delhi, India" />

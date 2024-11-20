@@ -28,7 +28,7 @@ export const Scope = () => {
 
          "
         >
-          Thrust areas of the Conference (ICCASA-2024)
+          Thrust areas of the Conference (ICCASA-2025)
         </h1>
 
         {/* THE BULLET POINTS */}
