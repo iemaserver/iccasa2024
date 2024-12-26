@@ -14,7 +14,7 @@ import satyajitChakrabarti from "../assets/PNG/organizing team 2024/satyajitChak
 import Biswajoy_Chatterjee from "../assets/PNG/organizing team 2024/biswajoy.jpeg"
 import alex from "../assets/PNG/organizing team 2024/alex.webp"
 import PradeepKumarSharma from "../assets/PNG/organizing team 2024/pradeepKrSharma.webp"
-import MukeshYadav from "../assets/PNG/organizing team 2024/mukeshYadav.jpeg"
+// import MukeshYadav from "../assets/PNG/organizing team 2024/mukeshYadav.jpeg"
 import tarunSharma from "../assets/PNG/organizing team 2024/tarunSharma.jpg"
 import rahulSharma from "../assets/PNG/organizing team 2024/rahulSharma.jpg"
 import ArnabPalui from "../assets/PNG/organizing team 2024/arnab.jpg"
@@ -156,14 +156,13 @@ UEM JAIPUR" line3="" />
           <KeynoteSpeaker_card_component image={PradeepKumarSharma} bold="Prof.(Dr.) Pradeep Kr. Sharma" line1="REGISTRAR
 " line2="UEM JAIPUR" line3="" />
 
-          <KeynoteSpeaker_card_component image={MukeshYadav} bold="Prof.(Dr.) Mukesh Yadav" line1="DEAN" line2=" 
-UEM JAIPUR" line3="" />
+          {/* <KeynoteSpeaker_card_component image={MukeshYadav} bold="Prof.(Dr.) Mukesh Yadav" line1="DEAN" line2=" 
+UEM JAIPUR" line3="" /> */}
         </div>
 
 
         {/* TARUN SHARMA , RAHUL SHARMA , ARNAB PALUI */}
         <div className=' mb-12 flex justify-evenly w-[65rem]'>
-          <KeynoteSpeaker_card_component image={tarunSharma} bold="Dr. Tarun Sharma" line1="CONVENER" line2="" line3="" />
 
 
           <KeynoteSpeaker_card_component image={rahulSharma} bold="Dr. Rahul Sharma" line1="CONVENER" line2="" line3="" />
@@ -187,6 +186,12 @@ UEM JAIPUR" line3="" />
 
 
           <KeynoteSpeaker_card_component image={AnamikaKhaskel} bold="Dr. Anamika Khaskel" line1="ORGANISING SECRETARY" line2="" line3="" />
+        </div>
+
+
+        <div className=' mb-12 flex'>
+
+          <KeynoteSpeaker_card_component image={tarunSharma} bold="Dr. Tarun Sharma" line1="ORGANIZING SECRETARY" line2="" line3="" />
         </div>
 
 

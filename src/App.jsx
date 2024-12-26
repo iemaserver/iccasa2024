@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 // IMAGES
 import uemLogoBackground from "./assets/PNG/uemBackgroundLogo.svg"
 import uemLogo from "./assets/PNG/uemLogo2-removebg-preview.png"
-import icassaLogo from "./assets/PNG/ICASSALogo.png"
+import icassaLogo from "./assets/PNG/ICASSALogo.jpeg"
 import locationIcon from "./assets/PNG/location_on.png"
 import facebook from "./assets/PNG/facebook.png"
 import linkedin from "./assets/PNG/linkedin.png"
