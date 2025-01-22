@@ -180,19 +180,17 @@ UEM JAIPUR" line3="" /> */}
 
 
 
-        {/* PRAPHULL CHHABRA , ANAMIKA KHASKEL  */}
+        {/* PRAPHULL CHHABRA , TARUN SHARMA  */}
         <div className=' mb-12 flex justify-evenly w-[65rem]'>
           <KeynoteSpeaker_card_component image={PraphullChhabra} bold="Dr. Praphull Chhabra" line1="ORGANISING SECRETARY" line2="" line3="" />
 
-
-          <KeynoteSpeaker_card_component image={AnamikaKhaskel} bold="Dr. Anamika Khaskel" line1="ORGANISING SECRETARY" line2="" line3="" />
-        </div>
-
-
-        <div className=' mb-12 flex'>
-
           <KeynoteSpeaker_card_component image={tarunSharma} bold="Dr. Tarun Sharma" line1="ORGANIZING SECRETARY" line2="" line3="" />
+
         </div>
+
+
+
+        
 
 
 
@@ -201,8 +199,9 @@ UEM JAIPUR" line3="" /> */}
         {/* PALLAVI MALIK , PRIYANKA CHAPARWAL */}
         <div className=' mb-12 flex justify-evenly w-[65rem]'>
           <KeynoteSpeaker_card_component image={PallaviMalik} bold="Prof. Pallavi Malik" line1="ORGANISING SECRETARY" line2="" line3="" />
+          <KeynoteSpeaker_card_component image={AnamikaKhaskel} bold="Dr. Anamika Khaskel" line1="ORGANISING SECRETARY" line2="" line3="" />
 
-          <KeynoteSpeaker_card_component image={PriyankaChhaparwal} bold="Dr. Priyanka Chhaparwal" line1="ORGANISING SECRETARY" line2="" line3="" />
+          {/* <KeynoteSpeaker_card_component image={PriyankaChhaparwal} bold="Dr. Priyanka Chhaparwal" line1="ORGANISING SECRETARY" line2="" line3="" /> */}
 
 
         </div>
