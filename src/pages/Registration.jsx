@@ -16,6 +16,8 @@ export const Registration = () => {
     lg:py-16'>
 
 
+
+
       {/* IMPORTANT DATES */}
       <div className=' xl:w-[60rem] xl:text-2xl xl:mb-16 xl:p-8
       lg:p-4 lg:py-6 lg:text-xl lg:mb-16'>

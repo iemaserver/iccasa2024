@@ -14,6 +14,7 @@ import locationIcon from "./assets/PNG/location_on.png"
 import facebook from "./assets/PNG/facebook.png"
 import linkedin from "./assets/PNG/linkedin.png"
 import twitter from "./assets/PNG/twitter.png"
+import { AuthorGuideline } from "./pages/AuthorGuideline.jsx";
 
 
 
@@ -84,14 +85,15 @@ function Navbar() {
 
   return (
     <div className="Navbar-main 
-    2xl:text-3xl
-    xl:text-2xl
-    lg:text-xl
+    2xl:text-2xl
+    xl:text-lg
+    lg:text-lg
     ">
       <NavLink activeClassName="active" to="/" className="nav-link">Home</NavLink>
       <NavLink to="/scope" className="nav-link">Scope</NavLink>
       <NavLink to="/Keynote_Speaker" className="nav-link">Keynote Speaker</NavLink>
       <NavLink to="/Organinzing_Team" className="nav-link">Organizing Team</NavLink>
+      <NavLink to="/AuthorGuidelines" className="nav-link">Author Guidelines</NavLink>
       <NavLink to="/Registration" className="nav-link">Registration</NavLink>
       <a href="#ContactUs" className="nav-link">Contact Us</a>
     </div>
@@ -228,6 +230,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/scope" element={<Scope />} />
         <Route path="/Registration" element={<Registration />} />
+        <Route path="/AuthorGuidelines" element={<AuthorGuideline />} />
         <Route path="/Organinzing_Team" element={<OrganizingTeam />} />
         <Route path="/Keynote_Speaker" element={<KeynoteSpeaker />} />
       </Routes>

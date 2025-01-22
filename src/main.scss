@@ -26,6 +26,14 @@ body {
 $left-right-padding: 8rem;
 $uem-purple: #14008F;
 
+
+.url{
+    color: $uem-purple;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
 // ***************************************************************************
 // BANNER
 .Banner-main {
@@ -105,10 +113,10 @@ $uem-purple: #14008F;
     border-right: 0px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: cente;
 
-    padding: 0rem $left-right-padding;
+    padding: 0rem 0rem;
 
     position: sticky;
     top: 0px;
@@ -141,19 +149,17 @@ $uem-purple: #14008F;
 // **********************************************************************
 // MAKING THE NAVBAR RESPONSIVE
 @media (max-width:1354px) {
-    .nav-link {
-        font-size: 1.3rem;
-    }
+    
 
     .Navbar-main {
-        padding: 0rem $left-right-padding - 4rem;
+        padding: 0rem 0rem;
     }
 }
 
 @media (max-width:1264px) {
 
     .Navbar-main {
-        padding: 0rem $left-right-padding - 4rem;
+        padding: 0rem 0rem;
     }
 }
 
