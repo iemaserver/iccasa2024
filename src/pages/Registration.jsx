@@ -31,26 +31,26 @@ export const Registration = () => {
             <Tbody>
               <Tr>
                 <Td>Call for paper/abstract submission</Td>
-                <Td>6th Jan 2025</Td>
+                <Td>To be Announced soon....</Td>
 
               </Tr>
               <Tr>
                 <Td>Call for paper/Abstract submission ending date </Td>
-                <Td>3rd Feb 2025</Td>
+                <Td>To be Announced soon....</Td>
 
               </Tr>
               <Tr>
                 <Td>Registration starting date</Td>
-                <Td>6th  Jan 2025</Td>
+                <Td>To be Announced soon....</Td>
               </Tr>
               <Tr>
                 <Td>Registration ending date</Td>
-                <Td>3rd  Feb 2025</Td>
+                <Td>To be Announced soon....</Td>
 
               </Tr>
               <Tr>
                 <Td>Accommodation booking date</Td>
-                <Td>17th March – 24th March</Td>
+                <Td>To be Announced soon....</Td>
 
               </Tr>
 

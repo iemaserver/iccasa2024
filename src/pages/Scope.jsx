@@ -58,6 +58,20 @@ export const Scope = () => {
           <li>Computational Astrophysics</li>
           <li>Spectroscopy and Atmospheric Chemistry</li>
           <li>Catalysis</li>
+          <li>AI in Department of Mathematics</li>
+          <li>AI in Department of Physics</li>
+          <li>AI in Department of Chemistry</li>
+          <li>Mathematical Biology and Bioinformatics</li>
+          <li>Quantum Computing and Quantum Information Science</li>
+          <li>Applied Game Theory in Engineering & Economics</li>
+          <li>Reinforcement Learning and Autonomous Systems</li>
+          <li>AI for Healthcare and Precision Medicine</li>
+          <li>Quantum Materials and Quantum Optics</li>
+          <li>Soft Matter Physics and Biophysics</li>
+          <li>High Energy Physics and Particle Accelerators</li>
+          <li>Artificial Photosynthesis and CO₂ Reduction</li>
+          <li>Green Energy and Hydrogen Fuel Cells</li>
+          <li>Computational Chemistry and Drug Discovery</li>
         </ul>
       </div>
 

@@ -14,7 +14,7 @@ import ProfAnilKumar from "../assets/JPG/keynoteSpeaker/Prof. Anil Kumar.jpg"
 import DrHaciMehmet from "../assets/JPG/keynoteSpeaker/Prof. (Dr.) Haci Mehmet Baskonus.jpeg"
 import DrAnuragShukla from "../assets/JPG/keynoteSpeaker/Dr.AnuragShukla.jpeg"
 import ProfODMakinde from "../assets/JPG/keynoteSpeaker/Prof. O. D. Makinde.gif"
-
+import sachin from "../assets/JPG/keynoteSpeaker/Sachin.jpg"
 
 
 export const KeynoteSpeaker = () => {
@@ -29,9 +29,6 @@ export const KeynoteSpeaker = () => {
         {/* DR ABHIJIT KUMAR DAS */}
         <KeynoteSpeaker_card_component image={DrAbhijitKumarDas} bold="Prof. (Dr.) Abhijit Kumar Das" line1="Senior Professor" line2="School of Mathematical &amp; Computational Sciences" line3="Indian Association for the Cultivation of Science, Kolkata" />
 
-        {/* DR RITU AGARWAL */}
-        <KeynoteSpeaker_card_component image={DrRituAgarwal} bold="Dr. Ritu Agarwal" line1="Assistant Professor (Mathematics)" line2="Department of Mathematics" line3="MNIT Jaipur" />
-
         {/* PROF DHARMENDRA TRIPATHI */}
         <KeynoteSpeaker_card_component image={DrDharmendraTripathi} bold="Dr. Dharmendra Tripathi" line1="Associate Professor (Mathematics)" line2="Department of Mathematics" line3="National Institute of Technology, Uttarakhand" />
 
@@ -40,15 +37,6 @@ export const KeynoteSpeaker = () => {
 
         {/* Prof. (Dr.) Haci Mehmet Baskonus */}
         <KeynoteSpeaker_card_component image={DrHaciMehmet} bold="Prof. (Dr.) Haci Mehmet Baskonus" line1="Faculty of Education" line2="Harran University, Turkey" />
-
-        {/* PROF DR YUDHVEER SING */}
-        <KeynoteSpeaker_card_component image={DrYudhveerSing} bold="Dr. Yudhveer Singh" line1="Associate Professor" line2="Amity Institute of Information Technology" line3="Amity University Rajasthan, Jaipur" />
-
-        {/* DR DEVENDRA KUMAR */}
-        <KeynoteSpeaker_card_component image={DrDevendraKumar} bold="Dr. Devendra Kumar" line1="Assistant Professor" line2="Department of Mathematics" line3="University of Rajasthan, Jaipur" />
-
-        {/* DR JAGDEV SING */}
-        <KeynoteSpeaker_card_component image={DrJagdevSingh} bold="Prof. (Dr.) Jagdev Singh" line1="Professor and Head" line2="Department of Mathematics," line3="JECRC University, Jaipur" />
 
         {/* DR PRADEEP KUMAR */}
         <KeynoteSpeaker_card_component image={DrPradeepKumar} bold="Dr. Pradeep Kumar" line1="Associate Professor" line2="Department of Chemistry" line3="MNIT Jaipur" />
@@ -59,11 +47,8 @@ export const KeynoteSpeaker = () => {
         {/* DR NARESH KUMAR */}
         <KeynoteSpeaker_card_component image={DrNareshKumar} bold="Dr. Naresh Kumar" line1="Assistant Professor," line2="Department of Mathematical and Physical Sciences," line3="Sultanate of Oman." />
 
-        {/* DR ANURAG SHUKLA */}
-        <KeynoteSpeaker_card_component image={DrAnuragShukla} bold="Dr. Anurag Shukla" line1="Assistant Professor," line2="Department of Applied Sciences & Humanities (Mathematics)," line3="Rajkiya Engineering College Kannauj, 209732, U.P." />
-
-        {/* DR VAIBHAV VARSHNEY */}
-        <KeynoteSpeaker_card_component image={DrVaibhav} bold="Dr. Vaibhav Varshney" line1="Assistant Professor" line2="Department of Physics and Astrophysics" line3="Delhi University, Delhi, India" />
+        {/*Dr Sachin Kumar */}
+        <KeynoteSpeaker_card_component image={sachin} bold = "Dr. Sachin Kumar" line1="Associate Professor" lin2="Department of Mathematics and Statistics" line3="School of basic Sciences, Central University of Punjab, Bathinda,Punjab,India" />
       </div>
     </div>
   )
