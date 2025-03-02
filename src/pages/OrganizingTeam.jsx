@@ -194,7 +194,7 @@ export const OrganizingTeam = () => {
 
 
 
-        {/* SATYAJIT CHAKRABARTI */}
+        {/* SATYAJIT CHAKRABARTI, alex and Banani */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
           <KeynoteSpeaker_card_component image={satyajitChakrabarti} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="CHIEF PATRON" line2="Founder" line3="UEM JAIPUR" />
           <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLORUEM JAIPUR" line3="" />
@@ -205,7 +205,7 @@ export const OrganizingTeam = () => {
 
 
 
-        {/* BISWAJOY AND SATYAJIT */}
+        {/* BISWAJOY AND Pradeep Sharma */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
           <KeynoteSpeaker_card_component image={Biswajoy_Chatterjee} bold="Prof.(Dr.) Biswajoy Chatterjee" line1="PATRON" line2="VICE-CHANCELLORUEM JAIPUR" line3="" />
           <KeynoteSpeaker_card_component image={PradeepKumarSharma} bold="Prof.(Dr.) Pradeep Kr. Sharma" line1="REGISTRAR" line2="UEM JAIPUR" line3="" />
@@ -214,42 +214,42 @@ export const OrganizingTeam = () => {
       </div>
       {/*Organising Team Table*/}
 
-      <div className='w-[85rem]'>
+      <div className='w-[89rem]'>
         <h1 className='text-3xl font-bold mb-4'>CONVENERS</h1>
-        <TableContainer>
+        <TableContainer className='mb-4'>
           <Table>
             <Tbody>
               <Tr>
-                <Td className="text-xl font-bold">Dr. Praphull Chhabra</Td>
-                <Td className="text-lg font-semibold">Professor (Department of Mathematics) UEM Jaipur</Td>
+                <Td className="text-lg font-bold w-[351.26px]">Dr. Praphull Chhabra</Td>
+                <Td className="font-semibold">Professor (Department of Mathematics) UEM Jaipur</Td>
 
               </Tr>
 
               <Tr>
-                <Td className="text-xl font-bold">Dr. Tarun Sharma</Td>
-                <Td className="text-lg font-semibold">Professor(Department of Mathematics) UEM Jaipur</Td>
+                <Td className="text-lg font-bold">Dr. Tarun Sharma</Td>
+                <Td className=" font-semibold">Professor(Department of Mathematics) UEM Jaipur</Td>
               </Tr>
             </Tbody>
           </Table>
         </TableContainer>
         <h1 className='text-3xl font-bold mb-4'>Co-Convener</h1>
-        <TableContainer>
+        <TableContainer className='mb-4'>
           <Table>
             <Tbody>
               <Tr>
-                <Td className="text-xl font-bold">Dr.Arnab Palui</Td>
-                <Td className="text-lg font-semibold">Associate Professor(Department of Physics) UEM Jaipur</Td>
+                <Td className="text-lg font-bold  w-[351.26px]">Dr.Arnab Palui</Td>
+                <Td className="font-semibold">Associate Professor(Department of Physics) UEM Jaipur</Td>
               </Tr>
             </Tbody>
           </Table>
         </TableContainer>
 
         <h1 className='text-3xl font-bold mb-4'>Organising Team</h1>
-        <TableContainer>
+        <TableContainer className='mb-4'>
           <Table>
             <Tbody>
               <Tr>
-                <Td className="text-lg font-bold">Dr.Rahul Sharma</Td>
+                <Td className="text-lg font-bold w-[351.26px]">Dr.Rahul Sharma</Td>
                 <Td className=" font-semibold">Associate Professor(Department of Mathematics) UEM Jaipur</Td>
               </Tr>
 
@@ -315,7 +315,7 @@ export const OrganizingTeam = () => {
           <Table>
             <Tbody>
             <Tr>
-                <Td className="text-lg font-bold">Mr. Biswanath Mukherjee</Td>
+                <Td className="text-lg font-bold w-[351.26px]">Mr. Biswanath Mukherjee</Td>
                 <Td className=" font-semibold">Student Coordinator (CSE 3rd Year) UEM Jaipur</Td>
               </Tr>
 

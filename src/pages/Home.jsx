@@ -304,26 +304,25 @@ export const Home = () => {
               <Tbody>
                 <Tr>
                   <Td>Call for paper/abstract submission</Td>
-                  <Td>TO be Announced soon...</Td>
+                  <Td>Not Announced</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Call for paper/Abstract submission ending date </Td>
-                  <Td>TO be Announced soon...</Td>
-
+                  <Td>Not Announced</Td>
                 </Tr>
                 <Tr>
                   <Td>Registration starting date</Td>
-                  <Td>TO be Announced soon...</Td>
+                  <Td>Not Announced</Td>
                 </Tr>
                 <Tr>
                   <Td>Registration ending date</Td>
-                  <Td>TO be Announced soon...</Td>
+                  <Td>Not Announced</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Accommodation booking date</Td>
-                  <Td>TO be Announced soon...</Td>
+                  <Td>Not Announced</Td>
 
                 </Tr>
 
