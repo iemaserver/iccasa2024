@@ -75,7 +75,7 @@ export const Registration = () => {
         <ul className=' xl:text-4xl font-bold list-disc mb-8
         lg:text-2xl'><li>Registration fee for publication + paper presentation </li></ul>
 
-        <TableContainer >
+        {/* <TableContainer >
           <Table variant='striped' colorScheme="blue" size="md">
             <Thead className='Thead-table2'>
               <Tr>
@@ -116,7 +116,8 @@ export const Registration = () => {
 
             </Tbody>
           </Table>
-        </TableContainer>
+        </TableContainer> */}
+        <h2>To be Announced soon. Prices will depends on Journel</h2>
       </div>
 
 
@@ -124,7 +125,7 @@ export const Registration = () => {
       <div className='xl:w-[60rem] xl:text-2xl lg:text-xl'>
         <ul className=' xl:text-4xl font-bold list-disc mb-8 lg:text-2xl'><li>Registration only for paper presentation </li></ul>
 
-        <TableContainer >
+        {/* <TableContainer >
           <Table variant='striped' colorScheme="blue" size="md">
             <Thead className='Thead-table2'>
               <Tr>
@@ -165,7 +166,8 @@ export const Registration = () => {
 
             </Tbody>
           </Table>
-        </TableContainer>
+        </TableContainer> */}
+        <h2>To be Announced soon. Prices depends on Journel</h2>
       </div>
 
 

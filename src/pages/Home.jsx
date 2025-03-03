@@ -111,7 +111,7 @@ export const Home = () => {
           xl:w-[45rem] 
           xl:mb-4
           lg:text-xl
-          lg:w-[38rem]">International Conference On Computational Applied Sciences And It's Application </h3>
+          lg:w-[38rem]">3rd International Conference On Computational Applied Sciences And It's Application </h3>
 
 
 
@@ -139,7 +139,7 @@ export const Home = () => {
           xl:w-[45rem] 
           xl:mt-2
           lg:text-xl
-          lg:w-[38rem]">20-21 September 2025, Hybrid mode, 3rd version of the conference</h3>
+          lg:w-[38rem]">20-21 September 2025, Hybrid mode</h3>
         </div>
 
 
@@ -299,30 +299,30 @@ export const Home = () => {
             mb-4">Important Dates</h1>
           </div>
 
-          <TableContainer width={autoWidth} maxWidth="43rem">
+          <TableContainer className="w-[45rem]">
             <Table variant='striped' colorScheme="blue" size="md">
               <Tbody>
                 <Tr>
                   <Td>Call for paper/abstract submission</Td>
-                  <Td>Not Announced</Td>
+                  <Td>To be Announced Soon</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Call for paper/Abstract submission ending date </Td>
-                  <Td>Not Announced</Td>
+                  <Td>To be Announced Soon</Td>
                 </Tr>
                 <Tr>
                   <Td>Registration starting date</Td>
-                  <Td>Not Announced</Td>
+                  <Td>To be Announced Soon</Td>
                 </Tr>
                 <Tr>
                   <Td>Registration ending date</Td>
-                  <Td>Not Announced</Td>
+                  <Td>To be Announced Soon</Td>
 
                 </Tr>
                 <Tr>
                   <Td>Accommodation booking date</Td>
-                  <Td>Not Announced</Td>
+                  <Td>To be Announced Soon</Td>
 
                 </Tr>
 

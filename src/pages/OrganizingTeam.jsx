@@ -197,8 +197,8 @@ export const OrganizingTeam = () => {
         {/* SATYAJIT CHAKRABARTI, alex and Banani */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
           <KeynoteSpeaker_card_component image={satyajitChakrabarti} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="CHIEF PATRON" line2="Founder" line3="UEM JAIPUR" />
-          <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLORUEM JAIPUR" line3="" />
-          <KeynoteSpeaker_card_component image={banani} bold="Mrs. Banani Chakrabarti" line1="CHANCELLOR" line2="UEM Jaipur" />
+          <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLOR UEM JAIPUR" line3="" />
+          <KeynoteSpeaker_card_component image={banani} bold="Mrs. Banani Chakrabarti" line1="PATRON" line2="CHANCELLOR" line3="UEM Jaipur" />
 
         </div>
 
@@ -207,7 +207,7 @@ export const OrganizingTeam = () => {
 
         {/* BISWAJOY AND Pradeep Sharma */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
-          <KeynoteSpeaker_card_component image={Biswajoy_Chatterjee} bold="Prof.(Dr.) Biswajoy Chatterjee" line1="PATRON" line2="VICE-CHANCELLORUEM JAIPUR" line3="" />
+          <KeynoteSpeaker_card_component image={Biswajoy_Chatterjee} bold="Prof.(Dr.) Biswajoy Chatterjee"  line1="VICE-CHANCELLOR " line2="UEM JAIPUR" />
           <KeynoteSpeaker_card_component image={PradeepKumarSharma} bold="Prof.(Dr.) Pradeep Kr. Sharma" line1="REGISTRAR" line2="UEM JAIPUR" line3="" />
           
         </div>

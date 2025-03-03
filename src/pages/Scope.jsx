@@ -58,9 +58,7 @@ export const Scope = () => {
           <li>Computational Astrophysics</li>
           <li>Spectroscopy and Atmospheric Chemistry</li>
           <li>Catalysis</li>
-          <li>AI in Department of Mathematics</li>
-          <li>AI in Department of Physics</li>
-          <li>AI in Department of Chemistry</li>
+
           <li>Mathematical Biology and Bioinformatics</li>
           <li>Quantum Computing and Quantum Information Science</li>
           <li>Applied Game Theory in Engineering & Economics</li>
