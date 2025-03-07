@@ -130,13 +130,15 @@ function ContactUs() {
         2xl:text-5xl 
         xl:text-4xl 
         lg:text-3xl
-        lg:mb-2
-        xl:mb-4">Contact Us</h1>
+        lg:mb-1
+        xl:mb-2">Contact Us</h1>
 
 
         {/* PHONE NUMBER AND EMAIL */}
         <p>Phone No : +91 9783372873 /+91 9024424325</p>
-        <p className=" xl:mb-2">email : iccasa@uem.edu.in</p>
+        <p className=" xl:mb-1">email : iccasa@uem.edu.in</p>
+        <p className="xl:mb-1">praphull.chhabra@uem.edu.in</p>
+        <p className="xl:mb-2">tarun.sharma@uem.edu.in</p>
 
 
 
@@ -190,6 +192,7 @@ function ContactUs() {
         xl:text-2xl
         lg:text-xl">Gallery</h1>
         <p>Memories of previous events</p>
+        <a href="https://drive.google.com/drive/folders/1rJXMLbpYwX0cbGdLKb5N6qYwXwow9cDd" target="_blank">Click here to view photos</a>
 
       </div>
 

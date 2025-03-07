@@ -197,8 +197,8 @@ export const OrganizingTeam = () => {
         {/* SATYAJIT CHAKRABARTI, alex and Banani */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
           <KeynoteSpeaker_card_component image={satyajitChakrabarti} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="CHIEF PATRON" line2="Founder" line3="UEM JAIPUR" />
-          <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLOR UEM JAIPUR" line3="" />
           <KeynoteSpeaker_card_component image={banani} bold="Mrs. Banani Chakrabarti" line1="PATRON" line2="CHANCELLOR" line3="UEM Jaipur" />
+          <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLOR UEM JAIPUR" line3="" />
 
         </div>
 
@@ -221,13 +221,13 @@ export const OrganizingTeam = () => {
             <Tbody>
               <Tr>
                 <Td className="text-lg font-bold w-[351.26px]">Dr. Praphull Chhabra</Td>
-                <Td className="font-semibold">Professor (Department of Mathematics) UEM Jaipur</Td>
+                <Td className="font-semibold">Professor (Department of Mathematics) UEM Jaipur.</Td>
 
               </Tr>
 
               <Tr>
                 <Td className="text-lg font-bold">Dr. Tarun Sharma</Td>
-                <Td className=" font-semibold">Professor(Department of Mathematics) UEM Jaipur</Td>
+                <Td className=" font-semibold">Associate Professor(Department of Mathematics) UEM Jaipur</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -238,7 +238,7 @@ export const OrganizingTeam = () => {
             <Tbody>
               <Tr>
                 <Td className="text-lg font-bold  w-[351.26px]">Dr.Arnab Palui</Td>
-                <Td className="font-semibold">Associate Professor(Department of Physics) UEM Jaipur</Td>
+                <Td className="font-semibold">Associate Professor(Department of Physics) UEM Jaipur.</Td>
               </Tr>
             </Tbody>
           </Table>
