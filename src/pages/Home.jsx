@@ -25,6 +25,7 @@ import {
   Tbody,
   Tr,
   Td,
+  Th,
   TableContainer,
 } from '@chakra-ui/react'
 
@@ -151,8 +152,7 @@ export const Home = () => {
 
 
         {/* THE CAROUSOUL */}
-        <div className="
-        ">
+        <div className="">
           <Slider {...settings}>
 
 
@@ -301,33 +301,32 @@ export const Home = () => {
 
           <TableContainer className="w-[45rem]">
             <Table variant='striped' colorScheme="blue" size="md">
-              <Tbody>
-                <Tr>
-                  <Td>Call for paper/abstract submission</Td>
-                  <Td>To be Announced Soon</Td>
+            <Tbody>
+             
+              <Tr>
+                <Td>Abstract submission deadline</Td>
+                <Td>30<sup>th</sup>June 2025</Td>
 
-                </Tr>
-                <Tr>
-                  <Td>Call for paper/Abstract submission ending date </Td>
-                  <Td>To be Announced Soon</Td>
-                </Tr>
-                <Tr>
-                  <Td>Registration starting date</Td>
-                  <Td>To be Announced Soon</Td>
-                </Tr>
-                <Tr>
-                  <Td>Registration ending date</Td>
-                  <Td>To be Announced Soon</Td>
+              </Tr>
+              <Tr>
+                <Td>Acceptance mail for Submission last date</Td>
+                <Td>31<sup>st</sup> July 2025</Td>
+              </Tr>
+              <Tr>
+                <Td>Registration deadline</Td>
+                <Td>31<sup>st</sup> August 2025</Td>
+              </Tr>
+              <Tr>
+                <Td>Accommodation booking deadline</Td>
+                <Td>5<sup>th</sup> September 2025</Td>
 
-                </Tr>
-                <Tr>
-                  <Td>Accommodation booking date</Td>
-                  <Td>To be Announced Soon</Td>
+              </Tr>
+              <Tr>
+                <Td>Conference dates</Td>
+                <Td>20<sup>th</sup>21<sup>st</sup> September 2025</Td>
+              </Tr>
 
-                </Tr>
-
-
-              </Tbody>
+            </Tbody>
             </Table>
           </TableContainer>
         </div>

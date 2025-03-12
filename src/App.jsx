@@ -4,6 +4,8 @@ import { KeynoteSpeaker } from "./pages/KeynoteSpeaker.jsx";
 import { OrganizingTeam } from "./pages/OrganizingTeam.jsx";
 import { Scope } from "./pages/Scope.jsx"
 import { Registration } from "./pages/Registration.jsx"
+import {Publication} from "./pages/Publication.jsx"
+import { ImageSlider } from "./components/ImageSlider.jsx";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // IMAGES
@@ -14,12 +16,10 @@ import locationIcon from "./assets/PNG/location_on.png"
 import facebook from "./assets/PNG/facebook.png"
 import linkedin from "./assets/PNG/linkedin.png"
 import twitter from "./assets/PNG/twitter.png"
-import { AuthorGuideline } from "./pages/AuthorGuideline.jsx";
-
+import { CallForPapers } from "./pages/CallForPapers.jsx";
 
 
 function Banner() {
-
 
   return (
 
@@ -93,8 +93,9 @@ function Navbar() {
       <NavLink to="/scope" className="nav-link">Scope</NavLink>
       <NavLink to="/Keynote_Speaker" className="nav-link">Keynote Speaker</NavLink>
       <NavLink to="/Organinzing_Team" className="nav-link">Organizing Team</NavLink>
-      <NavLink to="/AuthorGuidelines" className="nav-link">Author Guidelines</NavLink>
+      <NavLink to="/CallForPapers" className="nav-link">Call for Paper</NavLink>
       <NavLink to="/Registration" className="nav-link">Registration</NavLink>
+      <NavLink to="/Publication" className="nav-link">Publication</NavLink>
       <a href="#ContactUs" className="nav-link">Contact Us</a>
     </div>
   );
@@ -109,6 +110,28 @@ function Navbar() {
 // CONTACT US
 function ContactUs() {
 
+  
+  const slides = [
+    {url:"/Gallery/DSC_2108.JPG"},
+    {url:"/Gallery/DSC_2115.JPG"},
+    {url:"/Gallery/DSC_2122.JPG"},
+    {url:"/Gallery/DSC_2124.JPG"},
+    {url:"/Gallery/DSC_2130.JPG"},
+    {url:"/Gallery/DSC_2139.JPG"},
+    {url:"/Gallery/DSC_2140.JPG"},
+    {url:"/Gallery/DSC_2206.JPG"},
+    {url:"/Gallery/DSC_2266.JPG"},
+    {url:"/Gallery/DSC_2272.JPG"},
+    {url:"/Gallery/DSC_2322.JPG"},
+    {url:"/Gallery/DSC_2330.JPG"},
+    {url:"/Gallery/DSC_2336.JPG"},
+  ];
+  const containerStyle={
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+  }
+
   return (
     <div id="ContactUs" className="contactUs_section 
     2xl:px-32 2xl:text-xl 
@@ -119,7 +142,7 @@ function ContactUs() {
 
 
       {/* THE FIRST BLOCK CONTAINING THE HEADING PHONE NUMBER EMAIL AND UNIVERSITY LOCATION */}
-      <div className=" flex flex-col h-[63%] 
+      <div className=" flex flex-col h-[73%] 
       2xl:mr-[18rem] 
       xl:mr-[4rem]
       ">
@@ -162,7 +185,7 @@ function ContactUs() {
 
 
       {/* PREVIOUS WEBSITE DETAILS */}
-      <div className=" h-[63%] flex flex-col ">
+      <div className=" h-[73%] flex flex-col ">
 
         <h1 className="font-bold 
         2xl:text-3xl 
@@ -186,13 +209,12 @@ function ContactUs() {
 
 
       {/* GALLERY DEAILS */}
-      <div className=" flex flex-col h-[63%] ">
+      <div className=" flex flex-col h-[73%] ">
         <h1 className=" font-bold 
         2xl:text-3xl
         xl:text-2xl
         lg:text-xl">Gallery</h1>
-        <p>Memories of previous events</p>
-        <a href="https://drive.google.com/drive/folders/1rJXMLbpYwX0cbGdLKb5N6qYwXwow9cDd" target="_blank">Click here to view photos</a>
+        
 
       </div>
 
@@ -200,7 +222,7 @@ function ContactUs() {
 
 
       {/* FACEBOOK LINKEDIN AND TWITTER */}
-      <div className="flex items-start h-[63%] ">
+      <div className="flex items-start h-[73%] ">
 
         <img onClick={() => window.open("https://www.facebook.com/share/hDUSwy3Nv24Q7QTN/?mibextid=qi2Omg" , "_blank")}  className="w-[2rem] h-[2rem] mr-2 cursor-pointer" src={facebook}></img>
 
@@ -233,9 +255,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/scope" element={<Scope />} />
         <Route path="/Registration" element={<Registration />} />
-        <Route path="/AuthorGuidelines" element={<AuthorGuideline />} />
+        <Route path="/CallForPapers" element={<CallForPapers />} />
         <Route path="/Organinzing_Team" element={<OrganizingTeam />} />
         <Route path="/Keynote_Speaker" element={<KeynoteSpeaker />} />
+        <Route path="Publication" element={<Publication />} />
       </Routes>
       <ContactUs />
     </BrowserRouter>

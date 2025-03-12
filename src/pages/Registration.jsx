@@ -19,7 +19,7 @@ export const Registration = () => {
 
 
       {/* IMPORTANT DATES */}
-      <div className=' xl:w-[60rem] xl:text-2xl xl:mb-16 xl:p-8
+      <div className=' xl:w-[70rem] xl:text-2xl xl:mb-16 xl:p-8
       lg:p-4 lg:py-6 lg:text-xl lg:mb-16'>
 
         <h1 className=' font-bold xl:text-4xl xl:ml-8 xl:mb-8 
@@ -30,28 +30,36 @@ export const Registration = () => {
           <Table variant='simple' colorScheme="blue" size="lg">
             <Tbody>
               <Tr>
+                <Th></Th>
+                <Th>Start Date</Th>
+                <Th>End Date</Th>
+              </Tr>
+              <Tr>
                 <Td>Call for paper/abstract submission</Td>
-                <Td>To be Announced soon....</Td>
+                <Td>1<sup>st</sup> June 2025</Td>
+                <Td>30<sup>th</sup>June 2025</Td>
 
               </Tr>
               <Tr>
-                <Td>Call for paper/Abstract submission ending date </Td>
-                <Td>To be Announced soon....</Td>
-
+                <Td>Acceptance mail for Submission</Td>
+                <Td>20<sup>th</sup> July 2025</Td>
+                <Td>31<sup>st</sup> July 2025</Td>
               </Tr>
               <Tr>
-                <Td>Registration starting date</Td>
-                <Td>To be Announced soon....</Td>
-              </Tr>
-              <Tr>
-                <Td>Registration ending date</Td>
-                <Td>To be Announced soon....</Td>
-
+                <Td>Registration</Td>
+                <Td>1<sup>st</sup> August 2025</Td>
+                <Td>31<sup>st</sup> August 2025</Td>
               </Tr>
               <Tr>
                 <Td>Accommodation booking date</Td>
-                <Td>To be Announced soon....</Td>
+                <Td>25<sup>th</sup> August 2025</Td>
+                <Td>5<sup>th</sup> September 2025</Td>
 
+              </Tr>
+              <Tr>
+                <Td>Conference</Td>
+                <Td>20<sup>th</sup> September 2025</Td>
+                <Td>21<sup>st</sup> September 2025</Td>
               </Tr>
 
             </Tbody>
@@ -76,12 +84,12 @@ export const Registration = () => {
         lg:text-2xl'><li>Registration fee only for Attendees</li></ul>
 
       <TableContainer>
-        <Table variant="striped" colorScheme="blue" size="lg"> {/* Increased table size */}
+        <Table variant="striped" colorScheme="blue" size="lg"> 
           <Thead className="Thead-table2">
             <Tr>
               <Th></Th>
-              <Th colSpan={2} textAlign="center" fontSize="xl">India</Th> {/* Increased font size */}
-              <Th colSpan={2} textAlign="center" fontSize="xl">Foreign</Th> {/* Increased font size */}
+              <Th colSpan={2} textAlign="center" fontSize="xl">India</Th> 
+              <Th colSpan={2} textAlign="center" fontSize="xl">Foreign</Th> 
             </Tr>
             <Tr>
               <Th></Th>
@@ -168,12 +176,13 @@ export const Registration = () => {
       </TableContainer>
         
       </div>
+      <div className='mt-10'>
+        <h1 className='w-[65rem] text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
+        <h1 className='w-[65rem] text-xl font-semibold mt-3'>Paper/Abstract submission Link: <a className='text-blue-500 underline font-bold' href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage">Click here to submit</a></h1>
+      </div>
 
     <div className='xl:w-[65rem] xl:text-2xl lg:text-xl'>
-      <h1 className='text-4xl mt-10 font-bold'>Publication</h1>
-      <p className='text-xl font-semi-bold'>Selected research papers (after rigorous peer review) will be published in SCI/SCIE/ESCI/Scopus Indexed Journal as per their APC (Article Processing Charges). The list of these journals will be provided soon (communication with journals is in process).
-          The few selected papers (after rigorous peer review) will have publication opportunities in AAM (Applications and Applied Mathematics, ISSN: 1932-9466, ESCI Indexed Journal) at no cost.  
-      </p>
+      
       <h2 className='text-4xl mt-10 mb-4 font-bold'>Note:</h2>
     <ul className=' list-disc  text-lg'>
       <li className='text-xl font-semi-bold mb-2'>The above-mentioned registration fee includes conference kit (Only for offline Candidates), breakfast, lunch and certificate of participation (Attendees and presenters).</li>
