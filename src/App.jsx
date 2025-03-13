@@ -5,7 +5,8 @@ import { OrganizingTeam } from "./pages/OrganizingTeam.jsx";
 import { Scope } from "./pages/Scope.jsx"
 import { Registration } from "./pages/Registration.jsx"
 import {Publication} from "./pages/Publication.jsx"
-import { ImageSlider } from "./components/ImageSlider.jsx";
+import {ImagePage2023} from "./pages/2023ImagesPage.jsx"
+import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // IMAGES
@@ -17,6 +18,7 @@ import facebook from "./assets/PNG/facebook.png"
 import linkedin from "./assets/PNG/linkedin.png"
 import twitter from "./assets/PNG/twitter.png"
 import { CallForPapers } from "./pages/CallForPapers.jsx";
+
 
 
 function Banner() {
@@ -111,26 +113,7 @@ function Navbar() {
 function ContactUs() {
 
   
-  const slides = [
-    {url:"/Gallery/DSC_2108.JPG"},
-    {url:"/Gallery/DSC_2115.JPG"},
-    {url:"/Gallery/DSC_2122.JPG"},
-    {url:"/Gallery/DSC_2124.JPG"},
-    {url:"/Gallery/DSC_2130.JPG"},
-    {url:"/Gallery/DSC_2139.JPG"},
-    {url:"/Gallery/DSC_2140.JPG"},
-    {url:"/Gallery/DSC_2206.JPG"},
-    {url:"/Gallery/DSC_2266.JPG"},
-    {url:"/Gallery/DSC_2272.JPG"},
-    {url:"/Gallery/DSC_2322.JPG"},
-    {url:"/Gallery/DSC_2330.JPG"},
-    {url:"/Gallery/DSC_2336.JPG"},
-  ];
-  const containerStyle={
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
-  }
+  
 
   return (
     <div id="ContactUs" className="contactUs_section 
@@ -214,6 +197,8 @@ function ContactUs() {
         2xl:text-3xl
         xl:text-2xl
         lg:text-xl">Gallery</h1>
+        <NavLink to="/2023Images" className="cursor-pointer">Event 2023 Images</NavLink>
+        <NavLink to="/2022Images" className="cursor-pointer">Event 2022 Images</NavLink>
         
 
       </div>
@@ -259,6 +244,8 @@ function App() {
         <Route path="/Organinzing_Team" element={<OrganizingTeam />} />
         <Route path="/Keynote_Speaker" element={<KeynoteSpeaker />} />
         <Route path="Publication" element={<Publication />} />
+        <Route path="/2023Images" element={<ImagePage2023 />} />
+        <Route path="/2022Images" element={<ImagePage2022 />} />
       </Routes>
       <ContactUs />
     </BrowserRouter>
