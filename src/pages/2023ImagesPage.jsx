@@ -13,12 +13,15 @@ import image12 from "../assets/JPG/2023Images/DSC_2336.jpg"
 
 export const ImagePage2023=()=>{
     return(
+      <>
+        <h1 className="text-center text-5xl mt-10">2023 Event Images</h1>
         <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
-      {[image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12].map(
-        (img, index) => (
-          <img key={index} className="border-6 border-black max-h-[400px]" src={img} alt={`Gallery Image ${index + 1}`} />
-        )
-      )}
-    </div>
+          {[image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12].map(
+            (img, index) => (
+              <img key={index} className="border-6 border-black max-h-[400px]" src={img} alt={`Gallery Image ${index + 1}`} />
+            )
+          )}
+        </div>
+     </>
     )
 }

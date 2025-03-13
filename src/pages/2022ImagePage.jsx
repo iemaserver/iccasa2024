@@ -31,12 +31,15 @@ import image30 from "../assets/JPG/2022Images/DSC_5564.jpg"
 
 export const ImagePage2022=()=>{
     return(
-        <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
-      {[image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12,image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image22, image23, image24, image25, image26, image27, image28, image29, image30].map(
-        (img, index) => (
-          <img key={index} className="border-6 border-black max-h-[400px]" src={img} alt={`Gallery Image ${index + 1}`} />
-        )
-      )}
-    </div>
+        <>
+             <h1 className="text-center text-5xl mt-10">2022 Event Images</h1>
+            <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
+                {[image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12,image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image22, image23, image24, image25, image26, image27, image28, image29, image30].map(
+                    (img, index) => (
+                    <img key={index} className="border-6 border-black max-h-[400px]" src={img} alt={`Gallery Image ${index + 1}`} />
+                    )
+                )}  
+            </div>
+        </>
     )
 }
