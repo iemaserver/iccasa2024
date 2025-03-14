@@ -15,17 +15,17 @@ export const ImagePage2022=()=>{
         <>
              <h1 className="text-center text-5xl mt-10">2022 Event Images</h1>
             <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
-                <img src={image1} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image2} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image3} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image4} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image5} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image6} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image7} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image8} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image9} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image10} className="border-6 border-black max-h-[300px]" alt="" />
-                <img src={image11} className="border-6 border-black max-h-[300px]" alt="" />
+                <img src={image1} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image2} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image3} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image4} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image5} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image6} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image7} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image8} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image9} className="max-h-[300px]" alt="IMAGE" />
+                <img src={image10} className=" max-h-[300px]" alt="image" />
+                <img src={image11} className=" max-h-[300px]" alt="Image" />
             </div>
         </>
     )

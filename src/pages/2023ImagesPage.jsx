@@ -16,18 +16,18 @@ export const ImagePage2023=()=>{
       <>
         <h1 className="text-center text-5xl mt-10">2023 Event Images</h1>
         <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
-          <img src={image1} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image2} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image3} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image4} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image5} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image6} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image7} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image8} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image9} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image10} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image11} className="border-6 border-black max-h-[300px]" alt="" />
-          <img src={image12} className="border-6 border-black max-h-[300px]" alt="" />
+          <img src={image1} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image2} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image3} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image4} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image5} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image6} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image7} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image8} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image9} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image10} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image11} className="border-6 border-black max-h-[300px]" alt="image" />
+          <img src={image12} className="border-6 border-black max-h-[300px]" alt="image" />
         </div>
      </>
     )
