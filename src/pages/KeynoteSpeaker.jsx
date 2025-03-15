@@ -1,18 +1,18 @@
 import { KeynoteSpeaker_card_component } from "../components/KeynoteSpeaker_card_component"
 
 // IMAGE IMPORTS
-import DrAbhijitKumarDas from "../assets/JPG/keynoteSpeaker/Dr. Abhijit Kumar Das.jpg"
-import DrRituAgarwal from "../assets/JPG/keynoteSpeaker/RituAgarwal.jpg"
-import DrDevendraKumar from "../assets/JPG/keynoteSpeaker/Dr. Devendra Kumar.jpeg"
-import DrDharmendraTripathi from "../assets/JPG/keynoteSpeaker/Dr. Dharmendra Tripathi.jpg"
-import DrJagdevSingh from "../assets/JPG/keynoteSpeaker/Dr. Jagdev Singh.jpeg"
+import DrAbhijitKumarDas from "../assets/JPG/keynoteSpeaker/abhijitKumar.jpg"
+// import DrRituAgarwal from "../assets/JPG/keynoteSpeaker/RituAgarwal.jpg"
+// import DrDevendraKumar from "../assets/JPG/keynoteSpeaker/Dr. Devendra Kumar.jpeg"
+import DrDharmendraTripathi from "../assets/JPG/keynoteSpeaker/DharmendraTripathi.jpg"
+// import DrJagdevSingh from "../assets/JPG/keynoteSpeaker/Dr. Jagdev Singh.jpeg"
 import DrNareshKumar from "../assets/JPG/keynoteSpeaker/Dr. Naresh Kumar.jpeg"
 import DrPradeepKumar from "../assets/JPG/keynoteSpeaker/Dr. Pradeep Kumar.jpg"
-import DrVaibhav from "../assets/JPG/keynoteSpeaker/Dr. Vaibhav 1.png"
-import DrYudhveerSing from "../assets/JPG/keynoteSpeaker/Dr. Yudhveer Singh.jpeg"
+// import DrVaibhav from "../assets/JPG/keynoteSpeaker/Dr. Vaibhav 1.png"
+// import DrYudhveerSing from "../assets/JPG/keynoteSpeaker/Dr. Yudhveer Singh.jpeg"
 import ProfAnilKumar from "../assets/JPG/keynoteSpeaker/Prof. Anil Kumar.jpg"
 import DrHaciMehmet from "../assets/JPG/keynoteSpeaker/Prof. (Dr.) Haci Mehmet Baskonus.jpeg"
-import DrAnuragShukla from "../assets/JPG/keynoteSpeaker/Dr.AnuragShukla.jpeg"
+// import DrAnuragShukla from "../assets/JPG/keynoteSpeaker/Dr.AnuragShukla.jpeg"
 import ProfODMakinde from "../assets/JPG/keynoteSpeaker/Prof. O. D. Makinde.gif"
 import sachin from "../assets/JPG/keynoteSpeaker/Sachin.jpg"
 import sunil from "../assets/JPG/keynoteSpeaker/SunilPandey.jpg"
@@ -51,9 +51,11 @@ export const KeynoteSpeaker = () => {
 
         {/*Dr Sachin Kumar */}
         <KeynoteSpeaker_card_component image={sachin} bold = "Dr. Sachin Kumar" line1="Associate Professor" lin2="Department of Mathematics and Statistics" line3="School of basic Sciences, Central University of Punjab, Bathinda,Punjab,India" />
+        
         {/*DR Sunil Pandey */}
         <KeynoteSpeaker_card_component image={sunil} bold="Dr. Sunil Pandey" line1="Associate Professor" line2="Head of Department of Mathematics" line3="IIT Patna" />
 
+        {/* Anoop Kumar Mukhopadhyay */}
         <KeynoteSpeaker_card_component image={AKM} bold="Prof. Dr. Anoop Kumar Mukhopadhyay" line1="Scientist(former)" line2="CSIR- Central Glass and Ceramic Research Institute of Kolkata,India" />
       </div>
     </div>

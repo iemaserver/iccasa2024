@@ -1,4 +1,4 @@
-import scopeImage from "../assets/PNG/2023_Event_Images/scopeimag.jpeg";
+import scopeImage from "../assets/PNG/2023_Event_Images/scopeImag.jpeg";
 
 export const Scope = () => {
   return (
