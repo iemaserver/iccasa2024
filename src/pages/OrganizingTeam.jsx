@@ -11,8 +11,8 @@ import {
 // IMPORTING IMAGES BELOW
 import satyajitChakrabarti from "../assets/PNG/organizing team 2024/satyajitChakrabarti.png"
 import Biswajoy_Chatterjee from "../assets/PNG/organizing team 2024/biswajoy.jpeg"
-import alex from "../assets/PNG/organizing team 2024/alex.webp"
-import PradeepKumarSharma from "../assets/PNG/organizing team 2024/pradeepKrSharma.webp"
+import alex from "../assets/PNG/organizing team 2024/alex.jpg"
+import PradeepKumarSharma from "../assets/PNG/organizing team 2024/pradeepKrSharma.jpg"
 import banani from "../assets/PNG/organizing team 2024/banani.jpg"
 // import MukeshYadav from "../assets/PNG/organizing team 2024/mukeshYadav.jpeg"
 

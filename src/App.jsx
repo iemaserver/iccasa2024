@@ -4,8 +4,8 @@ import { KeynoteSpeaker } from "./pages/KeynoteSpeaker.jsx";
 import { OrganizingTeam } from "./pages/OrganizingTeam.jsx";
 import { Scope } from "./pages/Scope.jsx"
 import { Registration } from "./pages/Registration.jsx"
-import {Publication} from "./pages/Publication.jsx"
-import {ImagePage2023} from "./pages/2023ImagesPage.jsx"
+import { Publication } from "./pages/Publication.jsx"
+import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
 import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
