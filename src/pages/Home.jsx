@@ -232,7 +232,7 @@ export const Home = () => {
 
         {/* THE ABOUT US SECTION  */}
         <div className=" flex flex-col 
-        2xl:w-[50%]
+        w-[85vw]
         2xl:mr-[2rem]
         xl:mr-[2rem]
         lg:mr-[3rem]
@@ -247,11 +247,11 @@ export const Home = () => {
             lg:text-2xl
             
             
+            
             ">About Us</h1>
 
           {/* PARAGRAPH */}
-          <p className=" 2xl:text-2xl
-          xl:text-xl lg:text-base">The vision behind organizing this conference is to provide an excellent forum for researchers, scientist and industrialist from interdisciplinary areas to showcase their current contribution in the recent area of Physical Sciences. The objectives of International Conference on Computational Applied Sciences and it’s Applications (ICCASA-2025) are to abreast the young minds from Institutes, Universities, Colleges and Industries across the country, with the latest advancements in the field of this area, and providing them an opportunity to share their recent researches and views in various fields of Physical Sciences and their applications for the ultimate benefit of the Society and Industry. The broad aim of the conference is to groom the young scientists’ minds to face the challenges of future for effective and efficient professional responsibilities. The conference will cover a wide range of topics in the form of plenary speakers, keynote speakers, invited talks & contributory papers presentations.<br></br><br /> </p>
+          <p className=" 2xl:text-2xl xl:text-xl lg:text-base">The vision behind organizing this conference is to provide an excellent forum for researchers, scientist and industrialist from interdisciplinary areas to showcase their current contribution in the recent area of Physical Sciences. The objectives of International Conference on Computational Applied Sciences and it’s Applications (ICCASA-2025) are to abreast the young minds from Institutes, Universities, Colleges and Industries across the country, with the latest advancements in the field of this area, and providing them an opportunity to share their recent researches and views in various fields of Physical Sciences and their applications for the ultimate benefit of the Society and Industry. The broad aim of the conference is to groom the young scientists’ minds to face the challenges of future for effective and efficient professional responsibilities. The conference will cover a wide range of topics in the form of plenary speakers, keynote speakers, invited talks & contributory papers presentations.<br></br><br /> </p>
 
 
 
@@ -269,7 +269,7 @@ export const Home = () => {
             
             
             ">About UEM</h1>
-            <h1>hello</h1>
+            
 
           <p className=" 2xl:text-2xl
           xl:text-xl lg:text-base">UEM Jaipur was established in the year 2011 by Ordinance 11 of 2011 and Act No 5 of 2012 of Govt of Rajasthan. UEM Jaipur has achieved the awards of “Best Private University in North India” and “Best Emerging University in North India”. The university is dedicated to providing an international learning environment that fosters innovation, creativity, and technical expertise. With a strong emphasis on industry-oriented courses and modern teaching techniques, UEM Jaipur ensures that students are well-prepared to meet the demands of the evolving job market. The curriculum is designed to bridge the gap between academics and industry requirements, equipping students with practical knowledge, hands-on training, and professional skills that give them a competitive edge during placements.
