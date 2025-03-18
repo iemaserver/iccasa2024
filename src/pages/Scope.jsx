@@ -75,7 +75,7 @@ export const Scope = () => {
 
       {/* THE IMAGE */}
       <div className=" flex justify-center items-center">
-        <img src="https://media-hosting.imagekit.io//6458fa9a804b46fe/2023-image8.jpg?Expires=1836895624&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cTRjDnDKLZRM1qHQW6Fug3yTeg82s3Q5RGQkmMwokqYbVwCfewSGpe~FcFKfSJ~EkEdztmsE2KgM9xoI2FR3fcbAf4LPtMyA1eJRSFbngftYqDI4PxH6mDJPfX49cUEylgPvSiQ-29DHGxfEd-7t3SX1G2aZgrTtGKJY0yyMkyXFDbjL3gzIgpo-h9Hadpuma4IvMHa3I~2zSlKttaoad6F5zbi2hDPy51KKS3Uua5dPbZcuTa53~DfqFJ6q1Je1es8ZRbCW9yR7K5FdEuSb~2fPZjyuZXI~20ovpgLHOyGMMG7LOOJh26QSR1Qx2--CZgVyoW2VwpzHjSHytDqWfA__" alt="" />
+        <img src="https://media-hosting.imagekit.io//d00c115f7da04f30/scopeImage.png?Expires=1836895776&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Q6RO-sUCusrpQoQxjTSTD8-Py9BLiNfvQ8pcl7U~aJoqb73iydnFLR0wzaqT7SaDGrkLn7UIl47atgvMp~PCgITsYGPU23d6Ad7k5xyExmqwAWhSFoNrP7ZqHFw7wbqJOEBskd48uMiQLcGo8JoQ7GKp~B67HZf9IMM9-azveNxZkHdN7Mroy3gWvgIZovktUmKs9rtfuKUkglVJlYXtKuFnwaxZtAu2bVboKtj8hRi3f258oQkIuDFDFI8TA9PiXNDxDMa-cEk5BLj5SwbMWRLCJnXst7qSnwngUVTUdj~BO7ux4XwWzx2ShiU1DQy7-Z5LocyG5nrl2TsB6h2Hhw__" alt="" />
       </div>
     </div>
   );

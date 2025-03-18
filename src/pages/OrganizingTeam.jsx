@@ -9,11 +9,11 @@ import {
 
 
 // IMPORTING IMAGES BELOW
-import satyajitChakrabarti from "../assets/PNG/organizing team 2024/satyajitChakrabarti.png"
-import Biswajoy_Chatterjee from "../assets/PNG/organizing team 2024/biswajoy.jpeg"
-import alex from "../assets/PNG/organizing team 2024/alex.jpg"
-import PradeepKumarSharma from "../assets/PNG/organizing team 2024/pradeepKrSharma.jpg"
-import banani from "../assets/PNG/organizing team 2024/banani.jpg"
+// import satyajitChakrabarti from "../assets/PNG/organizing team 2024/satyajitChakrabarti.png"
+// import Biswajoy_Chatterjee from "../assets/PNG/organizing team 2024/biswajoy.jpeg"
+// import alex from "../assets/PNG/organizing team 2024/alex.jpg"
+// import PradeepKumarSharma from "../assets/PNG/organizing team 2024/pradeepKrSharma.jpg"
+// import banani from "../assets/PNG/organizing team 2024/banani.jpg"
 // import MukeshYadav from "../assets/PNG/organizing team 2024/mukeshYadav.jpeg"
 
 import { KeynoteSpeaker_card_component } from '../components/KeynoteSpeaker_card_component'
@@ -196,9 +196,9 @@ export const OrganizingTeam = () => {
 
         {/* SATYAJIT CHAKRABARTI, alex and Banani */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
-          <KeynoteSpeaker_card_component image={satyajitChakrabarti} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="CHIEF PATRON" line2="Founder" line3="UEM JAIPUR" />
-          <KeynoteSpeaker_card_component image={banani} bold="Mrs. Banani Chakrabarti" line1="PATRON" line2="CHANCELLOR" line3="UEM Jaipur" />
-          <KeynoteSpeaker_card_component image={alex} bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLOR UEM JAIPUR" line3="" />
+          <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//2196cb0cc3c44701/satyajitChakrabarti.png?Expires=1836901423&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lwwJmuaQOoZPwFG4r-QMZ~h-uXVu8SwsO4mzstrRSW39HjAQjxKBtGdyb6y7gUiwDAc01T5eX6s1QJ7AE5E3abx9doxK-BVMA4~NVCZiq0~4kOjtjD5LgP6rMsbFnbgwKByuFk5Ba-Vg1G15mPfM8-RXz8em9ycvYPZlOU4CpmkBBkzysrfK6MMBRJ6rVGmRiwCRo39MUAGpirFUR5RrVmGQGrb3YcnzXRTJ0HmcZ-xKWxY0ZW~NBLTR66uOJiY9QPN8NJW5jdZdSv9DmXxBWOGHT6gNfOCha5zKzviXxwJLYCUSVx1H4rloItUIReaAQfZTvpcUK-ou~7Jkzbff2g__" bold="Prof.(Dr.) Satyajit Chakrabarti" line1="CHIEF PATRON" line2="Founder" line3="UEM JAIPUR" />
+          <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//c98260b3cde744f7/banani.jpg?Expires=1836901417&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=joTaLQpj2YSalaB8Y~ajGQOhODnnjf-46eRxxTsBzbGaqluSfxmH5STUrEe9DAl0SQw7bTFcA-NA4bry7v8CR5eN7liL9Ehu9VFjXGufVqseoBaHF58hzmVf-CceCKcfHXNt6C3v6ZtkWeRWqsOHIVGNVLqgFxSHkwmj7n~GqawZcI3lEAb6DCfI0A9~h4KmkVPpRYBdQSzBTLEc~UNSFkbZBMffallHbaIaT1eLd7SowoU6zBxDgzaf2yh--4iOS9NJy8lgDebOB0t59PxIAx3C5zqOg12jxr5oVPFw5208wXjxBo1BiYoXU2wdPNbavV7EMlC1B2kp08fdLfWQVw__" bold="Mrs. Banani Chakrabarti" line1="PATRON" line2="CHANCELLOR" line3="UEM Jaipur" />
+          <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//cc2253d41766420d/alex.jpg?Expires=1836901343&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=gjbnYM6mieIiRcanmNuQ~DHekM1nDSyw4deqRGh0Qc0ghrreQVIpbGFfeG7RvuME3mAA0nkO1~N1TdPEkApkciQ9x2Z2AmWZGUIcWRwtkWMZaA1bR65b15tSvw~e3mqUpLEmp5LLevM-VOTfy8WZAQ8u5bgQnQx4FdbY2sEndIrjf48WJ3nFH8FktOW63QOLeu7BlVSUTTZyipf7F1pp-xhsWLIPF0loBLGrjT8cEg2s0ZhrXNZUirdarpCbfwi2kYLHR~Uqr1THNQW6XOJbu884qxto4M~iJhiQQOcQqPW8Kdq6JoZ0UH0cHo8b9Yyzbz0wA7nteD3DBJQ4k3tIPQ__" bold="Prof.(Dr.) Satyajit Chakrabarti" line1="PATRON" line2="PRO VICE CHANCELLOR UEM JAIPUR" line3="" />
 
         </div>
 
@@ -207,8 +207,8 @@ export const OrganizingTeam = () => {
 
         {/* BISWAJOY AND Pradeep Sharma */}
         <div className=' mb-10 flex justify-evenly w-[95rem]'>
-          <KeynoteSpeaker_card_component image={Biswajoy_Chatterjee} bold="Prof.(Dr.) Biswajoy Chatterjee"  line1="VICE-CHANCELLOR " line2="UEM JAIPUR" />
-          <KeynoteSpeaker_card_component image={PradeepKumarSharma} bold="Prof.(Dr.) Pradeep Kr. Sharma" line1="REGISTRAR" line2="UEM JAIPUR" line3="" />
+          <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//3c84767216d3430e/biswajoy.jpeg?Expires=1836901435&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=F4ppoMxSReBiDChLIXK0W6Qcx7e6l6MSquEhFxQBoSXc83I9kYZKiTZal4EaS2MODFBZXuKp3YqMJZPjDe1khLnJ9fM9K-SlFPcyzKaBYAu2s8Aus19YQOl3x7TGxPh0~OcJcOudmZidG2pJqCKamc6bgxkC2GQbN5g7BfNIG9WiyYa70UIctPOtlMKvnpGAzCxWpTeYyy~mc8wAewMeFj8GHBXrfEe~j4i7xn07uCO6i-EcthPgRy-w2~SzQMKwlId6cOYdhkrd4GIVpP4JoX-5FxqWTZGVoXs3tUy8qTexwm6bv~iE79-yRvD2bjNu65MMPHwdW~x5cAKb8-jQpQ__" bold="Prof.(Dr.) Biswajoy Chatterjee"  line1="VICE-CHANCELLOR " line2="UEM JAIPUR" />
+          <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//d61332e27f8245e5/pradeepKrSharma.jpg?Expires=1836901429&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fY3GHkXa8erern-OLl3TzSJw4n3QCQvJr7I7jztSfop6cepAjZUInCkdvGWV7JZMyUEMvBrr9mI3470lMJZ2Gm5VpcR~4ays8MFrKU3436Nhj55jzXWqphOQa~TlK0Jpr0t~A3Z-6M6ub95z6Ue5fjrzV7Y72y6e5q2HesIjnpM7qQDiS7FMnr0kS68sdoUMKoEH7Zc22ykB-GA1f4i3Y4DTpjvKh-WTeB80bcn-Ub4twAXvKgGdniCsgb33V-vnKlh3nxI1xYbXXBNc2MS8Xh0cz13XLuEa03pWjuKy~9g0z3O6akWhSElpdrLBtKuIcpMiQJITZd6dFU3xIOsrew__" bold="Prof.(Dr.) Pradeep Kr. Sharma" line1="REGISTRAR" line2="UEM JAIPUR" line3="" />
           
         </div>
       </div>
