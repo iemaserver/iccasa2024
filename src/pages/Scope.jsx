@@ -10,7 +10,7 @@ export const Scope = () => {
     >
       {/* WRAPPER FOR THE HEADING AND THE BULLET POINTS */}
       <div
-        className="flex flex-col 
+        className="flex flex-col
       2xl:w-[50%]
       lg:w-[70%]
       lg:ml-[2rem]
