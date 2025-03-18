@@ -197,8 +197,10 @@ function ContactUs() {
         2xl:text-3xl
         xl:text-2xl
         lg:text-xl">Gallery</h1>
-        <NavLink to="/2023Images" className="cursor-pointer">Event 2023 Images</NavLink>
-        <NavLink to="/2022Images" className="cursor-pointer">Event 2022 Images</NavLink>
+        {/* <NavLink to="/2023Images" className="cursor-pointer">Event 2023 Images</NavLink>
+        <NavLink to="/2022Images" className="cursor-pointer">Event 2022 Images</NavLink> */}
+        <a href="https://drive.google.com/drive/folders/1FS0jsWjTVtoJsokgLvFKwpIt6k88W_E3?usp=sharing" target="blank">2022 Images</a>
+        <a href="https://drive.google.com/drive/folders/1LoWIgeprifvN2dmhdxYbd2nn1_7ksjqE?usp=sharing" target="blank">2023 Images</a>
         
 
       </div>
