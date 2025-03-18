@@ -5,8 +5,8 @@ import { OrganizingTeam } from "./pages/OrganizingTeam.jsx";
 import { Scope } from "./pages/Scope.jsx"
 import { Registration } from "./pages/Registration.jsx"
 import { Publication } from "./pages/Publication.jsx"
-// import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
-// import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
+import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
+import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // IMAGES
@@ -197,10 +197,10 @@ function ContactUs() {
         2xl:text-3xl
         xl:text-2xl
         lg:text-xl">Gallery</h1>
-        {/* <NavLink to="/2023Images" className="cursor-pointer">Event 2023 Images</NavLink>
-        <NavLink to="/2022Images" className="cursor-pointer">Event 2022 Images</NavLink> */}
-        <a href="https://drive.google.com/drive/folders/1FS0jsWjTVtoJsokgLvFKwpIt6k88W_E3?usp=sharing" target="blank">2022 Images</a>
-        <a href="https://drive.google.com/drive/folders/1LoWIgeprifvN2dmhdxYbd2nn1_7ksjqE?usp=sharing" target="blank">2023 Images</a>
+        <NavLink to="/2023Images" className="cursor-pointer">Event 2023 Images</NavLink>
+        <NavLink to="/2022Images" className="cursor-pointer">Event 2022 Images</NavLink>
+        {/* <a href="https://drive.google.com/drive/folders/1FS0jsWjTVtoJsokgLvFKwpIt6k88W_E3?usp=sharing" target="blank">Event 2022 Images</a>
+        <a href="https://drive.google.com/drive/folders/1LoWIgeprifvN2dmhdxYbd2nn1_7ksjqE?usp=sharing" target="blank">Event 2023 Images</a> */}
         
 
       </div>
@@ -246,8 +246,8 @@ function App() {
         <Route path="/Organinzing_Team" element={<OrganizingTeam />} />
         <Route path="/Keynote_Speaker" element={<KeynoteSpeaker />} />
         <Route path="Publication" element={<Publication />} />
-        {/* <Route path="/2023Images" element={<ImagePage2023 />} />
-        <Route path="/2022Images" element={<ImagePage2022 />} /> */}
+        <Route path="/2023Images" element={<ImagePage2023 />} />
+        <Route path="/2022Images" element={<ImagePage2022 />} />
       </Routes>
       <ContactUs />
     </BrowserRouter>

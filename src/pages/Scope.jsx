@@ -1,4 +1,4 @@
-import scopeImage from "../assets/PNG/2023_Event_Images/scopeImag.jpeg";
+
 
 export const Scope = () => {
   return (
@@ -75,7 +75,7 @@ export const Scope = () => {
 
       {/* THE IMAGE */}
       <div className=" flex justify-center items-center">
-        <img src={scopeImage} alt="" />
+        <img src="https://media-hosting.imagekit.io//6458fa9a804b46fe/2023-image8.jpg?Expires=1836895624&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cTRjDnDKLZRM1qHQW6Fug3yTeg82s3Q5RGQkmMwokqYbVwCfewSGpe~FcFKfSJ~EkEdztmsE2KgM9xoI2FR3fcbAf4LPtMyA1eJRSFbngftYqDI4PxH6mDJPfX49cUEylgPvSiQ-29DHGxfEd-7t3SX1G2aZgrTtGKJY0yyMkyXFDbjL3gzIgpo-h9Hadpuma4IvMHa3I~2zSlKttaoad6F5zbi2hDPy51KKS3Uua5dPbZcuTa53~DfqFJ6q1Je1es8ZRbCW9yR7K5FdEuSb~2fPZjyuZXI~20ovpgLHOyGMMG7LOOJh26QSR1Qx2--CZgVyoW2VwpzHjSHytDqWfA__" alt="" />
       </div>
     </div>
   );

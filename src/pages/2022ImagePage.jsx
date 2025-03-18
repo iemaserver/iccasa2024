@@ -1,0 +1,32 @@
+// import image1 from "../assets/JPG/2022Images/DSC_5515.jpg"
+// import image2 from "../assets/JPG/2022Images/DSC_5518.jpg"
+// import image3 from "../assets/JPG/2022Images/DSC_5523.jpg"
+// import image4 from "../assets/JPG/2022Images/DSC_5529.jpg"
+// import image5 from "../assets/JPG/2022Images/DSC_7216.jpg"
+// import image6 from "../assets/JPG/2022Images/DSC_7222.jpg"
+// import image7 from "../assets/JPG/2022Images/DSC_7226.jpg"
+// import image8 from "../assets/JPG/2022Images/DSC_7229.jpg"
+// import image9 from "../assets/JPG/2022Images/DSC_7232.jpg"
+// import image10 from "../assets/JPG/2022Images/DSC_7234.jpg"
+// import image11 from "../assets/JPG/2022Images/DSC_5564.jpg"
+
+export const ImagePage2022=()=>{
+    return(
+        <>
+             <h1 className="text-center text-5xl mt-10">2022 Event Images</h1>
+            <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
+                <img src="https://media-hosting.imagekit.io//ac08d4dcebb74b43/DSC_5515.jpg?Expires=1836897696&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aML7Iw4uTbRAKglk882zgfQ6EvZEmXjlwL~gN~WX7ozos4PR8Gqu6ytKW7ACLktI3gFC4YzQy6asKt2hodqWF6nmHNz4i09wnre7emvdL3QoKkqtrVuuJsjr7EV864OIfCW3Lj1mVXGxsVRa5qmjX9QyW2d6nE-F5xMxnRxLTS5Qu26hfIdSDeG8zH-Eb4d7NXD1h1erk4PDIOm-xSZLHTEgXhbrs-oPxiWdhJ1bs3jJ9ZIFQ-38hDlIr8i2UXVLAGtrPqY-GlTQbb7Fi-g~3jn-Oe9AgH6DCdS9UqjnGWmqcW3XY1gBH5C5MEyqYI8ErdR8Je-4GligEvyKeGpw4A__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//0e0432f4fab04eba/DSC_5518.jpg?Expires=1836897702&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pTS5g65MAfp8g8sp-gB70GDD8NnZ9~bQ0lL-Sv0QXgxZ70n2chbToIKGC6gnItNO0Vy5nMpRrwkTedf~Mf9Lv4Nz~OtJ9TnzR3qvaphiqP8qkuS5DsfpU6GIKJcyRJGrZkTElP5-Qqsr-2mgifC1a4aJQr3flnjMSlbE6WM5XYzw41pldY2pZIhJ0TBFxRsX9U-wBQsa3WSK-mG4D87Ge9~qTRN-EEgiw0Hw~4WeoshfY5pdEZiOYv30afkEBVT-lK7QuY0~L6aVUXn0CW48Hzh9UqlA18UFHPRLXZrT9bLxPYexrdRBi4Z4MSXwKxpw17OFpSIoLLTxC-XR~s5ggQ__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//1a0db112543041ed/DSC_5523.jpg?Expires=1836897706&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=c1D-WTCAjolcFUIiW1Qb2JVm8iE8bUSEo8cNjrr4NOI1E3P2REapyFN1ecm8Y3cZnDYN2sldwPCfo1oKzdfOb9Y~YADq9Pide6ijPRZxsP5rUD5NpoU3LsLGs8TH-0Rhw85NJiTgGYiDG4yI4CggmotZ4GAwhgSAuYyQhRWrbqZXI0FbGv4vB4ggfCQSnUc~X6S1NBNQYtflcPNDJOlpy-8yQzuZ9-E6pK8-gNAIH37Qg9IH2xzBjZb1cYSAstLmhJMi5fc7AJNEEkrCs5kNoINlot4Iw4wPECVyiey3jrVQy91Dt-i65NEJUIRYK4W1BKUSKii-C3sLo8CLDKRP9A__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//13d463f7d7a3419c/DSC_5529.jpg?Expires=1836897711&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=CnQ~uzxq1ZqDAv1tgxyikpFGbASm9kQZoLd9w0vJhWJsxLB5hKzofbSPhEe~JYxdP~7aOUhiAsNZuorJuUX3viqjvgY8vmINwtDwjkpwN-0yAmVA-bu7PamMeXn6o~43DNqDT1wqyF0sRevcMz3W10QUfPhT4L3j2~6HifLK~xwcHGRrgJAUdolh15SYAsup9XXy~IoZBh-unARSdQaCwu74YYuPTYSZaAmrYvB54xUb0I6b5IxZiK-RRR~we5tHBxQR5gXA3d0VBYmIAsYb6w20CYeFo5a4qv9hIXw16qqNd-B8G2HsuBBk7CEwrZQ2FV46o8n9Ms3t4GLHKwLfQg__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//8ac52aac63054a60/DSC_5564.jpg?Expires=1836897716&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VKXQqxZjXB8gQSG2S4bJWezOWbU6XFShRgDhDbBsX2MUYFjRl64pQWuKAZGxwc-nVjjzKIQPcm2XMbgI2tlKRMiuyYvTpxK9P0~fFBc8BHMVHyhwnNH~6Z4Q1obdez0uqq4rLQN-u7RkYn0z8G00MGQ7vN6pyCzDfwkERMheYmc-zaDVBukOihP0lRbaetZ8pRRZEPOCyrnn1D5RF53Ur9W0pI8aOsDuoOhJtCtNH4v2VChnxnK~y52Ggydqm8db3PBUlog93NqSn2X464armnARqobuYkc9JCBNX1FAumIwUi9pW7Mhf7xzGD88nm-k4GwzG5QzrQd0MSiGVoB2Cw__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//6621767b3f024823/DSC_7229.jpg?Expires=1836898114&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEUokOifGM4znDpp9GLY5jUCNz-cicCV73wSeMSQIOaG76o9INd85x5LRikQXFvz-G-5BOHVv6yTdFxm-Y6dhSftpLlJQkjv49~Tggsilrlab5DFE-KGRrShoXGFtPotImAXZl6tqx93yeBHlyPJzT0RUYDFI1FJa~bSPmq6Ido3BDutpdXHqyw6cpcS4NiItqaBBXH15g6AqF5GkXTL95Ltd9slQUYQuzZKqAwjud~~Xv4GKCiVSuRfS2Hk-wWk2IbRMWdvSeAFUs34zpmv1aRafNG2pf-n~N61BDqo4KNJGn0ojSy6hURkWs0vaWK-Rxfx8aKrA3Nlmvanmn7vg__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//405f3001eee64dda/DSC_7216.jpg?Expires=1836897722&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zKHbkdrZrRzCUKzGKseW8RxU3Fstqi9lSDdggEEgiPmeDEHyJ7~z8UThjuqsCXxKoEckh2iiA5rXhZu6oEd~EORtH5kwMMo4pE-lEWnPiTJHNbEyjv8P4WbPdtTO7DUOSFpkKSAjxPHzYF5-xe9oxPI8hYhJBj7ltDBKP3GGi~XjpGppeiF5kxxtMDvEClwKW-vTESio1YhGIB2cpODEUoqH4veFO3llE6yhpsuCkt5ho88nFwYSN7trF43UQ6Gers~iITMTguMhEJmVuGIsZeW-bxWDYUmfHWxEdJyOhd2588YSN86rx1VOhPvnHTVr86moFq2o1WIP~AS4sqig8A__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//26a5f31ce04e4166/DSC_7222.jpg?Expires=1836897728&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XeP9yQ-6SG29vgkniB~oe3ObW9wJzbBRaSICw~rS1KcD8~qvy3cmq1JyaBd3JWMkrx8A95m85XlrrDwsBnLbZgXr25t31bqfkQxLwVS4M8T~J~apMhv4gZeCwFxSCCzyMrQk3xCPRH0Ha3sHh-HaZd93LdnS0lj1M-72jfbArLV9fkJHukie-8pUk87gEW84uspbsfQic1ZI5g5HUjycyqIYIi~YcyfgzEOGnpjPyNTJnny77eDOsFpJfnuuT1Mq8oXwz0-yr2zRIHc4Y1siJ8DgCZik6zz4xITiF8Gtka7gW7sJTlVCyvFk65F165BPkdCbttDuf2gQT9oewMZXbQ__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//d2dcefbef4984717/DSC_7226.jpg?Expires=1836897734&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=R2kvvUMj7ssjZsAi8zN6wt8-mmqcKw7YN7C~vbrvYArGSmKYHSIpneSQkgjNF4A32KJsVk6TrpasTQbyphzNT-WPNmSCX3i9f1qaKkdZsFw~k-MPUu9-3Z6LAFzZWrWx4UoNELk9e1pnAJNQ1I51n4zLKLEgmaUQLoocekHIrjbNy2~x1Mi1zxw1WioRU5GhXWF1oMOedfvbL~-g6sQlqZWkFrg9DUA4u7QFYb6Z0OBpgLzSjV3KRzxjwSRJ8eTOk5h1t-XRxJlIreTKapiPTPEdzcDY1rLPwk0VKiY1oNr~os0tQVFxjmBZR-DMCHbR-bJdCSsZFSEczGKPzCKR-A__" className="max-h-[300px]" alt="IMAGE" />
+                <img src="https://media-hosting.imagekit.io//68f9e27499904951/DSC_7232.jpg?Expires=1836897759&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KJecXW7Ieb4D7OHnAWZMnApEoH-etfCZMHpylvJOWl1DaE8mLStCsEXsx3OSR5Gef0-a-HkZGfAfm41OZ1eG5L7GgAVSFzF3EIhCBGgUN5~SPh2RSHMHhmr2Iwg2ptx~cjMiFVdccyGgj7x21CGhT0yF4FA61Xthh~RR1C1CpOvR5GQE3DLbAiuWO8OWGzzbCbdhp2goEnmGGT99wu6htOeSYxI7CsNC3Ij3qlL4NvGAyczNi36qmut-xktK0nb1fv4Yundv20TjWd6xArSwDps3VPJk012ZWlM~NvUNOPmNeGvgB3IVNMjriq~g24Ooq5DGnjzGxdaHpn-SrU4ZWA__" className=" max-h-[300px]" alt="image" />
+                {/* <img src={image11} className=" max-h-[300px]" alt="Image" /> */}
+            </div>
+        </>
+    )
+}
