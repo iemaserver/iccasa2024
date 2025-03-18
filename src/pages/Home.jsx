@@ -287,7 +287,7 @@ export const Home = () => {
 
 
         {/* THE IMPORTANT DATES SECTION */}
-        <div className="importantDates-wrapper font-sofia 
+        {/*<div className="importantDates-wrapper font-sofia 
         2xl:text-xl
         xl:text-lg
         lg:text-base">
@@ -329,7 +329,7 @@ export const Home = () => {
             </Tbody>
             </Table>
           </TableContainer>
-        </div>
+        </div>*/}
 
 
 
