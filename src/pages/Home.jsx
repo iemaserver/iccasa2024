@@ -233,9 +233,7 @@ export const Home = () => {
         {/* THE ABOUT US SECTION  */}
         <div className=" flex flex-col align-center
         w-[100vw]
-        2xl:mr-[2rem]
-        xl:mr-[2rem]
-        lg:mr-[3rem]
+        
         ">
 
           {/* HEADING */}
