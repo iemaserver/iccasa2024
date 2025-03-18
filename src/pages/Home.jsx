@@ -231,8 +231,8 @@ export const Home = () => {
 
 
         {/* THE ABOUT US SECTION  */}
-        <div className=" flex flex-col 
-        w-[85vw]
+        <div className=" flex flex-col align-center
+        w-[100vw]
         2xl:mr-[2rem]
         xl:mr-[2rem]
         lg:mr-[3rem]
@@ -240,10 +240,10 @@ export const Home = () => {
 
           {/* HEADING */}
           <h1 className=" font-bold
-            2xl:mb-8
+            
             2xl:text-5xl
             xl:text-3xl
-            xl:mb-4
+            mb-6
             lg:text-2xl
             
             
@@ -261,10 +261,10 @@ export const Home = () => {
 
           {/* ABOUT UEM SECTION  */}
           <h1 className=" font-bold
-            2xl:mb-8
+            mb-6
             2xl:text-5xl
             xl:text-3xl
-            xl:mb-4
+
             lg:text-2xl
             
             
