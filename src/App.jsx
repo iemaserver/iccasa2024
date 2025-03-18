@@ -5,8 +5,8 @@ import { OrganizingTeam } from "./pages/OrganizingTeam.jsx";
 import { Scope } from "./pages/Scope.jsx"
 import { Registration } from "./pages/Registration.jsx"
 import { Publication } from "./pages/Publication.jsx"
-import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
-import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
+// import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
+// import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // IMAGES
@@ -246,8 +246,8 @@ function App() {
         <Route path="/Organinzing_Team" element={<OrganizingTeam />} />
         <Route path="/Keynote_Speaker" element={<KeynoteSpeaker />} />
         <Route path="Publication" element={<Publication />} />
-        <Route path="/2023Images" element={<ImagePage2023 />} />
-        <Route path="/2022Images" element={<ImagePage2022 />} />
+        {/* <Route path="/2023Images" element={<ImagePage2023 />} />
+        <Route path="/2022Images" element={<ImagePage2022 />} /> */}
       </Routes>
       <ContactUs />
     </BrowserRouter>
