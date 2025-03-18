@@ -269,6 +269,7 @@ export const Home = () => {
             
             
             ">About UEM</h1>
+            <h1>hello</h1>
 
           <p className=" 2xl:text-2xl
           xl:text-xl lg:text-base">UEM Jaipur was established in the year 2011 by Ordinance 11 of 2011 and Act No 5 of 2012 of Govt of Rajasthan. UEM Jaipur has achieved the awards of “Best Private University in North India” and “Best Emerging University in North India”. The university is dedicated to providing an international learning environment that fosters innovation, creativity, and technical expertise. With a strong emphasis on industry-oriented courses and modern teaching techniques, UEM Jaipur ensures that students are well-prepared to meet the demands of the evolving job market. The curriculum is designed to bridge the gap between academics and industry requirements, equipping students with practical knowledge, hands-on training, and professional skills that give them a competitive edge during placements.
