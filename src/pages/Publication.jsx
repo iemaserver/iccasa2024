@@ -4,10 +4,7 @@ export const Publication=()=>{
     return(
         <div className=' flex flex-col justify-center items-center xl:py-32 lg:py-16'>
             <h1 className="w-[80rem]  font-bold xl:text-5xl">Publication</h1>
-            <p className="w-[75rem] mt-10 font-semibold text-xl">Selected research papers (after rigorous peer review) will be published in SCI/SCIE/ESCI/Scopus Indexed Journal as per their 
-                APC (Article Processing Charges). The list of these journals will be provided soon (communication with journals is in 
-                process).The few selected papers (after rigorous peer review) will have publication opportunities in AAM (Applications and 
-                Applied Mathematics, ISSN: 1932-9466, ESCI Indexed Journal) at no cost. 
+            <p className="w-[75rem] mt-10 text-xl"><span className="font-bold">The selected papers, after rigorous peer review, will have the opportunity to be published in Applications and Applied Mathematics (AAM, ISSN: 1932-9466), an ESCI-indexed journal, at no cost.</span> Additionally, selected research papers, after rigorous peer review, will be published in SCI/SCIE/ESCI/Scopus-indexed journals, subject to their Article Processing Charges (APC). The list of these journals will be provided soon, as communication with the journals is in progress.. 
             </p>
             <div className='mt-10'>
                 <h1 className='w-[75rem] text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
