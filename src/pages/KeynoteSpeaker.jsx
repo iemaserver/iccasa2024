@@ -17,6 +17,7 @@ import { KeynoteSpeaker_card_component } from "../components/KeynoteSpeaker_card
 // import sachin from "../assets/JPG/keynoteSpeaker/Sachin.jpg"
 // import sunil from "../assets/JPG/keynoteSpeaker/SunilPandey.jpg"
 // import AKM from "../assets/JPG/keynoteSpeaker/AKM Picture 1.jpg"
+import rituAgarwal from "../assets/PNG/rituAgarwal.jpg"
 
 
 export const KeynoteSpeaker = () => {
@@ -57,6 +58,9 @@ export const KeynoteSpeaker = () => {
 
         {/* Anoop Kumar Mukhopadhyay */}
         <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io//6905ec553cfb4b40/AKM%20Picture%201.jpg?Expires=1836900889&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wikM4SuO~d8MIKslVL-IE2XJjJhgla-Lwn1Mvaps0fvJjFZs3Qou51Dsew55ddull2jhya9XUnrA1F-6pk70tdcjSYEExSUZjAGBGptgLhGPGGmkEn6YYQUZ-x-n6RxMgMcKwhhrFfNeJwT~q5A0Z7jO9-GzSkRbf4h85wbHY2zeTs3D7tkPvXdj1DIu8oVPVKtxyrQuDoo4K-h3qMeEY5EJrj1wBmww7k-~YAQSFA-o4zxMW3BhGOkgxBgDZn0eSl7~rJe6kruXPYMmTR9DlSkk-Xogo-ejZATgFRtFqzsvNk5kP8kruG6CLBwKKx7Asfz6Dqdk1uqHIjuR8kxpFQ__" bold="Prof. Dr. Anoop Kumar Mukhopadhyay" line1="Scientist(former)" line2="CSIR- Central Glass and Ceramic Research Institute of Kolkata,India" />
+
+        {/* Ritu Agarwal */}
+        <KeynoteSpeaker_card_component image={rituAgarwal} bold="Dr. Ritu Agarwal" line1="Assistant Professor" line2="Department Of Mathematics" line3="Malaviya NIT Jaipur" />
       </div>
     </div>
   )

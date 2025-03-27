@@ -7,6 +7,7 @@ import { Registration } from "./pages/Registration.jsx"
 import { Publication } from "./pages/Publication.jsx"
 import { ImagePage2023 } from "./pages/2023ImagesPage.jsx"
 import { ImagePage2022 } from "./pages/2022ImagePage.jsx";
+import {Conferences} from "./pages/Conferences.jsx"
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // IMAGES
@@ -98,6 +99,7 @@ function Navbar() {
       <NavLink to="/CallForPapers" className="nav-link">Call for Paper</NavLink>
       <NavLink to="/Registration" className="nav-link">Registration</NavLink>
       <NavLink to="/Publication" className="nav-link">Publication</NavLink>
+      <NavLink to="/Conferences" className="nav-link">Conferences</NavLink>
       <a href="#ContactUs" className="nav-link">Contact Us</a>
     </div>
   );
@@ -251,6 +253,7 @@ function App() {
         <Route path="Publication" element={<Publication />} />
         <Route path="/2023Images" element={<ImagePage2023 />} />
         <Route path="/2022Images" element={<ImagePage2022 />} />
+        <Route path="/Conferences" element={<Conferences />} />
       </Routes>
       <ContactUs />
     </BrowserRouter>
