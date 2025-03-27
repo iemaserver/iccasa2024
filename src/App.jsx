@@ -88,7 +88,7 @@ function Navbar() {
 
   return (
     <div className="Navbar-main 
-    2xl:text-2xl
+    2xl:text-xl
     xl:text-lg
     lg:text-lg
     ">
