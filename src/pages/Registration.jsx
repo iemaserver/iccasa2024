@@ -179,6 +179,8 @@ export const Registration = () => {
       <div className='mt-10'>
         <h1 className='w-[65rem] text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
         <h1 className='w-[65rem] text-xl font-semibold mt-3'>Paper/Abstract submission Link: <a className='text-blue-500 underline font-bold' href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage">Click here to submit</a></h1>
+        <h1 className='w-[65rem] text-xl font-semibold mt-3'>Payment Link: <a className='text-blue-500 underline font-bold' href="https://uem.edu.in/iccasa-2025-online-payment/">Click here to make payment</a></h1>
+
       </div>
 
     <div className='xl:w-[65rem] xl:text-2xl lg:text-xl'>
