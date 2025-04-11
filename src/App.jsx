@@ -182,7 +182,7 @@ function ContactUs() {
 
 
         <a href="https://iccasa2023.uem.edu.in/" target="_blank">2023 : Website Link</a>
-        <a href="https://iccasa.uem.edu.in/" target="_blank">2022 : Website Link</a>
+        <a href="https://iccasa2022.uem.edu.in" target="_blank">2022 : Website Link</a>
         <a href="https://uem.edu.in/uem-jaipur/" target="_blank">UEMJ Website</a>
       </div>
 
