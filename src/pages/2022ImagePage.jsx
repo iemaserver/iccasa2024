@@ -12,9 +12,9 @@
 
 export const ImagePage2022=()=>{
     return(
-        <>
-             <h1 className="text-center text-5xl mt-10">2022 Event Images</h1>
-            <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
+        <div className="container mx-auto xl:py-32 lg:py-16 py-8">
+             <h1 className="text-center text-lg lg:text-5xl">2022 Event Images</h1>
+            <div className="flex flex-wrap justify-center gap-4 mt-10">
                 <img src="https://media-hosting.imagekit.io//ac08d4dcebb74b43/DSC_5515.jpg?Expires=1836897696&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aML7Iw4uTbRAKglk882zgfQ6EvZEmXjlwL~gN~WX7ozos4PR8Gqu6ytKW7ACLktI3gFC4YzQy6asKt2hodqWF6nmHNz4i09wnre7emvdL3QoKkqtrVuuJsjr7EV864OIfCW3Lj1mVXGxsVRa5qmjX9QyW2d6nE-F5xMxnRxLTS5Qu26hfIdSDeG8zH-Eb4d7NXD1h1erk4PDIOm-xSZLHTEgXhbrs-oPxiWdhJ1bs3jJ9ZIFQ-38hDlIr8i2UXVLAGtrPqY-GlTQbb7Fi-g~3jn-Oe9AgH6DCdS9UqjnGWmqcW3XY1gBH5C5MEyqYI8ErdR8Je-4GligEvyKeGpw4A__" className="max-h-[300px]" alt="IMAGE" />
                 <img src="https://media-hosting.imagekit.io//0e0432f4fab04eba/DSC_5518.jpg?Expires=1836897702&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pTS5g65MAfp8g8sp-gB70GDD8NnZ9~bQ0lL-Sv0QXgxZ70n2chbToIKGC6gnItNO0Vy5nMpRrwkTedf~Mf9Lv4Nz~OtJ9TnzR3qvaphiqP8qkuS5DsfpU6GIKJcyRJGrZkTElP5-Qqsr-2mgifC1a4aJQr3flnjMSlbE6WM5XYzw41pldY2pZIhJ0TBFxRsX9U-wBQsa3WSK-mG4D87Ge9~qTRN-EEgiw0Hw~4WeoshfY5pdEZiOYv30afkEBVT-lK7QuY0~L6aVUXn0CW48Hzh9UqlA18UFHPRLXZrT9bLxPYexrdRBi4Z4MSXwKxpw17OFpSIoLLTxC-XR~s5ggQ__" className="max-h-[300px]" alt="IMAGE" />
                 <img src="https://media-hosting.imagekit.io//1a0db112543041ed/DSC_5523.jpg?Expires=1836897706&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=c1D-WTCAjolcFUIiW1Qb2JVm8iE8bUSEo8cNjrr4NOI1E3P2REapyFN1ecm8Y3cZnDYN2sldwPCfo1oKzdfOb9Y~YADq9Pide6ijPRZxsP5rUD5NpoU3LsLGs8TH-0Rhw85NJiTgGYiDG4yI4CggmotZ4GAwhgSAuYyQhRWrbqZXI0FbGv4vB4ggfCQSnUc~X6S1NBNQYtflcPNDJOlpy-8yQzuZ9-E6pK8-gNAIH37Qg9IH2xzBjZb1cYSAstLmhJMi5fc7AJNEEkrCs5kNoINlot4Iw4wPECVyiey3jrVQy91Dt-i65NEJUIRYK4W1BKUSKii-C3sLo8CLDKRP9A__" className="max-h-[300px]" alt="IMAGE" />
@@ -27,6 +27,6 @@ export const ImagePage2022=()=>{
                 <img src="https://media-hosting.imagekit.io//68f9e27499904951/DSC_7232.jpg?Expires=1836897759&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KJecXW7Ieb4D7OHnAWZMnApEoH-etfCZMHpylvJOWl1DaE8mLStCsEXsx3OSR5Gef0-a-HkZGfAfm41OZ1eG5L7GgAVSFzF3EIhCBGgUN5~SPh2RSHMHhmr2Iwg2ptx~cjMiFVdccyGgj7x21CGhT0yF4FA61Xthh~RR1C1CpOvR5GQE3DLbAiuWO8OWGzzbCbdhp2goEnmGGT99wu6htOeSYxI7CsNC3Ij3qlL4NvGAyczNi36qmut-xktK0nb1fv4Yundv20TjWd6xArSwDps3VPJk012ZWlM~NvUNOPmNeGvgB3IVNMjriq~g24Ooq5DGnjzGxdaHpn-SrU4ZWA__" className=" max-h-[300px]" alt="image" />
                 {/* <img src={image11} className=" max-h-[300px]" alt="Image" /> */}
             </div>
-        </>
+        </div>
     )
 }
