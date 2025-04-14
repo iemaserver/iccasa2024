@@ -2,7 +2,7 @@ import { KeynoteSpeaker_card_component } from "../components/KeynoteSpeaker_card
 
 export const KeynoteSpeaker = () => {
   return (
-    <div className='w-full lg:w-[100%] lg:py-32 flex flex-col keynoteSpeaker-main container mx-auto'>
+    <div className='lg:py-32 py-8 flex flex-col keynoteSpeaker-main container mx-auto'>
 
       <div className="flex justify-start keynoteSpeaker-heading">
         <h1 className="mb-3 text-lg font-bold lg:text-5xl lg:mb-16">Keynote Speakers :</h1>
