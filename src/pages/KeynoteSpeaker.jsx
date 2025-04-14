@@ -1,31 +1,11 @@
 import { KeynoteSpeaker_card_component } from "../components/KeynoteSpeaker_card_component"
 
-// IMAGE IMPORTS
-// import DrAbhijitKumarDas from "../assets/JPG/keynoteSpeaker/abhijitKumar.jpg"
-// import DrRituAgarwal from "../assets/JPG/keynoteSpeaker/RituAgarwal.jpg"
-// import DrDevendraKumar from "../assets/JPG/keynoteSpeaker/Dr. Devendra Kumar.jpeg"
-// import DrDharmendraTripathi from "../assets/JPG/keynoteSpeaker/DharmendraTripathi.jpg"
-// import DrJagdevSingh from "../assets/JPG/keynoteSpeaker/Dr. Jagdev Singh.jpeg"
-// import DrNareshKumar from "../assets/JPG/keynoteSpeaker/Dr. Naresh Kumar.jpeg"
-// import DrPradeepKumar from "../assets/JPG/keynoteSpeaker/Dr. Pradeep Kumar.jpg"
-// import DrVaibhav from "../assets/JPG/keynoteSpeaker/Dr. Vaibhav 1.png"
-// import DrYudhveerSing from "../assets/JPG/keynoteSpeaker/Dr. Yudhveer Singh.jpeg"
-// import ProfAnilKumar from "../assets/JPG/keynoteSpeaker/Prof. Anil Kumar.jpg"
-// import DrHaciMehmet from "../assets/JPG/keynoteSpeaker/Prof. (Dr.) Haci Mehmet Baskonus.jpeg"
-// import DrAnuragShukla from "../assets/JPG/keynoteSpeaker/Dr.AnuragShukla.jpeg"
-// import ProfODMakinde from "../assets/JPG/keynoteSpeaker/Prof. O. D. Makinde.gif"
-// import sachin from "../assets/JPG/keynoteSpeaker/Sachin.jpg"
-// import sunil from "../assets/JPG/keynoteSpeaker/SunilPandey.jpg"
-// import AKM from "../assets/JPG/keynoteSpeaker/AKM Picture 1.jpg"
-// import rituAgarwal from "../assets/PNG/rituAgarwal.jpg"
-
-
 export const KeynoteSpeaker = () => {
   return (
-    <div className=' lg:w-[100%] py-32 flex flex-col items-center keynoteSpeaker-main'>
+    <div className='w-full lg:w-[100%] lg:py-32 flex flex-col keynoteSpeaker-main container mx-auto'>
 
       <div className="flex justify-start keynoteSpeaker-heading">
-        <h1 className=" font-bold text-5xl mb-16">Keynote Speakers :</h1>
+        <h1 className="mb-3 text-lg font-bold lg:text-5xl lg:mb-16">Keynote Speakers :</h1>
       </div>
       <div className="KeynoteSpeakers-card-wrapper">
 
