@@ -11,7 +11,7 @@ import { KeynoteSpeaker_card_component } from '../components/KeynoteSpeaker_card
 
 export const OrganizingTeam = () => {
   return (
-    <div className='flex flex-col py-28 container mx-auto'>
+    <div className='flex flex-col lg:py-28 py-8 container mx-auto'>
 
       <div>
 
