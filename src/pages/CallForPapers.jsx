@@ -3,10 +3,10 @@ import React from "react";
 export const CallForPapers = () => {
   return (
     <div
-      className=" flex flex-col justify-center items-center xl:py-32 lg:py-16">
+      className="flex flex-col container mx-auto xl:py-32 lg:py-16 py-8">
         
-          <h1 className="w-[85rem]  font-bold xl:text-5xl">Call for Paper: </h1>
-          <p className="w-[80rem] mt-10 font-semibold text-xl">The conference revolves around bringing mathematics, physics and chemistry research areas synchronically on an indivisible 
+          <h1 className="text-lg font-bold lg:text-5xl">Call for Paper: </h1>
+          <p className="mt-4 font-semibold text-sm lg:text-xl">The conference revolves around bringing mathematics, physics and chemistry research areas synchronically on an indivisible 
             platform. This conference is an opportunity for collaborative research from various fields to share research findings and 
             latest ideas. The main intention of this conference is to integrate interdisciplinary inquiry to deliver the best applications. 
             Attending this conference will help participants sharpen their skills and refine their ideas as well as approaches by meeting 
@@ -15,7 +15,7 @@ export const CallForPapers = () => {
             about the latest tools available. The conference language is English. Original and unpublished works are encouraged for 
             presentation in the conference. The thrust areas include (but are not limited to) the following:
           </p>
-          <ul className="list-disc w-[75rem] font-semibold text-xl mt-10">
+          <ul className="list-disc ml-4 font-semibold text-sm lg:text-xl mt-4">
             <li>Mathematical Modelling & Simulation in Engineering & Applied Sciences</li>
             <li>Emerging technologies in Artificial Intelligence & Deep Learning</li>
             <li>Theoretical & Computational Fluid Dynamics</li>
@@ -48,13 +48,12 @@ export const CallForPapers = () => {
             <li>Green Energy and Hydrogen Fuel Cells</li>
             <li>Computational Chemistry and Drug Discovery</li>
           </ul>
-          <div className='mt-10'>
-                <h1 className='w-[80rem] text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
-                <h1 className='w-[80rem] text-xl font-semibold mt-3 '>Paper/Abstract submission Link: <a className='text-blue-500 underline font-bold' href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage">Click here to submit</a></h1>
+          <div className='py-6'>
+                <h1 className='text-sm lg:text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
+                <h1 className='text-sm lg:text-xl font-semibold mt-3 '>Paper/Abstract submission Link: <a className='text-blue-500 underline font-bold' href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage">Click here to submit</a></h1>
           </div>
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="w-[85rem]  font-bold xl:text-5xl mt-12">Submission Guidelines: </h1>
-            <ul className="list-disc w-[75rem] font-semibold text-xl mt-10">
+            <h1 className="font-bold text-lg lg:text-5xl">Submission Guidelines: </h1>
+            <ul className="list-disc ml-4 font-semibold text-sm lg:text-xl mt-4">
               <li>The conference language is English. Original and unpublished works are encouraged for presentation in the conference.</li>
               <li>All the manuscript submissions will be handled electronically using Microsoft (CMT) by using the link given below:  <a className="text-blue-500 underline font-bold" href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage">Click here to submit</a></li>
               <li>Authors should ensure that the similarity score of their research paper is not above 10% (with a single source less than 3%) by Turnitin/iThenticate software.</li>
@@ -63,15 +62,13 @@ export const CallForPapers = () => {
               <li>The author(s) will have to incorporate the suggestions and will have to send the revised camera-ready copy of the paper as per the final submission guidelines within the given time limit (will be declared).</li>
               <li>It is suggested that people from Jaipur city and nearby regions are instructed to attend the conference physically.</li>
               <li>Authors are notified of acceptance when the Conference receives the comments and the recommendation of qualified reviewers. The Conference sends each paper to independent reviewers, experts in the area of the paper. So, each paper will be evaluated by independent experts according to the following criteria:</li>
-              <ul className="list-disc font-semibold text-xl mt-5 pl-5">
+              <ul className="list-disc font-semibold text-sm lg:text-xl mt-3 ml-4">
                 <li>Relevance to the Conference Topics</li>
                 <li>Scientific - Technical Originality, Potential Impact, and Interest for the audience</li>
                 <li>Scientific/Technical Content and Advances beyond the Contemporary</li>
                 <li>Quality of the Presentation, clarity of the Content.</li>
               </ul>
             </ul>
-
-          </div>
         
     </div>
   );

@@ -13,9 +13,9 @@
 
 export const ImagePage2023=()=>{
     return(
-      <>
-        <h1 className="text-center text-5xl mt-10">2023 Event Images</h1>
-        <div className="flex flex-wrap justify-center gap-4 lg:w-[100%] py-10">
+      <div className="container mx-auto xl:py-32 lg:py-16 py-8">
+        <h1 className="text-center text-lg lg:text-5xl">2023 Event Images</h1>
+        <div className="flex flex-wrap justify-center gap-4 mt-10">
           <img src="https://media-hosting.imagekit.io//6b475d024cf14a83/DSC_2108.jpg?Expires=1836896794&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=B54MuPGaI~bPA72m23huJGjrEIbUbeITMoBgw800nUs5S1odLFojSnyWrD9kg9WDPJqHhpWhqMnkkber~r8rio9SuxyODX-sUCV-wJ92jcqGk2x7o7LBVdDr1YFPhbOISiCje6VrI~QEE~oIl8PZeYZVilwEjaKnxstCRqd5gMy4eE9lNIWQPjIrfExfEtmBMXYz3JYQ-ZqeJvG768Pfl44OVLPy9U-Kr70Rahw~bl81UU~s~UkvoM3AymS3mNLu9fJnDmpiAUNAaZrTG8aZyxEP4rSxgmORJXhi9Hio0xllS1q7zIWfxyj9yGcbu7LxZ~si1PVIECKXofVSGOrvvA__" className="border-6 border-black max-h-[300px]" alt="image" />
           <img src="https://media-hosting.imagekit.io//b990220c1a7a4aeb/DSC_2115.jpg?Expires=1836896803&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ulA-xJTYXEys69jXK3mbPL97Rv-5hqQcWKicoSBvcveQ4uYMdWklyrRFuDJj2ALZGsd07lK7UKAz3mglAYCvXHCUU4e2gW7CVQQgfqBf66WNdoJsWOi8SEup-cqXs6ldV7fkbh~DhFQWpux60PiriZROP5ZiaIkwoWqsfCrMtCYtyKD21CQqP08jTCLqPR9S5lTIbM0bXNyzLUXlSwlKxNrRHGkuxwrbSCNGTPMIV4mwDPNGn6li9RNXeQB8Ts6q9uIYfFEBQaZB5~soiJoYSMq3EX2X7rnfah7Y0eqtWcVAwASgK1YnZ4aaAq2YI0K4s4yHk1vbB~1STgFOOYkbng__" className="border-6 border-black max-h-[300px]" alt="image" />
           <img src="https://media-hosting.imagekit.io//49783bfc565145af/DSC_2140.jpg?Expires=1836896987&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=NhGlvUHyoOBR0tRN7oKX9F0pq7fASkszpSdISnmNUayj13FiCC13YAWZyr3nshd-RRG0mrK7URSqp2I9jfdaEHa5cgajUV76TYZkLVc~j0o~mC0EndOkX5-lfxAmjJoKqq28yW2pl2Axokh45~qqrlIvYvJH1JswLGv6zZW53sBTHj6g5mCmmvxrt6Zk~uzuKvadAZLDSNjyA31kLcS4AUqXvSSJWpllqO57fm47CT6JfH-VKcuJ90Ks9IqS08GF5G6BFVmVLgCO-d7msqYUni0NdAVuYJbo9-QBY4GHqYA5L2txnLahxlhkDfpUeKS-Zt6Nlhxk0Km2AlFoQTJGzg__" className="border-6 border-black max-h-[300px]" alt="image" />
@@ -29,6 +29,6 @@ export const ImagePage2023=()=>{
           <img src="https://media-hosting.imagekit.io//b09f9d84aa914a96/DSC_2272.jpg?Expires=1836897611&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bUDW~3uxuWzHP12QfNCM3~21izFGFA~yIMpmVWuu4EYLf-emmAzlKgxT3cui0cJIV6NMW1BHxXQc2hpT0aKPJAYkxa2hwCiR868ATUaBRk-GLK5hcJmEN5ORQYxX1ckngfKXFlBbzDW~J3tyBjb4RvscogkQFvC59rUP~Gusv2nYYoXLsI3tJwwo3htwF2K-VZR-PC31k9nR7kf1AiYCvz0nf8APQS6gFfuyLVfTI-m5U9i460Q1--U5I~DF2PJcRBN9fXRGSttfcGSkhQTyyqZtASJyTBdr~nsjn7IJd~QspRriT5oqT9Foi7mpnYmpd1b6TdyOZ-UDE~0ihUweAA__" className="border-6 border-black max-h-[300px]" alt="image" />
           <img src="https://media-hosting.imagekit.io//583499ce161a49f8/DSC_2206.jpg?Expires=1836897639&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YxGVQg2nKNkMUbkv~bIoq18XEfCOlVKoa8uG0zXmHLH2pb-DJOmZi4eXAshwA3wOhzEtWg-z87NzrgbYxag31h8MgUKZwL1LOSZMlOum7Xnjvvv71tucxAAu~kerhNQNB8du-viVCJGhaGtBAPp01IMbdDspECWOP6X-hMowtrBtHV9otxjN4LyLwEzbWcSGxdtJLzxzfPP9DS2rg5qLUIr6s~aQaGHHn1bGEfAJBluuAosxcBYU2gZTwpi7thocdTVuwuuTnub8PLIKrt1HnHJ~hhflJm5C4sASTSaO9QBVXK9031-kdlWWOLhqOU5Irv0jNMwsges770LlYut18g__" className="border-6 border-black max-h-[300px]" alt="image" />
         </div>
-     </>
+     </div>
     )
 }

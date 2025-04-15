@@ -1,13 +1,6 @@
-
-
 export const Scope = () => {
   return (
-    <div
-      className="scope-main 2xl:px-[9.2rem] 
-    lg:py-[6rem]
-    xl:px-[5.2rem]
-    lg:px-[3rem]"
-    >
+    <div className="scope-main container mx-auto lg:py-[6rem] py-6 flex flex-col lg:flex-row">
       {/* WRAPPER FOR THE HEADING AND THE BULLET POINTS */}
       <div
         className="flex flex-col
@@ -15,6 +8,8 @@ export const Scope = () => {
       lg:w-[70%]
       lg:ml-[2rem]
       lg:mr-[1rem]
+      w-full
+      mb-4 *:lg:mb-0
       "
       >
         {/* HEADING */}
@@ -22,17 +17,16 @@ export const Scope = () => {
           className=" 
          font-bold
          relative
-         right-6
          lg:mb-6
         lg:text-3xl
-
+         text-md
          "
         >
           Thrust areas of the Conference (ICCASA-2025)
         </h1>
 
         {/* THE BULLET POINTS */}
-        <ul className="list-disc text-xl">
+        <ul className="list-disc lg:text-xl ml-4 text-sm max-w-full">
           <li>
             Mathematical Modelling & Simulation in Engineering & Applied
             Sciences
@@ -74,8 +68,11 @@ export const Scope = () => {
       </div>
 
       {/* THE IMAGE */}
-      <div className=" flex justify-center items-center">
-        <img src="https://media-hosting.imagekit.io//d00c115f7da04f30/scopeImage.png?Expires=1836895776&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Q6RO-sUCusrpQoQxjTSTD8-Py9BLiNfvQ8pcl7U~aJoqb73iydnFLR0wzaqT7SaDGrkLn7UIl47atgvMp~PCgITsYGPU23d6Ad7k5xyExmqwAWhSFoNrP7ZqHFw7wbqJOEBskd48uMiQLcGo8JoQ7GKp~B67HZf9IMM9-azveNxZkHdN7Mroy3gWvgIZovktUmKs9rtfuKUkglVJlYXtKuFnwaxZtAu2bVboKtj8hRi3f258oQkIuDFDFI8TA9PiXNDxDMa-cEk5BLj5SwbMWRLCJnXst7qSnwngUVTUdj~BO7ux4XwWzx2ShiU1DQy7-Z5LocyG5nrl2TsB6h2Hhw__" alt="" />
+      <div className="flex justify-center items-center">
+        <img
+          src="https://media-hosting.imagekit.io//d00c115f7da04f30/scopeImage.png?Expires=1836895776&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Q6RO-sUCusrpQoQxjTSTD8-Py9BLiNfvQ8pcl7U~aJoqb73iydnFLR0wzaqT7SaDGrkLn7UIl47atgvMp~PCgITsYGPU23d6Ad7k5xyExmqwAWhSFoNrP7ZqHFw7wbqJOEBskd48uMiQLcGo8JoQ7GKp~B67HZf9IMM9-azveNxZkHdN7Mroy3gWvgIZovktUmKs9rtfuKUkglVJlYXtKuFnwaxZtAu2bVboKtj8hRi3f258oQkIuDFDFI8TA9PiXNDxDMa-cEk5BLj5SwbMWRLCJnXst7qSnwngUVTUdj~BO7ux4XwWzx2ShiU1DQy7-Z5LocyG5nrl2TsB6h2Hhw__"
+          alt=""
+        />
       </div>
     </div>
   );
