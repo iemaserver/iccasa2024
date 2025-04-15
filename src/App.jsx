@@ -169,9 +169,9 @@ function ContactUs() {
           <a
             href="https://www.google.com/maps/place/University+of+Engineering+%26+Management+(UEM),+Jaipur/@27.2124649,75.6976676,17z/data=!3m1!4b1!4m6!3m5!1s0x396cffc30dacc2db:0xb78e5c340c935a95!8m2!3d27.2124649!4d75.7002425!16s%2Fm%2F0hhqh8d!5m1!1e2?entry=ttu"
             target="_blank"
-            className=" flex justify-center items-center relative lg:right-2"
+            className=" flex justify-center items-center relative"
           >
-            <img className="w-[1.5rem]" src={locationIcon} alt="" />
+            {/* <img className="w-[1.5rem]" src={locationIcon} alt="" /> */}
             <p>University of Engineering and Management Jaipur</p>
           </a>
         </div>
