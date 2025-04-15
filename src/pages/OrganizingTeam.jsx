@@ -16,6 +16,7 @@ export const OrganizingTeam = () => {
       <div>
 
         <h1 className='text-lg lg:text-5xl font-bold mb-4 lg:mb-10'>Advisory Board</h1>
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer>
           <Table>
             <Tbody>
@@ -176,7 +177,8 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
-        <h1 className='text-lg lg:text-5xl font-bold mb-4 lg:mb-10 mt-24 2xl:mb-16'>Think Tank</h1>
+        </div>
+        <h1 className='text-lg lg:text-5xl font-bold mt-6 mb-4 lg:mb-10 lg:mt-24 2xl:mb-16'>Think Tank</h1>
       </div>
 
  {/* THE ORGANIZING TEAM SECTION */}
@@ -197,7 +199,8 @@ export const OrganizingTeam = () => {
       {/*Organising Team Table*/}
 
       <div>
-        <h1 className='text-lg lg:text-3xl font-bold mb-4'>CONVENERS</h1>
+        <h1 className='text-lg lg:text-3xl font-bold mb-4 mt-6'>CONVENERS</h1>
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer className='mb-4'>
           <Table>
             <Tbody>
@@ -214,7 +217,9 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
-        <h1 className='text-lg lg:text-3xl font-bold mb-4'>Co-Convener</h1>
+        </div>
+        <h1 className='text-lg lg:text-3xl font-bold mb-4 mt-6'>Co-Convener</h1>
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer className='mb-4'>
           <Table>
             <Tbody>
@@ -225,8 +230,10 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
+        </div>
 
-        <h1 className='text-lg lg:text-3xl font-bold mb-4'>Organising Team</h1>
+        <h1 className='text-lg lg:text-3xl font-bold mb-4 mt-6'>Organising Team</h1>
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer className='mb-4'>
           <Table>
             <Tbody>
@@ -292,7 +299,9 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
-        <h1 className='text-lg lg:text-3xl font-bold mb-4'>Technical and other Support Team</h1>
+        </div>
+        <h1 className='text-lg lg:text-3xl font-bold mb-4 mt-6'>Technical and other Support Team</h1>
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer>
           <Table>
             <Tbody>
@@ -318,6 +327,7 @@ export const OrganizingTeam = () => {
             </Tbody>
           </Table>
         </TableContainer>
+        </div>
         
       </div>
     </div>

@@ -23,7 +23,7 @@ export const Registration = () => {
         >
           Important Dates
         </h1>
-
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer>
           <Table variant="simple" colorScheme="blue" size="lg">
             <Tbody>
@@ -80,6 +80,7 @@ export const Registration = () => {
             </Tbody>
           </Table>
         </TableContainer>
+        </div>
         {/* <p className=' text-sm mt-8 text-red-600'>* Extra charges will be applied according to the availability of the accommodation.</p> */}
       </div>
 
@@ -90,7 +91,7 @@ export const Registration = () => {
         >
           <li>Registration fee only for Attendees</li>
         </ul>
-
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer>
           <Table variant="striped" colorScheme="blue" size="lg">
             <Thead className="Thead-table2">
@@ -136,6 +137,7 @@ export const Registration = () => {
             </Tbody>
           </Table>
         </TableContainer>
+        </div>
       </div>
 
       {/* REGISTRATION ONLY FOR PAPER PUBLICATION */}
@@ -143,7 +145,7 @@ export const Registration = () => {
         <ul className=" xl:text-4xl font-bold list-disc mb-8 lg:text-2xl ml-6 text-lg">
           <li>Registration fee only for paper presentation </li>
         </ul>
-
+        <div className='border border-gray-300 rounded-lg p-4'>
         <TableContainer>
           <Table variant="striped" colorScheme="blue" size="lg">
             {" "}
@@ -193,6 +195,7 @@ export const Registration = () => {
             </Tbody>
           </Table>
         </TableContainer>
+        </div>
       </div>
       <div className="mt-10">
         <h1 className="text-sm lg:text-xl font-semibold">
