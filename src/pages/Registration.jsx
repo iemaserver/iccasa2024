@@ -24,10 +24,10 @@ export const Registration = () => {
           Important Dates
         </h1>
         <div className='border border-gray-300 rounded-lg p-4'>
-        <TableContainer>
+        <TableContainer className="responsiveTable">
           <Table variant="simple" colorScheme="blue" size="lg">
             <Tbody>
-              <Tr>
+              <Tr className="none">
                 <Th></Th>
                 <Th>Start Date</Th>
                 <Th>End Date</Th>
@@ -35,46 +35,46 @@ export const Registration = () => {
               <Tr>
                 <Td>Call for paper/abstract submission</Td>
                 <Td>
-                  1<sup>st</sup> June 2025
+                 <span className="mr-2 flex sm:hidden">Start Date:</span> 1<sup>st</sup> June 2025
                 </Td>
                 <Td>
-                  30<sup>th</sup>June 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 30<sup>th</sup>June 2025
                 </Td>
               </Tr>
               <Tr>
                 <Td>Acceptance mail for Submission</Td>
                 <Td>
-                  20<sup>th</sup> July 2025
+                 <span className="mr-2 flex sm:hidden">Start Date:</span> 20<sup>th</sup> July 2025
                 </Td>
                 <Td>
-                  31<sup>st</sup> July 2025
+                <span className="mr-2 flex sm:hidden">End Date:</span> 31<sup>st</sup> July 2025
                 </Td>
               </Tr>
               <Tr>
                 <Td>Registration</Td>
                 <Td>
-                  1<sup>st</sup> August 2025
+                 <span className="mr-2 flex sm:hidden">Start Date:</span> 1<sup>st</sup> August 2025
                 </Td>
                 <Td>
-                  31<sup>st</sup> August 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 31<sup>st</sup> August 2025
                 </Td>
               </Tr>
               <Tr>
                 <Td>Accommodation booking date</Td>
                 <Td>
-                  25<sup>th</sup> August 2025
+                 <span className="mr-2 flex sm:hidden">Start Date:</span> 25<sup>th</sup> August 2025
                 </Td>
                 <Td>
-                  5<sup>th</sup> September 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 5<sup>th</sup> September 2025
                 </Td>
               </Tr>
               <Tr>
                 <Td>Conference</Td>
                 <Td>
-                  20<sup>th</sup> September 2025
+                 <span className="mr-2 flex sm:hidden">Start Date:</span> 20<sup>th</sup> September 2025
                 </Td>
                 <Td>
-                  21<sup>st</sup> September 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 21<sup>st</sup> September 2025
                 </Td>
               </Tr>
             </Tbody>
@@ -91,7 +91,7 @@ export const Registration = () => {
         >
           <li>Registration fee only for Attendees</li>
         </ul>
-        <div className='border border-gray-300 rounded-lg p-4'>
+        <div className='border border-gray-300 rounded-lg p-4 hidden sm:block'>
         <TableContainer>
           <Table variant="striped" colorScheme="blue" size="lg">
             <Thead className="Thead-table2">
@@ -138,6 +138,60 @@ export const Registration = () => {
           </Table>
         </TableContainer>
         </div>
+        <div className='border border-gray-300 rounded-lg p-4 block sm:hidden'>
+        <TableContainer>
+          <Table className="responsiveTable" variant="striped" colorScheme="blue" size="lg">
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  India
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: ₹ 5,00/-</Td>
+                <Td>Offline: ₹ 2,000/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: ₹ 500/-</Td>
+                <Td>Offline: ₹ 2,500/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: ₹ 1,000/-</Td>
+                <Td>Offline: ₹ 3,000/-</Td>
+              </Tr>
+            </Tbody>
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  Foreign
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: 15 $</Td>
+                <Td>Offline: 30 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: 20 $</Td>
+                <Td>Offline: 35 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: 25 $</Td>
+                <Td>Offline: 40 $</Td>
+              </Tr>
+            </Tbody>
+          </Table>
+        </TableContainer>
+        </div>
       </div>
 
       {/* REGISTRATION ONLY FOR PAPER PUBLICATION */}
@@ -145,21 +199,19 @@ export const Registration = () => {
         <ul className=" xl:text-4xl font-bold list-disc mb-8 lg:text-2xl ml-6 text-lg">
           <li>Registration fee only for paper presentation </li>
         </ul>
-        <div className='border border-gray-300 rounded-lg p-4'>
+        <div className='border border-gray-300 rounded-lg p-4 hidden sm:block'>
         <TableContainer>
           <Table variant="striped" colorScheme="blue" size="lg">
-            {" "}
-            {/* Increased table size */}
             <Thead className="Thead-table2">
               <Tr>
                 <Th></Th>
                 <Th colSpan={2} textAlign="center" fontSize="xl">
                   India
-                </Th>{" "}
+                </Th>
                 {/* Increased font size */}
                 <Th colSpan={2} textAlign="center" fontSize="xl">
                   Foreign
-                </Th>{" "}
+                </Th>
                 {/* Increased font size */}
               </Tr>
               <Tr>
@@ -196,10 +248,65 @@ export const Registration = () => {
           </Table>
         </TableContainer>
         </div>
+
+        <div className='border border-gray-300 rounded-lg p-4 block sm:hidden'>
+        <TableContainer>
+          <Table className="responsiveTable" variant="striped" colorScheme="blue" size="lg">
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  India
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: ₹ 1,000/-</Td>
+                <Td>Offline: ₹ 2,500/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: ₹ 1000/-</Td>
+                <Td>Offline: ₹ 3,000/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: ₹ 1,500/-</Td>
+                <Td>Offline: ₹ 4,000/-</Td>
+              </Tr>
+            </Tbody>
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  Foreign
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: 20 $</Td>
+                <Td>Offline: 50 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: 30 $</Td>
+                <Td>Offline: 60 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: 50 $</Td>
+                <Td>Offline: 80 $</Td>
+              </Tr>
+            </Tbody>
+          </Table>
+        </TableContainer>
+        </div>
       </div>
       <div className="mt-10">
         <h1 className="text-sm lg:text-xl font-semibold">
-          Registration Link:{" "}
+          Registration Link:
           <a
             className="text-blue-500 underline font-bold"
             href="https://forms.gle/c4JDVkMCTwBRFaZx5"
@@ -208,7 +315,7 @@ export const Registration = () => {
           </a>
         </h1>
         <h1 className="text-sm lg:text-xl font-semibold mt-3">
-          Paper/Abstract submission Link:{" "}
+          Paper/Abstract submission Link:
           <a
             className="text-blue-500 underline font-bold"
             href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage"
@@ -217,7 +324,7 @@ export const Registration = () => {
           </a>
         </h1>
         <h1 className="text-sm lg:text-xl font-semibold mt-3">
-          Payment Link:{" "}
+          Payment Link:
           <a
             className="text-blue-500 underline font-bold"
             href="https://uem.edu.in/iccasa-2025-online-payment/"

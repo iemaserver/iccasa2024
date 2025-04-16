@@ -362,16 +362,24 @@ $uem-purple: #14008F;
             width: 100% !important;
             overflow-x: hidden !important;
             white-space: wrap !important;
+            .none{
+                display: none !important;
+            }
+            tr{
+                display: flex !important;
+                flex-wrap: wrap !important;
+                flex-direction: column !important;
+            }
+            tr td:not(:last-child) {
+                border-bottom: 0 !important;
+                padding-bottom: 0.25rem !important;
+            }
+
+            td{
+                display: -webkit-box !important;
+            }
         }
 
-        .responsiveTable tr{
-            display: flex !important;
-            flex-wrap: wrap !important;
-            flex-direction: column !important;
-        }
 
-        .responsiveTable tr td:nth-child(1){
-            border-bottom: 0 !important;
-            padding-bottom: 0.25rem !important;
-        }
+
     }
