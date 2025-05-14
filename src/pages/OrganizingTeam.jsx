@@ -351,7 +351,7 @@ export const OrganizingTeam = () => {
               <Tbody>
                 <Tr>
                   <Td className="text-lg font-bold w-[351.26px]">
-                    Dr. Praphull Chhabra
+                    Prof.(Dr.) Praphull Chhabra
                   </Td>
                   <Td className="font-semibold">
                     Professor (Department of Mathematics) UEM Jaipur.
