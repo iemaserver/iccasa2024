@@ -22,13 +22,13 @@ export const OrganizingTeam = () => {
                 </Tr>
 
                 <Tr>
-                  <Td className="text-lb font-bold">Prof. K.C. Jain</Td>
+                  <Td className="text-lb font-bold">Prof.(Dr.) K.C. Jain</Td>
                   <Td className=" font-semibold">
                     Professor, Dept. of Mathematics, MNIT Jaipur, India
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. Ivan Zelinka</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Ivan Zelinka</Td>
                   <Td className=" font-semibold">
                     Professor, Electrical Engineering & Computer Science
                     Department, National Supercomputing Centre, IT4 Innovations,
@@ -36,27 +36,27 @@ export const OrganizingTeam = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. Awadhesh Prasad</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Awadhesh Prasad</Td>
                   <Td className=" font-semibold">
                     Professor, Department of Physics and Astrophysics University
                     of Delhi
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. D. Bandyopadhyay</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) D. Bandyopadhyay</Td>
                   <Td className=" font-semibold">
                     Professor, Department of Physics, BITS, Pilani
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. Ragini Gupta</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Ragini Gupta</Td>
                   <Td className=" font-semibold">
                     Professor, Department of Chemistry, MNIT Jaipur
                   </Td>
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. Santiago Gómez-Ruiz
+                    Prof.(Dr.) Santiago Gómez-Ruiz
                   </Td>
                   <Td className=" font-semibold">
                     Professor of Inorganic Chemistry, Dept. of Biology and
@@ -67,7 +67,7 @@ export const OrganizingTeam = () => {
 
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. Haci Mehmet Baskonus
+                    Prof.(Dr.) Haci Mehmet Baskonus
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Faculty of Education, Harran University, Turkey
@@ -75,14 +75,14 @@ export const OrganizingTeam = () => {
                 </Tr>
 
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. Jagdev Singh</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Jagdev Singh</Td>
                   <Td className=" font-semibold">
                     Professor, Department of Mathematics, JECRC University,
                     Jaipur-303905, Rajasthan, India
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. P. Barman</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) P. Barman</Td>
                   <Td className=" font-semibold">
                     Professor, Department of Chemistry, NIT Silchar
                   </Td>
@@ -132,7 +132,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Anoop Kumar Mukhopadhyay
+                    Prof.(Dr.) Anoop Kumar Mukhopadhyay
                   </Td>
                   <Td className=" font-semibold">
                     Former Chief Scientist, CSIR-Central Glass and Ceramic
@@ -140,7 +140,7 @@ export const OrganizingTeam = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. (Dr.) Navin Kumar</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Navin Kumar</Td>
                   <Td className=" font-semibold">
                     Principal, Indian Military Academy (IMA) Dehradun,
                     Uttarakhand, India.{" "}
@@ -148,7 +148,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Chandra Shekhar
+                    Prof.(Dr.) Chandra Shekhar
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Mathematics, Birla Institute of
@@ -157,7 +157,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Naveen Kumar
+                    Prof.(Dr.) Naveen Kumar
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Applied Mathematics, Basic Science
@@ -167,7 +167,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Pravindra Kumar
+                    Prof.(Dr.) Pravindra Kumar
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Biosciences and Bioengineering, IIT
@@ -176,7 +176,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Shailly Tomar
+                    Prof.(Dr.) Shailly Tomar
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Biosciences and Bioengineering, IIT
@@ -185,7 +185,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Sanjeev Kumar
+                    Prof.(Dr.) Sanjeev Kumar
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Mathematics, IIT Roorkee,
@@ -194,7 +194,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Manoranjan Mishra
+                    Prof.(Dr.) Manoranjan Mishra
                   </Td>
                   <Td className=" font-semibold">
                     Professor, Department of Mathematics, IIT Roper, Punjab,
@@ -202,7 +202,7 @@ export const OrganizingTeam = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. (Dr.) Rashmi Jain</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Rashmi Jain</Td>
                   <Td className=" font-semibold">
                     Retd Professor, Department of Mathematics, MNIT Jaipur,
                     Rajasthan, India.{" "}
@@ -210,7 +210,7 @@ export const OrganizingTeam = () => {
                 </Tr>
                 <Tr>
                   <Td className="text-lg font-bold">
-                    Prof. (Dr.) Neelama Gupta
+                    Prof.(Dr.) Neelama Gupta
                   </Td>
                   <Td className=" font-semibold">
                     Retd. Professor, Department of Mathematics, MNIT Jaipur,
@@ -218,7 +218,7 @@ export const OrganizingTeam = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td className="text-lg font-bold">Prof. (Dr.) R.C. Soni</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) R.C. Soni</Td>
                   <Td className=" font-semibold">
                     Retd. Professor, Department of Mathematics, MNIT Jaipur,
                     Rajasthan, India.{" "}
@@ -351,7 +351,7 @@ export const OrganizingTeam = () => {
               <Tbody>
                 <Tr>
                   <Td className="text-lg font-bold w-[351.26px]">
-                    Prof.(Dr.) Praphull Chhabra
+                    Dr. Praphull Chhabra
                   </Td>
                   <Td className="font-semibold">
                     Professor (Department of Mathematics) UEM Jaipur.
@@ -496,14 +496,21 @@ export const OrganizingTeam = () => {
                     Mr. Biswanath Mukherjee
                   </Td>
                   <Td className=" font-semibold">
-                    Student Coordinator (CSE 3rd Year) UEM Jaipur
+                    Student Coordinator (CSE 4th Year) UEM Jaipur
                   </Td>
                 </Tr>
 
                 <Tr>
                   <Td className="text-lg font-bold">Mr. Keshav Bhardwaj</Td>
                   <Td className=" font-semibold">
-                    Student Coordinator(CSE(AIML) 2nd Year) UEM Jaipur
+                    Student Coordinator(CSE(AIML) 3rd Year) UEM Jaipur
+                  </Td>
+                </Tr>
+
+                <Tr>
+                  <Td className="text-lg font-bold">Mr. Anubhav Gupta</Td>
+                  <Td className=" font-semibold">
+                    Student Coordinator(CSE(AIML) 3rd Year) UEM Jaipur
                   </Td>
                 </Tr>
 
