@@ -42,6 +42,9 @@ export const KeynoteSpeaker = () => {
 
         {/* Ritu Agarwal */}
         <KeynoteSpeaker_card_component image="https://media-hosting.imagekit.io/fb33c6a6b54e4a73/WhatsApp%20Image%202025-03-25%20at%2016.25.32_1075338f.jpg?Expires=1837750079&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rSa2bzr-GVej3yuHqpbTfWiV549OR~AGpEdViY5-6HUAIVB3wQ6glmlhrxMBAqmAH-TXu4c6yyR8kXRj2v1gHzui58Xi4f4-FyKPgILyOQQOIH~K9WxTcVlav~VNrKPFO6fJzUnVJFITmkFJkBM~IRfCrQTENC1rEMcs7W9zvgIaw1K2Iq3umppBeO0tiCRZ1qMyJ1TryRPMvnM4JDwJFR0VKWvauAj9ueXHLvuGcLmnpASylC6Xncsf8tALyOXFvXiezOv38uOj3Ed~lUmUt1JcEn65nHxkFsG5ZcFkiHhioLUnf~5kIQOb3~k6mtvJTtvz-ejtJz1RSJPn-KrRYw__" bold="Dr. Ritu Agarwal" line1="Assistant Professor" line2="Department Of Mathematics" line3="MNIT Jaipur" />
+
+        {/* Sarita Kumari */}
+        <KeynoteSpeaker_card_component image="" bold="Dr. Sarita Kumari" line1="Associate Professor" line2="Department of Physics, VOR, Jaipur" />
       </div>
 
       {/* Previous Year keynote speaker */}
