@@ -14,7 +14,7 @@ export const OrganizingTeam = () => {
             <Table>
               <Tbody>
                 <Tr>
-                  <Td className="text-lg font-bold">Dr. Vedavati G. Puranik</Td>
+                  <Td className="text-lg font-bold">Prof.(Dr.) Vedavati G. Puranik</Td>
                   <Td className=" font-semibold">
                     Ex-Senior Scientist, Physical and Materials Chemistry
                     Division NCL Pune.
