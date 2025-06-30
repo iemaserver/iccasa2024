@@ -14,11 +14,12 @@ import img12 from "../assets/Images2022/DSC_7232.jpg"
 import img13 from "../assets/Images2022/DSC_7234.jpg"
 
 export const ImagePage2022=()=>{
+    const images = [img1, img3, img4, img5, img6, img7, img8,img9,img10,,img11,img12,img13];
     return(
         <div className="container mx-auto xl:py-32 lg:py-16 py-8">
              <h1 className="text-center text-lg lg:text-5xl">2022 Event Images</h1>
             <div className="flex flex-wrap justify-center gap-4 mt-10">
-                <img src={img1} className="max-h-[300px]" alt="IMAGE" />
+                {/* <img src={img1} className="max-h-[300px]" alt="IMAGE" />
                 <img src={img3} className="max-h-[300px]" alt="IMAGE" />
                 <img src={img4} className="max-h-[300px]" alt="IMAGE" />
                 <img src={img5} className="max-h-[300px]" alt="IMAGE" />
@@ -29,7 +30,11 @@ export const ImagePage2022=()=>{
                 <img src={img10} className="max-h-[300px]" alt="IMAGE" />
                 <img src={img11} className=" max-h-[300px]" alt="image" />
                 <img src={img12} className=" max-h-[300px]" alt="image" />
-                <img src={img13} className=" max-h-[300px]" alt="image" />
+                <img src={img13} className=" max-h-[300px]" alt="image" /> */}
+
+                {images.map((image, index) =>(
+                    <img key={index} src={image} alt= "Event Images" className="max-h-[300px]" />
+                ))}
                 
             </div>
         </div>
