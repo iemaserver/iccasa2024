@@ -3,6 +3,8 @@ import { Table, Tbody, Tr, Td, TableContainer } from "@chakra-ui/react";
 import { KeynoteSpeaker_card_component } from "../components/KeynoteSpeaker_card_component";
 
 export const OrganizingTeam = () => {
+
+
   return (
     <div className="flex flex-col lg:py-28 py-8 container mx-auto">
       <div>
@@ -320,20 +322,20 @@ export const OrganizingTeam = () => {
             line3="UEM Jaipur"
           />
           <KeynoteSpeaker_card_component
-            image="https://media-hosting.imagekit.io//cc2253d41766420d/alex.jpg?Expires=1836901343&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=gjbnYM6mieIiRcanmNuQ~DHekM1nDSyw4deqRGh0Qc0ghrreQVIpbGFfeG7RvuME3mAA0nkO1~N1TdPEkApkciQ9x2Z2AmWZGUIcWRwtkWMZaA1bR65b15tSvw~e3mqUpLEmp5LLevM-VOTfy8WZAQ8u5bgQnQx4FdbY2sEndIrjf48WJ3nFH8FktOW63QOLeu7BlVSUTTZyipf7F1pp-xhsWLIPF0loBLGrjT8cEg2s0ZhrXNZUirdarpCbfwi2kYLHR~Uqr1THNQW6XOJbu884qxto4M~iJhiQQOcQqPW8Kdq6JoZ0UH0cHo8b9Yyzbz0wA7nteD3DBJQ4k3tIPQ__"
+            image="https://ik.imagekit.io/keshav5173/organizing_Team_2024/alex.webp?updatedAt=1751267191242"
             bold="Prof.(Dr.) Satyajit Chakrabarti"
             line1="PATRON"
             line2="PRO VICE CHANCELLOR UEM JAIPUR"
             line3=""
           />
           <KeynoteSpeaker_card_component
-            image="https://media-hosting.imagekit.io//3c84767216d3430e/biswajoy.jpeg?Expires=1836901435&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=F4ppoMxSReBiDChLIXK0W6Qcx7e6l6MSquEhFxQBoSXc83I9kYZKiTZal4EaS2MODFBZXuKp3YqMJZPjDe1khLnJ9fM9K-SlFPcyzKaBYAu2s8Aus19YQOl3x7TGxPh0~OcJcOudmZidG2pJqCKamc6bgxkC2GQbN5g7BfNIG9WiyYa70UIctPOtlMKvnpGAzCxWpTeYyy~mc8wAewMeFj8GHBXrfEe~j4i7xn07uCO6i-EcthPgRy-w2~SzQMKwlId6cOYdhkrd4GIVpP4JoX-5FxqWTZGVoXs3tUy8qTexwm6bv~iE79-yRvD2bjNu65MMPHwdW~x5cAKb8-jQpQ__"
+            image="https://ik.imagekit.io/keshav5173/organizing_Team_2024/biswajoy.jpeg?updatedAt=1751267191177"
             bold="Prof.(Dr.) Biswajoy Chatterjee"
             line1="VICE-CHANCELLOR "
             line2="UEM JAIPUR"
           />
           <KeynoteSpeaker_card_component
-            image="https://media-hosting.imagekit.io//d61332e27f8245e5/pradeepKrSharma.jpg?Expires=1836901429&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fY3GHkXa8erern-OLl3TzSJw4n3QCQvJr7I7jztSfop6cepAjZUInCkdvGWV7JZMyUEMvBrr9mI3470lMJZ2Gm5VpcR~4ays8MFrKU3436Nhj55jzXWqphOQa~TlK0Jpr0t~A3Z-6M6ub95z6Ue5fjrzV7Y72y6e5q2HesIjnpM7qQDiS7FMnr0kS68sdoUMKoEH7Zc22ykB-GA1f4i3Y4DTpjvKh-WTeB80bcn-Ub4twAXvKgGdniCsgb33V-vnKlh3nxI1xYbXXBNc2MS8Xh0cz13XLuEa03pWjuKy~9g0z3O6akWhSElpdrLBtKuIcpMiQJITZd6dFU3xIOsrew__"
+            image="https://ik.imagekit.io/keshav5173/organizing_Team_2024/pradeepKrSharma.webp?updatedAt=1751267191245"
             bold="Prof.(Dr.) Pradeep Kr. Sharma"
             line1="REGISTRAR"
             line2="UEM JAIPUR"
