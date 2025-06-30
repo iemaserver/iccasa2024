@@ -123,7 +123,7 @@ export const Home = () => {
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[18rem]"
-                src="https://media-hosting.imagekit.io//b17fbc439a984292/2023-image1.jpg?Expires=1836895447&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ln4qCE85fWqPOzdXFp00rK-XXQztLsigZrjPXdsOsQQIpWv8OJb3RXJnJI6MWi0I19whC3yq7yE3sCyYZf-BZ~gh6FCNnvlHzxd02XCUbrOaXcO8vJAaKnw5f3RBe1Ws33~F9uNW0-FHZvuwFP0ffl76W8yf12Izj732jbSIEuiPr046Ox0g57uI0I1WOHxT8ljlTqrTG8bjzSxsW3FtOxAL8gGvLsFQ0D-HnwLwfwBf6q25vMAf-KF6ZZ9COH~79kk~63I7J6EzkIuSWtozyxAnC5ArFzye~rHGwLiRmmYkPvU1k7kudFKdun0kzC2NegoRSKJCvsqUITSFdc9-JQ__"
+                src="https://ik.imagekit.io/keshav5173/2022_Event_Images/2022-pic5.jpg?updatedAt=1751264659485"
                 alt=""
               />
             </div>
@@ -131,7 +131,7 @@ export const Home = () => {
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[6rem]"
-                src="https://media-hosting.imagekit.io//c15594bc3d674e1b/2023-image2.jpg?Expires=1836895579&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hOG7StbzFEHitmFnneWsw6740dI0B3q8~ji2ItcJp5v1xEh5RLB0SbQroxALR4LPIzCir~sR9eRQIjN4jzMgNcurk6Kh1fdFDi16XIwVzRWvArz9aRZ6N6TAYePL0MTyHPr1vtZVlF7Qta3kTdBPAhIa3cG9N1f6-f9LUq9DsjnE9qSG70LlUPsKq2BPn37OQe92u82~eOLPFliuS40tXENmsQDgnc5RE9JtioGjh-AE7jXBPnVjMIP6vJksTfB8qCHYaeikZoyahVYhrPtYDoCv5C-jjIm~vv1pm7RrVw8AaVan2DMv5WUNb28nl4RMEc6j34WW3dK6pf43RsuweQ__"
+                src="https://ik.imagekit.io/keshav5173/2022_Event_Images/2022-pic1.jpg?updatedAt=1751264659819"
                 alt=""
               />
             </div>
@@ -139,7 +139,7 @@ export const Home = () => {
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[8rem]"
-                src="https://media-hosting.imagekit.io//54d5e76cdc52486f/2023-image3.jpg?Expires=1836896237&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LdaYVZAAYjhmN0qXZpQ7nQILDz1Ex8Q-3b6AbSp7bFtXNfRmsVQ9aTt4cpP7txIYeP71VkAuclV3GvazDUsyKk8XrvE5wZPmLv-T4XdQUQAGYG~cPSh7cuJm2LxdHgqzA0T72fU2ekB16Zb9nMBBH~lb9NIr43Dgj0nr-iWetmUNIP91JrIt2yaCSNCvSAeWPbVDroDVQFJesvyrx8~7sOuI8yXt8JHqm5Pk0xohZBIVrFUnjClxmmgWUZPVxVxOy6iHW-BpkLBJcTrR-Sjk4JCc6LfSQJXrsGQxCqGgTWPzc53ypMPcY-YYfOAno1q1ZvV-rebVEpzuoLZtOHK9Yg__"
+                src="https://ik.imagekit.io/keshav5173/2022_Event_Images/DSC_5562.jpg?updatedAt=1751264699932"
                 alt=""
               />
             </div>
@@ -147,7 +147,7 @@ export const Home = () => {
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[16rem]"
-                src="https://media-hosting.imagekit.io//4dafc4ac89df448f/2023-image4.jpg?Expires=1836896245&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BwtRiSgCu7Vsyt1XrMDsJrRTCv5rAN0v0Rw1R20MgQzSqSSAPGxoEcGEU2TpzeOeNZzKSWFG9lr0c6MC-BrEEkNSRb~c1i3sohn7O61p~MI1p0GvYZF9NRroujq5h6mJCgw8INyXpGy-yLRYWY8iQyKyt4vOFBuf0A3CG-EVAD6pZQ-sHdTswz7EXnBoBkCsJyxKM~C6xiu4IHZkENV4kZFvllGk1m5tOLCOH8OtHmDsSN7EKebfo8Go4CvO7Y8~5n5Ld5wYpcx7wBgarbK2tg9Lx3~T-Nh2WPMaE3I7pE5RXA26LXRj00uJHHbq4WueShOMQJK35yUUHP2CR0hW-w__"
+                src="https://ik.imagekit.io/keshav5173/2023_Event_Images/2023-image1.jpg?updatedAt=1751264608852"
                 alt=""
               />
             </div>
@@ -155,23 +155,23 @@ export const Home = () => {
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[12rem]"
-                src="https://media-hosting.imagekit.io//c7d52f3210bf4654/2023-image5.jpg?Expires=1836896252&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=OHXFjOpOxJ0xuroeWVEDu3yxI1ZXbimyoQ5gJCpvO5J-PEE4pLg3tg3YyCTBHPhQFd8LzZjPD57xDiZt9ucZQtfNOv-nwqHDFCpUUwgIB9O0Ju2E0PtuDeXr8PqZRwvvgCr5o6Uq~gKULvIVmzC3ZQBgpuSp2uwqoCEJuM3xK0r2ULNtFJnNmLDaiEhTHs8TRI8A-TrL1qHC246vNeHCqIGIq2OfR-KskiJ3HAcTOXLWDGWcULhJnBIWGpKe36k7IxDhKP3kXM9ZIRKcpPgX6jBaCzKCn10wYmhJw-XMJVuKoh7exaIAjoSjblFyllztSyXXM3pvGs~XQU2JSaeuaw__"
+                src="https://ik.imagekit.io/keshav5173/2023_Event_Images/2023-image2.jpg?updatedAt=1751264607686"
                 alt=""
               />
             </div>
 
-            <div>
+            {/* <div>
               <img
                 className="relative bottom-0 lg:bottom-[2rem]"
-                src="https://media-hosting.imagekit.io//691961c8647b4284/2023-image6.jpg?Expires=1836896257&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KLiuBD9pNROY57G5iOwDqMg~eAXV906PyvAa1dNIlgRQWx2dUidS9JBmTpb2tPWi9EPyTn61cz3lrgDbwWahtXcYShc492RFqXCoq-lJDP78mBsiEikm~j3UdnmlJAQYXGewVU1ZcCyqTuAb1CXxc-wSkR-oxacQn7kJGtp71mof~YXr1mBcn4m33EnaWtR5JfrocLw1BQtkY9F-EhpMnaJmBWc6-qtEesG2qk85JCtpUHa4PkfyTxxqGy3XWeFIwDYzjS~SFopjRxqIgaZGgFZW2UAFc280ec4DwzTM52O14Io8ZmySaP2TBDsL8Innu~c153GPhnEi0r1AuE1PMQ__"
+                src="https://ik.imagekit.io/keshav5173/2023_Event_Images/2023-image5.jpg?updatedAt=1751264607867"
                 alt=""
               />
-            </div>
+            </div> */}
 
             <div>
               <img
                 className="relative bottom-0 lg:bottom-[26rem]"
-                src="https://media-hosting.imagekit.io//315b308b443e4c57/2023-image7.jpg?Expires=1836896279&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lPM-FVvQ~x4MVaQIJm7yL~wPK385iocda7vor1qDGeKX4VVcO7gYFWTlbONow8piAuyYFzBHeUkb741BCdik2QkInNo7fLTFRMgt5psi0mfxpuaDPNahfo5M7J6H0Z0nkijiSFj~dZrfY2RBUa3fuKMFGEx4ufpgg~q0NIIVnVho41JX2aZ5n3pfPCXiC6wOZHaGSEnMAtGO5LELonyK-15pqXerSDVp9VyW8TbEs0uvhMUX8qYQh3VhgVwd5iHLu802pQlOL6dNSdKAPYjyunpAMjnkWJIex4uB~rO~AWiHmFcj1OVbp5HfpSKgzUL~QF0ZR87H04LMjHmRdDjryw__"
+                src="https://ik.imagekit.io/keshav5173/2023_Event_Images/IMG-20230715-WA0071.jpg?updatedAt=1751264612773"
                 alt=""
               />
             </div>

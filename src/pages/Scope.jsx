@@ -70,7 +70,7 @@ export const Scope = () => {
       {/* THE IMAGE */}
       <div className="flex justify-center items-center">
         <img
-          src="https://media-hosting.imagekit.io//d00c115f7da04f30/scopeImage.png?Expires=1836895776&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Q6RO-sUCusrpQoQxjTSTD8-Py9BLiNfvQ8pcl7U~aJoqb73iydnFLR0wzaqT7SaDGrkLn7UIl47atgvMp~PCgITsYGPU23d6Ad7k5xyExmqwAWhSFoNrP7ZqHFw7wbqJOEBskd48uMiQLcGo8JoQ7GKp~B67HZf9IMM9-azveNxZkHdN7Mroy3gWvgIZovktUmKs9rtfuKUkglVJlYXtKuFnwaxZtAu2bVboKtj8hRi3f258oQkIuDFDFI8TA9PiXNDxDMa-cEk5BLj5SwbMWRLCJnXst7qSnwngUVTUdj~BO7ux4XwWzx2ShiU1DQy7-Z5LocyG5nrl2TsB6h2Hhw__"
+          src="https://ik.imagekit.io/keshav5173/2023_Event_Images/scopeImage.png?updatedAt=1751264613500"
           alt=""
         />
       </div>
