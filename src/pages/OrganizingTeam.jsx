@@ -308,14 +308,14 @@ export const OrganizingTeam = () => {
         {/* SATYAJIT CHAKRABARTI, alex and Banani */}
         <div className="mb-10 flex flex-row gap-6 flex-wrap justify-center">
           <KeynoteSpeaker_card_component
-            image="https://media-hosting.imagekit.io//2196cb0cc3c44701/satyajitChakrabarti.png?Expires=1836901423&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lwwJmuaQOoZPwFG4r-QMZ~h-uXVu8SwsO4mzstrRSW39HjAQjxKBtGdyb6y7gUiwDAc01T5eX6s1QJ7AE5E3abx9doxK-BVMA4~NVCZiq0~4kOjtjD5LgP6rMsbFnbgwKByuFk5Ba-Vg1G15mPfM8-RXz8em9ycvYPZlOU4CpmkBBkzysrfK6MMBRJ6rVGmRiwCRo39MUAGpirFUR5RrVmGQGrb3YcnzXRTJ0HmcZ-xKWxY0ZW~NBLTR66uOJiY9QPN8NJW5jdZdSv9DmXxBWOGHT6gNfOCha5zKzviXxwJLYCUSVx1H4rloItUIReaAQfZTvpcUK-ou~7Jkzbff2g__"
+            image="https://ik.imagekit.io/keshav5173/organizing_Team_2024/WhatsApp%20Image%202025-07-01%20at%2010.59.28_b7ed616e.jpg?updatedAt=1751348833678"
             bold="Prof.(Dr.) Satyajit Chakrabarti"
             line1="CHIEF PATRON"
             line2="Founder"
             line3="UEM JAIPUR"
           />
           <KeynoteSpeaker_card_component
-            image="https://media-hosting.imagekit.io//c98260b3cde744f7/banani.jpg?Expires=1836901417&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=joTaLQpj2YSalaB8Y~ajGQOhODnnjf-46eRxxTsBzbGaqluSfxmH5STUrEe9DAl0SQw7bTFcA-NA4bry7v8CR5eN7liL9Ehu9VFjXGufVqseoBaHF58hzmVf-CceCKcfHXNt6C3v6ZtkWeRWqsOHIVGNVLqgFxSHkwmj7n~GqawZcI3lEAb6DCfI0A9~h4KmkVPpRYBdQSzBTLEc~UNSFkbZBMffallHbaIaT1eLd7SowoU6zBxDgzaf2yh--4iOS9NJy8lgDebOB0t59PxIAx3C5zqOg12jxr5oVPFw5208wXjxBo1BiYoXU2wdPNbavV7EMlC1B2kp08fdLfWQVw__"
+            image="https://ik.imagekit.io/keshav5173/organizing_Team_2024/WhatsApp%20Image%202025-07-01%20at%2010.59.41_edb24b36.jpg?updatedAt=1751348811785"
             bold="Mrs. Banani Chakrabarti"
             line1="PATRON"
             line2="CHANCELLOR"

@@ -318,7 +318,7 @@ export const Registration = () => {
           Paper/Abstract submission Link:
           <a
             className="text-blue-500 underline font-bold"
-            href="https://cmt3.research.microsoft.com/ICCASA2025/Submission/Manage"
+            href="https://cmt3.research.microsoft.com/ICCASA2025"
           >
             Click here to submit
           </a>
