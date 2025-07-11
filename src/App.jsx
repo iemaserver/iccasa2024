@@ -40,7 +40,7 @@ function Banner({ toggleNav }) {
         lg:h-[84px]
         hidden lg:flex
         "
-          src={uemLogo}
+          src="https://ik.imagekit.io/keshav5173/Logo/uemLogo2-removebg-preview.png?updatedAt=1752212758763"
           alt=""
         />
       </div>
@@ -81,7 +81,7 @@ function Banner({ toggleNav }) {
       <div className="flex gap-3">
       {/*AIP LOGO */}
         <div>
-        <img src={AIP}
+        <img src="https://ik.imagekit.io/keshav5173/Logo/AIP_logo.png?updatedAt=1752212757974"
         className="2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
@@ -91,7 +91,7 @@ function Banner({ toggleNav }) {
 
       {/* SCOPUS logo */}
       <div>
-        <img src={scopus}
+        <img src="https://ik.imagekit.io/keshav5173/Logo/SCOPUS_logo.png?updatedAt=1752212758015"
         className=" 2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
@@ -101,7 +101,7 @@ function Banner({ toggleNav }) {
       {/* AAM LOGO */}
 
       <div>
-        <img src={AAM}
+        <img src="https://ik.imagekit.io/keshav5173/Logo/AAM_logo.jpg?updatedAt=1752212757759"
         className="2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
