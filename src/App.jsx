@@ -30,6 +30,20 @@ function Banner({ toggleNav }) {
     // *********************************************************************
     // BANNER
     <div className="Banner-main">
+
+      {/* UEM LOGO */}
+      <div>
+        <img
+          className="
+        2xl:h-[106px]
+        xl:h-[90px]
+        lg:h-[84px]
+        hidden lg:flex
+        "
+          src={uemLogo}
+          alt=""
+        />
+      </div>
       {/* ICCASA LOGO */}
       <div>
         <img
@@ -45,19 +59,7 @@ function Banner({ toggleNav }) {
       </div>
 
 
-      {/* UEM LOGO */}
-      <div>
-        <img
-          className="
-        2xl:h-[106px]
-        xl:h-[90px]
-        lg:h-[84px]
-        hidden lg:flex
-        "
-          src={uemLogo}
-          alt=""
-        />
-      </div>
+      
 
       {/* UEM TEXT */}
       <div className="Banner-wrapper-1-text_and_backgroundLogo_uem">
@@ -76,12 +78,13 @@ function Banner({ toggleNav }) {
         </div>
       </div>
 
+      <div className="flex gap-3">
       {/*AIP LOGO */}
-      <div>
+        <div>
         <img src={AIP}
-        className="2xl:h-[100px]
-        xl:h-[86px]
-        lg:h-[80px]
+        className="2xl:h-[90px]
+        xl:h-[76px]
+        lg:h-[70px]
         hidden lg:flex"
         alt="" />
       </div>
@@ -89,9 +92,9 @@ function Banner({ toggleNav }) {
       {/* SCOPUS logo */}
       <div>
         <img src={scopus}
-        className=" 2xl:h-[100px]
-        xl:h-[86px]
-        lg:h-[80px]
+        className=" 2xl:h-[90px]
+        xl:h-[76px]
+        lg:h-[70px]
         hidden lg:flex" alt="" />
       </div>
 
@@ -99,10 +102,11 @@ function Banner({ toggleNav }) {
 
       <div>
         <img src={AAM}
-        className="2xl:h-[100px]
-        xl:h-[86px]
-        lg:h-[80px]
+        className="2xl:h-[90px]
+        xl:h-[76px]
+        lg:h-[70px]
         hidden lg:flex" alt="" />
+      </div>
       </div>
 
       
