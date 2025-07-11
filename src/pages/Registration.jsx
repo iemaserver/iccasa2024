@@ -195,7 +195,7 @@ export const Registration = () => {
       </div>
 
       {/* REGISTRATION ONLY FOR PAPER PUBLICATION */}
-      <div className="xl:text-2xl lg:text-xl text-sm">
+      <div className="xl:text-2xl lg:text-xl text-sm mb-20">
         <ul className=" xl:text-4xl font-bold list-disc mb-8 lg:text-2xl ml-6 text-lg">
           <li>Registration fee only for paper presentation </li>
         </ul>
@@ -304,6 +304,120 @@ export const Registration = () => {
         </TableContainer>
         </div>
       </div>
+
+
+      
+      <div className="xl:text-2xl lg:text-xl text-sm mt-8">
+        <ul className=" xl:text-4xl font-bold list-disc mb-8 lg:text-2xl ml-6 text-lg">
+          <li>Paper presentation and publication in AIP Conference Proceedings </li>
+        </ul>
+        <div className='border border-gray-300 rounded-lg p-4 hidden sm:block'>
+        <TableContainer>
+          <Table variant="striped" colorScheme="blue" size="lg">
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th></Th>
+                <Th colSpan={2} textAlign="center" fontSize="xl">
+                  India
+                </Th>
+                {/* Increased font size */}
+                <Th colSpan={2} textAlign="center" fontSize="xl">
+                  Foreign
+                </Th>
+                {/* Increased font size */}
+              </Tr>
+              <Tr>
+                <Th></Th>
+                <Th>Online</Th>
+                <Th>Offline</Th>
+                <Th>Online</Th>
+                <Th>Offline</Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>₹ 9,000/-</Td>
+                <Td>₹ 10,000/-</Td>
+                <Td>130 $</Td>
+                <Td>150 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>₹ 10,000/-</Td>
+                <Td>₹ 11,000/-</Td>
+                <Td>150 $</Td>
+                <Td>170 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>₹ 11,000/-</Td>
+                <Td>₹ 12,000/-</Td>
+                <Td>170 $</Td>
+                <Td>200 $</Td>
+              </Tr>
+            </Tbody>
+          </Table>
+        </TableContainer>
+        </div>
+
+        <div className='border border-gray-300 rounded-lg p-4 block sm:hidden'>
+        <TableContainer>
+          <Table className="responsiveTable" variant="striped" colorScheme="blue" size="lg">
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  India
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: ₹ 1,000/-</Td>
+                <Td>Offline: ₹ 2,500/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: ₹ 1000/-</Td>
+                <Td>Offline: ₹ 3,000/-</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: ₹ 1,500/-</Td>
+                <Td>Offline: ₹ 4,000/-</Td>
+              </Tr>
+            </Tbody>
+            <Thead className="Thead-table2">
+              <Tr>
+                <Th textAlign="center" fontSize="xl">
+                  Foreign
+                </Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>Research Scholar</Td>
+                <Td>Online: 20 $</Td>
+                <Td>Offline: 50 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Academician</Td>
+                <Td>Online: 30 $</Td>
+                <Td>Offline: 60 $</Td>
+              </Tr>
+              <Tr>
+                <Td>Scientist/Industry</Td>
+                <Td>Online: 50 $</Td>
+                <Td>Offline: 80 $</Td>
+              </Tr>
+            </Tbody>
+          </Table>
+        </TableContainer>
+        </div>
+      </div>
+
+
       <div className="mt-10">
         <h1 className="text-sm lg:text-xl font-semibold">
           Registration Link:
