@@ -195,10 +195,21 @@ function ContactUs() {
           </h1>
 
           {/* PHONE NUMBER AND EMAIL */}
-          <p>Phone No : +91 9783372873 /+91 9024424325</p>
-          <p className="mb-1">email : iccasa@uem.edu.in</p>
-          <p className="mb-1">praphull.chhabra@uem.edu.in</p>
-          <p className="mb-2">tarun.sharma@uem.edu.in</p>
+          <p className="mb-1 font-bold">Conveners:</p>
+
+          <ul className="list-decimal ml-4">
+            <li className="font-bold">Prof.Dr. Praphul Chhabra : +91- 9783372873</li>
+            <p>praphull.chhabra@uem.edu.in</p>
+            <li className="font-bold">Dr. Tarun Sharma : +91- 9024424325</li>
+            <p className="mb-1">tarun.sharma@uem.edu.in</p>
+          </ul>
+          <p className="font-bold">Co-Conveners</p>
+          <ol className=" list-decimal ml-4">
+            <li>dr.Arnab Pauli : +91-9024424325 </li>
+            <p className="mb-1">arnab.palui@uem.edu.in</p>
+          </ol>
+          <p className="mb-2">Conference email : iccasa@uem.edu.in</p>
+          
 
           {/* UEM JAIPUR LOCATION */}
           <a
