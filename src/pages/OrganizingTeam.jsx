@@ -524,10 +524,39 @@ export const OrganizingTeam = () => {
                 <Tr>
                   <Td className="text-lg font-bold">Mr. Shyam Lal Jaat</Td>
                   <Td className=" font-semibold">Technician UEM Jaipur</Td>
+                  
                 </Tr>
               </Tbody>
             </Table>
           </TableContainer>
+        </div>
+          <h1
+          className="text-lg lg:text-3xl font-bold mb-4 mt-6"
+          >Contact Number for help (if needed)</h1>
+        <div className="border border-gray-300 rounded-lg p-4">
+          <TableContainer className="responsiveTable">
+            <Table>
+              <Tbody>
+                <Tr>
+                  <Td className="text-lg font-bold">For abstract and page submission issue in CMT</Td>
+                  <Td className="font-semibold">Dr. Arnab Palui +91-9007598758</Td>
+                </Tr>
+                <Tr>
+                  <Td className="text-lg font-bold">For payment and fee regarding issue</Td>
+                  <Td className="font-semibold">Dr. Tarun Sharma +91-9024424325</Td>
+                </Tr>
+                <Tr>
+                  <Td className="text-lg font-bold">For registration regarding issue</Td>
+                  <Td className="font-semibold">Dr. Pallavi Malik +91-9799474109</Td>
+                </Tr>
+                <Tr>
+                  <Td className="text-lg font-bold">For publicaton regarding issue</Td>
+                  <Td className="font-semibold">Dr. Praphull Chhabra +91-9783372873</Td>
+                </Tr>
+              </Tbody>
+            </Table>
+          </TableContainer>
+
         </div>
       </div>
     </div>
