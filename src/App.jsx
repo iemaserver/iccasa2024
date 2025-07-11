@@ -19,6 +19,9 @@ import hamburger from "./assets/PNG/hamburger.svg";
 import facebook from "./assets/PNG/facebook.png";
 import linkedin from "./assets/PNG/linkedin.png";
 import twitter from "./assets/PNG/twitter.png";
+import AAM from "./assets/PNG/AAM_logo.jpg"
+import AIP from "./assets/PNG/AIP_logo.png"
+import scopus from "./assets/PNG/SCOPUS_logo.png"
 import { CallForPapers } from "./pages/CallForPapers.jsx";
 import { useState } from "react";
 
@@ -32,11 +35,26 @@ function Banner({ toggleNav }) {
         <img
           className="
         w-20 lg:w-auto
-        2xl:h-[136px]
-        xl:h-[130px]
-        lg:h-[124px]
+        2xl:h-[106px]
+        xl:h-[90px]
+        lg:h-[84px]
         "
           src={icassaLogo}
+          alt=""
+        />
+      </div>
+
+
+      {/* UEM LOGO */}
+      <div>
+        <img
+          className="
+        2xl:h-[106px]
+        xl:h-[90px]
+        lg:h-[84px]
+        hidden lg:flex
+        "
+          src={uemLogo}
           alt=""
         />
       </div>
@@ -45,9 +63,9 @@ function Banner({ toggleNav }) {
       <div className="Banner-wrapper-1-text_and_backgroundLogo_uem">
         <h1
           className=" text-[#14008F] w-auto text-sm font-bold 
-        2xl:w-[43rem] 2xl:text-4xl
-        xl:text-3xl xl:w-[36rem]
-        lg:text-2xl lg:w-[29rem]"
+        2xl:w-[35rem] 2xl:text-3xl
+        xl:text-2xl xl:w-[26rem]
+        lg:text-xl lg:w-[19rem]"
         >
           University Of Engineering and Management Jaipur
         </h1>
@@ -58,19 +76,36 @@ function Banner({ toggleNav }) {
         </div>
       </div>
 
-      {/* UEM LOGO */}
+      {/*AIP LOGO */}
       <div>
-        <img
-          className="
-        2xl:h-[136px]
-        xl:h-[130px]
-        lg:h-[124px]
-        hidden lg:flex
-        "
-          src={uemLogo}
-          alt=""
-        />
+        <img src={AIP}
+        className="2xl:h-[100px]
+        xl:h-[86px]
+        lg:h-[80px]
+        hidden lg:flex"
+        alt="" />
       </div>
+
+      {/* SCOPUS logo */}
+      <div>
+        <img src={scopus}
+        className=" 2xl:h-[100px]
+        xl:h-[86px]
+        lg:h-[80px]
+        hidden lg:flex" alt="" />
+      </div>
+
+      {/* AAM LOGO */}
+
+      <div>
+        <img src={AAM}
+        className="2xl:h-[100px]
+        xl:h-[86px]
+        lg:h-[80px]
+        hidden lg:flex" alt="" />
+      </div>
+
+      
 
       {/* HAMBURGER */}
       <div onClick={toggleNav} className="flex lg:hidden">
@@ -160,10 +195,21 @@ function ContactUs() {
           </h1>
 
           {/* PHONE NUMBER AND EMAIL */}
-          <p>Phone No : +91 9783372873 /+91 9024424325</p>
-          <p className="mb-1">email : iccasa@uem.edu.in</p>
-          <p className="mb-1">praphull.chhabra@uem.edu.in</p>
-          <p className="mb-2">tarun.sharma@uem.edu.in</p>
+          <p className="mb-1 font-bold">Conveners:</p>
+
+          <ul className="list-decimal ml-4">
+            <li className="font-bold">Prof.Dr. Praphul Chhabra : +91- 9783372873</li>
+            <p>praphull.chhabra@uem.edu.in</p>
+            <li className="font-bold">Dr. Tarun Sharma : +91- 9024424325</li>
+            <p className="mb-1">tarun.sharma@uem.edu.in</p>
+          </ul>
+          <p className="font-bold">Co-Conveners</p>
+          <ol className=" list-decimal ml-4">
+            <li>dr.Arnab Pauli : +91-9024424325 </li>
+            <p className="mb-1">arnab.palui@uem.edu.in</p>
+          </ol>
+          <p className="mb-2">Conference email : iccasa@uem.edu.in</p>
+          
 
           {/* UEM JAIPUR LOCATION */}
           <a
