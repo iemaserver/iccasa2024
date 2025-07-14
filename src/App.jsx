@@ -19,9 +19,6 @@ import hamburger from "./assets/PNG/hamburger.svg";
 import facebook from "./assets/PNG/facebook.png";
 import linkedin from "./assets/PNG/linkedin.png";
 import twitter from "./assets/PNG/twitter.png";
-import AAM from "./assets/PNG/AAM_logo.jpg"
-import AIP from "./assets/PNG/AIP_logo.png"
-import scopus from "./assets/PNG/SCOPUS_logo.png"
 import { CallForPapers } from "./pages/CallForPapers.jsx";
 import { useState } from "react";
 
@@ -35,10 +32,13 @@ function Banner({ toggleNav }) {
       <div>
         <img
           className="
+          h-[50px]
         2xl:h-[106px]
         xl:h-[90px]
         lg:h-[84px]
-        hidden lg:flex
+        lg:flex
+        md:h-[60px] md:flex
+        sm:h-[50px]
         "
           src="https://ik.imagekit.io/keshav5173/Logo/uemLogo2-removebg-preview.png?updatedAt=1752212758763"
           alt=""
@@ -48,10 +48,12 @@ function Banner({ toggleNav }) {
       <div>
         <img
           className="
+          h-[50px]
         w-20 lg:w-auto
         2xl:h-[106px]
         xl:h-[90px]
         lg:h-[84px]
+        md:h-[70px] md:flex
         "
           src={icassaLogo}
           alt=""
@@ -62,12 +64,14 @@ function Banner({ toggleNav }) {
       
 
       {/* UEM TEXT */}
-      <div className="Banner-wrapper-1-text_and_backgroundLogo_uem">
+      <div className="Banner-wrapper-1-text_and_backgroundLogo_uem hidden lg:flex">
         <h1
           className=" text-[#14008F] w-auto text-sm font-bold 
         2xl:w-[35rem] 2xl:text-3xl
         xl:text-2xl xl:w-[26rem]
-        lg:text-xl lg:w-[19rem]"
+        lg:text-xl lg:w-[19rem] lg:block
+        hidden 
+        "
         >
           University Of Engineering and Management Jaipur
         </h1>
@@ -82,30 +86,41 @@ function Banner({ toggleNav }) {
       {/*AIP LOGO */}
         <div>
         <img src="https://ik.imagekit.io/keshav5173/Logo/AIP_logo.png?updatedAt=1752212757974"
-        className="2xl:h-[90px]
+        className=" h-[40px]
+        w-40 lg:w-auto
+        2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
-        hidden lg:flex"
+         lg:flex
+         md:h-[60px] md:flex
+         sm:h-[50px]"
+
         alt="" />
       </div>
 
       {/* SCOPUS logo */}
       <div>
         <img src="https://ik.imagekit.io/keshav5173/Logo/SCOPUS_logo.png?updatedAt=1752212758015"
-        className=" 2xl:h-[90px]
+        className="h-[60px]
+         2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
-        hidden lg:flex" alt="" />
+        lg:flex
+        md:h-[60px] md:flex
+        sm:h-[60px]" alt="" />
       </div>
 
       {/* AAM LOGO */}
 
       <div>
         <img src="https://ik.imagekit.io/keshav5173/Logo/AAM_logo.jpg?updatedAt=1752212757759"
-        className="2xl:h-[90px]
+        className="h-[50px]
+        2xl:h-[90px]
         xl:h-[76px]
         lg:h-[70px]
-        hidden lg:flex" alt="" />
+        lg:flex
+        md:h-[60px] md:flex
+        sm:h-[50px]" alt="" />
       </div>
       </div>
 
