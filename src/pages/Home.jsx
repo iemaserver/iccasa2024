@@ -88,7 +88,7 @@ export const Home = () => {
           lg:w-[38rem]"
           >
             3rd International Conference On Computational Applied Sciences And
-            It's Application{" "}
+            It's Applications{" "}
           </h3>
 
           {/* THE COLLEGE LOCATION AND NAME */}
