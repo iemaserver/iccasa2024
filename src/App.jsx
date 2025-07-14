@@ -64,13 +64,14 @@ function Banner({ toggleNav }) {
       
 
       {/* UEM TEXT */}
-      <div className="Banner-wrapper-1-text_and_backgroundLogo_uem hidden lg:flex">
+      <div className="Banner-wrapper-1-text_and_backgroundLogo_uem ">
         <h1
           className=" text-[#14008F] w-auto text-sm font-bold 
         2xl:w-[35rem] 2xl:text-3xl
         xl:text-2xl xl:w-[26rem]
-        lg:text-xl lg:w-[19rem] lg:block
-        hidden 
+        lg:text-xl lg:w-[19rem] 
+        md:text-sm md:w-[18vw]
+        sm:text-sm sm:w-[18vw]
         "
         >
           University Of Engineering and Management Jaipur
@@ -78,7 +79,14 @@ function Banner({ toggleNav }) {
 
         {/* UEM BACKGROUND LOGO */}
         <div className="banner-uemLogoBackground">
-          <img className="" src={uemLogoBackground} alt="" />
+          <img className="h-[40px]
+        w-40 lg:w-auto
+        2xl:h-[90px]
+        xl:h-[76px]
+        lg:h-[70px]
+         lg:flex
+         md:h-[60px] md:flex
+         sm:h-[50px]" src={uemLogoBackground} alt="" />
         </div>
       </div>
 
