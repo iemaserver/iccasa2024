@@ -44,7 +44,7 @@ export const KeynoteSpeaker = () => {
         <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/RituAgarwal.jpg?updatedAt=1751264852101" bold="Dr. Ritu Agarwal" line1="Assistant Professor" line2="Department Of Mathematics" line3="MNIT Jaipur" />
 
         {/* Sarita Kumari */}
-        <KeynoteSpeaker_card_component image="" bold="Dr. Sarita Kumari" line1="Associate Professor" line2="Department of Physics, UOR, Jaipur" />
+        <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/Sarita.jpg?updatedAt=1753688125434" bold="Dr. Sarita Kumari" line1="Associate Professor" line2="Department of Physics, UOR, Jaipur" />
       </div>
 
       {/* Previous Year keynote speaker */}
