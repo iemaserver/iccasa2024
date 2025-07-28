@@ -38,7 +38,7 @@ export const Registration = () => {
                  <span className="mr-2 flex sm:hidden">Start Date:</span> 1<sup>st</sup> June 2025
                 </Td>
                 <Td>
-                 <span className="mr-2 flex sm:hidden">End Date:</span> 31<sup>st</sup>July 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 15<sup>th</sup> Aug 2025
                 </Td>
               </Tr>
               <Tr>
@@ -47,7 +47,7 @@ export const Registration = () => {
                  <span className="mr-2 flex sm:hidden">Start Date:</span> 20<sup>th</sup> July 2025
                 </Td>
                 <Td>
-                <span className="mr-2 flex sm:hidden">End Date:</span> 31<sup>st</sup> July 2025
+                <span className="mr-2 flex sm:hidden">End Date:</span> 24<sup>th</sup> Aug 2025
                 </Td>
               </Tr>
               <Tr>
