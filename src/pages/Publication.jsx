@@ -9,10 +9,12 @@ export const Publication=()=>{
                     in the AIP Conference</span> Proceedings (Indexed in Scopus, Web of Science, Inspec, Chemical Abstracts Service (CAS), and 
                     Astrophysics Data System (ADS)), in domains related to physics, chemistry, and mathematics, subject to the applicable article 
                     processing charges (APC). </li>
-                <br />
-                <li>2.	A limited number of selected research papers, following a double-blind peer review process, will have the 
+                <li className="mt-4">2.	A limited number of selected research papers, following a double-blind peer review process at the journal's side, will have the 
                     <span className="font-bold">opportunity to be published in Applications and Applied Mathematics (AAM)</span>, an ESCI-indexed 
                     journal (at no cost), provided the work is in a domain related to mathematics.</li>
+                <li className="mt-4">
+                    3. All the selected abstracts will be published in conference souvenir, a text book with valid ISBN: <span className="font-bold">978-93-343-6456-9</span>
+                </li>
             </ol>
             <div className='mt-10'>
                 <h1 className='text-sm lg:text-xl font-semibold'>Registration Link: <a className='text-blue-500 underline font-bold' href="https://forms.gle/c4JDVkMCTwBRFaZx5">Click here to Register</a></h1>
