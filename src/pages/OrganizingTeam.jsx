@@ -412,7 +412,7 @@ export const OrganizingTeam = () => {
                 </Tr>
 
                 <Tr>
-                  <Td className="text-lg font-bold">Ms.Pallavi Malik</Td>
+                  <Td className="text-lg font-bold">Dr.Pallavi Malik</Td>
                   <Td className=" font-semibold">
                     Assistant Professor(Department of Mathematics) UEM Jaipur
                   </Td>
