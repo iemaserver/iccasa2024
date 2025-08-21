@@ -35,7 +35,7 @@ export const KeynoteSpeaker = () => {
         <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/Sachin.jpg?updatedAt=1751349371455" bold = "Dr. Sachin Kumar" line1="Associate Professor" lin2="Department of Mathematics and Statistics" line3="School of basic Sciences, Central University of Punjab, Bathinda,Punjab,India" />
         
         {/*DR Sunil Pandey */}
-        <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/SunilPandey.jpg?updatedAt=1751349371507" bold="Dr. Sunil Pandey" line1="Associate Professor" line2="Head of Department of Mathematics" line3="IIT Patna" />
+        <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/SunilPandey.jpg?updatedAt=1751349371507" bold="Dr. Sunil Pandey" line1="Associate Professor" line2="Head of Department of Mathematics" line3="NIT Manipur" />
 
         {/* Anoop Kumar Mukhopadhyay */}
         <KeynoteSpeaker_card_component image="https://ik.imagekit.io/keshav5173/keynoteSpeaker/AKM%20Picture%201.jpg?updatedAt=1751349371511" bold="Prof. Dr. Anoop Kumar Mukhopadhyay" line1="Scientist(former)" line2="CSIR- Central Glass and Ceramic Research Institute of Kolkata,India" />
