@@ -56,7 +56,7 @@ export const Registration = () => {
                  <span className="mr-2 flex sm:hidden">Start Date:</span> 1<sup>st</sup> August 2025
                 </Td>
                 <Td>
-                 <span className="mr-2 flex sm:hidden">End Date:</span> 9<sup>th</sup> September 2025
+                 <span className="mr-2 flex sm:hidden">End Date:</span> 7<sup>th</sup> September 2025
                 </Td>
               </Tr>
               <Tr>
